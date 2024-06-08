@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EECS 493">
+  <meta name="keywords" content="EECS493, EECS 493, User Interface Development, University of Michigan Computer Science">
+  <title>EECS 493</title>
+  <link rel="shortcut icon" type="image/x-icon" href="assets/images/eecs493favicon.ico">
+
+  <!-- Fomantic UI CSS library
+       https://fomantic-ui.com/introduction/getting-started.html#using-a-cdn-provider -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.1-beta.38/dist/semantic.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.1-beta.38/dist/semantic.min.js"></script>
+
+  <style>
+    /**
+     * We want the sidebar toggle to remain visible as people scroll around the
+     * page. Hence, we need to "fix" its position relative to the viewer's
+     * screen.
+     */
+     #left-sidebar-toggle {
+      position: fixed;
+      right: 2em;
+      /* The labels on cards have z-index of 100. The button should appear above them! */
+      z-index: 101;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Nav bar on left side -->
+  <div class="ui left vertical inverted sidebar menu labeled icon">
+
+    <!-- Logo and Course Title -->
+    <div class="item">
+      <a class="ui logo icon image mini" href="#">
+        <img src="assets/images/eecs493logo.png" alt="logo">
+      </a>
+      <br>
+      <br>
+      <a href="#"><b>EECS 493</b></a>
+    </div>
+
+    <!-- Internal fragment links -->
+    <div class="item">
+      <div class="menu">
+        <a class="item" href="#thisweek">
+          Course Info
+        </a>
+        <a class="item" href="#calendar">
+          Calendar
+        </a>
+        <a class="item" href="#projects">
+          Tutorials
+        </a>
+        <a class="item" href="#schedule">
+          Schedule
+        </a>
+        <a class="item" href="#people">
+          People
+        </a>
+      </div>
+    </div><!-- Internal links -->
+
+    <!-- Internal second-level page links -->
+    <div class="item">
+      <div class="menu">
+        <a class="item" href="syllabus.html">
+          Syllabus
+        </a>
+      </div>
+    </div><!-- Internal links -->
+
+    <!-- External links -->
+    <div class="menu">
+      <a class="item" href="https://piazza.com/umich/winter2024/eecs493wn2024" target="_blank">
+        <i class="icon-piazza big"></i><br>
+        Piazza
+      </a>
+      <a class="item" href="https://drive.google.com/drive/folders/1MfNwUkS4IBha4JleB_SI7cw2sqiQVLLI?usp=sharing" target="_blank">
+        <i class="google drive icon big"></i><br>
+        Files
+      </a>
+      <a class="item" href="https://oh.eecs.umich.edu/courses/eecs493" target="_blank">
+        <i class="help circle icon big"></i><br>
+        Office Hours
+      </a>
+      <a class="item" href="https://www.gradescope.com/courses/745011" target="_blank">
+        <i class="icon-gradescope big"></i> <br>
+        Gradescope
+      </a>
+    </div><!-- External links -->
+
+  </div><!-- Nav bar -->
+
+
+  <!-- Main page  -->
+  <div class="pusher">
+    <div class="ui text container">
+      <button class="ui icon button" id="left-sidebar-toggle">
+        <i class="bars icon"></i>
+      </button>
+
+      <h1>EECS 493: User Interface Development</h1>
+      <div class="inline">
+        <i>The University of Michigan</i>
+        <div class="ui green label">WINTER 2024</div>
+
+      </div>
+      <br/>
+      <p>
+        For students to gain conceptual understanding of user-centered design
+        and practical experience with designing, implementating, and testing user interfaces.
+        The course consists of 4 individual web programming assignments,
+        1 group project, bi-weekly quizzes, 1 midterm exam, and 1 final exam.
+        <a href="syllabus.html">
+          <i class="arrow alternate circle right outline icon"></i>
+          Syllabus
+        </a>
+      </p>
+
+      <!-- Announcements -->
+
+      <!-- Template announcement DO NOT REMOVE
+      <div class="ui info message">
+        <div class="header">
+          FIXME title
+        </div>
+        <p>
+          FIXME content
+        </p>
+      </div>
+      -->
+
+      <!-- Sample exam announcement -->
+      <!-- <div class="ui info message">
+        <div class="header">
+          Final Exam
+        </div>
+        <p>
+          The final exam is <span class="ui red text">Friday, April 22 at 8-10am ET</span>.
+          <a class="ui basic blue label" href="#" target="_blank">
+            <i class="icon-piazza icon"></i>
+            Details
+          </a>
+        </p>
+        <p>
+            Piazza will only allow private posts from the day of the final.
+        </p>
+      </div> -->
+     
+
+      <!-- Divider between announcements and This Week -->
+      <div class="ui section divider"></div>
+
+      <!-- This Week section -->
+      <h2 id="thisweek">Course Info</h2>
+      <div class="ui three stackable cards">
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Assignment 3</div>
+          </div>
+          <div class="content">
+            <h4 class="ui header">Asteroids Game</h4>
+            <div class="right aligned floating ui red label">
+              Due Feb 11
+            </div>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <a class="ui label" href="https://eecs493staff.github.io/a3-asteroids/" target="_blank">
+                      <i class="file alternate icon"></i>
+                      Spec
+                    </a>
+                    <a class="ui label" href="https://umich.instructure.com/courses/651459/assignments/2226612" target="_blank">
+                      <i class="upload icon"></i>
+                      Canvas
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Project Milestone 2</div>
+          </div>
+          <div class="content">
+            <h4 class="ui header">Ideation & Speed Dating</h4>
+            <div class="right aligned floating ui orange label">
+              Due Mar 7
+            </div>
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    <a class="ui label" href="https://docs.google.com/document/d/1AWw5eo6YNVpwBhWwHFH1lAVCS6WBETLfRE1FgmuFMLk/edit?usp=sharing" target="_blank">
+                      <i class="file alternate icon"></i>
+                      Spec
+                    </a>
+                    <a class="ui label" href="https://umich.instructure.com/courses/651459/assignments/2226612" target="_blank">
+                      <i class="upload icon"></i>
+                      Canvas
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Lecture</div>
+          </div>
+          <div class="content">
+            <div class="ui feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    In-person and recorded
+
+                    <a class="ui icon label" data-tooltip="Lecture recordings" href="https://leccap.engin.umich.edu/leccap/site/3mjiy2rjr0yemmekbrc" target="_blank">
+                      <i class="play icon"></i>
+                    </a>
+
+                    <a class="ui icon label" data-tooltip="Lecture slides" href="https://umich.instructure.com/courses/651459/files/folder/Lecture%20Slides%20W24" target="_blank">
+                      <i class="file pdf icon"></i>
+                    </a>
+                  </div>
+                  <div class="meta">
+                    <div class="list">
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        Tue, Thu 3:00-4:20pm 1060 FMCRB
+                      </div>
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        Tue, Thu 4:30-5:50pm 1060 FMCRB
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- / event -->
+            </div>
+          </div>
+        </div><!-- / ui card -->
+
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Discussion</div>
+          </div>
+          <div class="content">
+            <div class="ui feed">
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    In-person and recorded
+
+                    <a class="ui icon label" data-tooltip="Discussion recordings" href="https://leccap.engin.umich.edu/leccap/site/3mjiy2rjr0yemmekbrc" target="_blank">
+                      <i class="play icon"></i>
+                    </a>
+
+                    <a class="ui icon label" data-tooltip="Discussion slides" href="https://umich.instructure.com/courses/651459/files/folder/Discussion%20Slides%20W24" target="_blank">
+                      <i class="google drive icon"></i>
+                    </a>
+                  </div>
+                  <div class="meta">
+                    <div class="list">
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        See calendar below
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- / event -->
+            </div>
+          </div>
+        </div><!-- / ui card -->
+
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Office Hours</div>
+          </div>
+          <div class="content">
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <p>In-person and online</p>
+
+                  <div class="summary">
+                    Staff Office Hours
+                  </div>
+                  <div class="meta">
+                    <div class="list">
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        See calendar below
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- / event -->
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Professor Office Hours
+                  </div>
+                  <div class="meta">
+                    <div class="list">
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        Anhong Guo: Wed 12pm-1pm
+                        <!-- <a href="https://calendar.app.google/dNbKEv6nx7PwxEVj8">
+                          (sign up)</a> -->
+                      </div>
+                      <div class="item">
+                        <i class="calendar icon"></i>
+                        Xu Wang: Wed 1pm-2pm
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- / event -->
+            </div>
+          </div>
+        </div><!-- / ui card -->
+
+        <div class="ui card">
+          <div class="content" style="flex-grow: 0;">
+            <div class="header">Exams</div>
+          </div>
+          <div class="content">
+            <div class="ui small feed">
+              <div class="event">
+                <div class="content">
+                  <p>Exams will be in-person</p>
+                  <div class="summary">
+                    Midterm Exam
+                  </div>
+                  <div class="meta">
+                    <i class="calendar icon"></i>
+                    Thursday, Feb 22 6:00-7:30pm
+                  </div>
+                </div>
+              </div><!-- / event -->
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Final Exam
+                  </div>
+                  <div class="meta">
+                    <i class="calendar icon"></i>
+                    Wednesday, May 1 7:00-8:30pm
+                  </div>
+                </div>
+              </div><!-- / event -->
+              <div class="event">
+                <div class="content">
+                  <div class="summary">
+                    Extended time request
+                    <a class="ui icon label" href="mailto:eecs493staff@umich.edu" target="_blank">
+                      <i class="envelope icon"></i>
+                    </a>
+                  </div>
+                  <div class="meta">
+                    Send us your SSD documentation
+                  </div>
+                </div>
+              </div><!-- / event -->
+            </div>
+          </div>
+        </div><!-- / ui card -->
+
+      </div><!-- /ui three cards -->
+      <div class="ui section hidden divider"></div>
+
+      <!-- Calendar
+       A simple embedded Google Calendar.
+      -->
+      <div id="calendar">
+        <iframe src="https://calendar.google.com/calendar/embed?src=c_762f107c3c27cbd7c97c653f08156194330f2a7013baad8a3bed1b27acda979d%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
+      <div class="ui hidden divider"></div>
+
+      <!-- Tutorials section -->
+      <h2 id="projects">Tutorials</h2>
+      <div class="ui styled fluid accordion">
+
+        <div class="active title">
+          <i class="dropdown icon"></i>
+          Developer tools
+        </div>
+        <div class="active content">
+          <div class="ui three stackable cards">
+            <a class="ui raised card" target="_blank" href="https://code.visualstudio.com/">
+              <div class="content">
+                <div class="header">
+                  Text Editor
+                </div>
+                <div class="description">
+                  <p>Download VS Code</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://eecs485staff.github.io/p1-insta485-static/setup_browser.html">
+              <div class="content">
+                <div class="header">
+                  Browser Tools
+                </div>
+                <div class="description">
+                  <p>Web dev features in popular web browsers</p>
+                </div>
+              </div>
+            </a>
+          </div><!-- /ui three stackable cards -->
+        </div><!-- /Developer Tools -->
+
+        <div class="title">
+          <i class="dropdown icon"></i>
+          Basic Web Programming
+        </div>
+        <div class="content">
+          <div class="ui three stackable cards">
+            <a class="ui raised card" target="_blank" href="https://www.w3schools.com/html/">
+              <div class="content">
+                <div class="header">
+                  W3 Schools
+                </div>
+                <div class="description">
+                  <p> Learn HTML/CSS/JS </p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://youtu.be/hXilQo1lMjE">
+              <div class="content">
+                <div class="header">
+                  Group OH Recording
+                </div>
+                <div class="description">
+                  <p> Get started on Assignment 2 and 3 </p>
+                </div>
+              </div>
+            </a>            
+          </div><!-- /ui three stackable cards -->
+        </div><!-- /Python -->
+
+        
+        <div class="title">
+          <i class="dropdown icon"></i>
+          Figma
+        </div>
+        <div class="content">
+          <div class="ui three stackable cards">
+            <a class="ui raised card" target="_blank" href="https://youtu.be/yWj1xyGiK6I">
+              <div class="content">
+                <div class="header">
+                  Figma Lecture
+                </div>
+                <div class="description">
+                  <p>A comprehensive, beginner-friendly Figma tutorial</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://help.figma.com/hc/en-us/categories/360002051613-Get-started">
+              <div class="content">
+                <div class="header">
+                  Official Documentation
+                </div>
+                <div class="description">
+                  <p>Learn more about Figma in-depth</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://docs.google.com/document/d/1uOmX7X49M2sw0vfxkUj5Q3eLPfeRP8-MHs7ITd-LnM8/edit?usp=sharing">
+              <div class="content">
+                <div class="header">
+                  More Resources
+                </div>
+                <div class="description">
+                  <p>Useful links at the beginning of A4 spec</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="title">
+          <i class="dropdown icon"></i>
+          Web Frameworks and Libraries
+        </div>
+        <div class="content">
+          <div class="ui three stackable cards">
+            <a class="ui raised card" target="_blank" href="https://vuejs.org/guide/introduction.html">
+              <div class="content">
+                <div class="header">
+                  Vue Documentation
+                </div>
+                <div class="description">
+                  <p>Learn Vue in-depth</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://getbootstrap.com/docs/5.3/components/buttons/">
+              <div class="content">
+                <div class="header">
+                  Bootstrap Documentation
+                </div>
+                <div class="description">
+                  <p>Learn Bootstrap in-depth</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui raised card" target="_blank" href="https://docs.google.com/document/d/1bbmwl6s8zDWbqsKrK8phtS_wFdIFZs9ndfMOes90RdE/edit?usp=sharing">
+              <div class="content">
+                <div class="header">
+                  More Resources
+                </div>
+                <div class="description">
+                  <p>Useful links at the beginning of A5 spec</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      </div><!-- /ui styled fluid accordion -->
+      <div class="ui hidden divider"></div>
+
+      <!-- Schedule -->
+      <h2 id="schedule">Schedule</h2>
+      All times listed are in Ann Arbor's time zone.
+      <table class="ui celled striped table">
+        <thead>
+          <tr>
+            <th class="two wide">Week</th>
+            <th class="three wide">Lecture</th>
+            <th class="one wide">Discussion</th>
+            <th class="one wide">Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              Jan 8-14
+            </td>
+            <td>
+              <p>No lecture Tuesday</p>
+              <p>L01: Introduction to HCI</p>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              Jan 15 - 21
+            </td>
+            <td>
+              <p>L02: User Interface Design Concepts & Principles</p>
+              <p>L03: Web basics, HTML, CSS</p>
+            </td>
+            <td>
+              Discussion 1
+            </td>
+            <td>
+              <div class="ui red horizontal basic label">
+                Assignment 1 due Sun Jan 21 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Jan 22 - 28
+            </td>
+            <td>
+              <p>L04: JavaScript basics, objects, selectors, event handling </p>
+              <p>L05: Javascript selectors, jQuery, arrow functions, JSON</p>
+            </td>
+            <td>
+              Discussion 2
+            </td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 1 due Wed Jan 24 11:59pm
+              </div>
+              <div class="ui red horizontal basic label">
+                Assignment 2 due Sun Jan 28 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Jan 29 - Feb 4
+            </td>
+            <td>
+              <p>L06: UI Architecture, Event Loops</p>
+              <p>L07: Human-Centered Design, Understanding Users</p>
+            </td>
+            <td>
+              Discussion 3
+            </td>
+            <td>
+              <div class="ui orange horizontal basic label">
+                Milestone 0 due Sun Feb 4 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Feb 5 - 11
+            </td>
+            <td>
+              <p>L8: Affinity diagrams & flow diagrams</p>
+              <p>L9: Storyboards & speed dating</p>
+            </td>
+            <td>
+              Discussion 4
+            </td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 2 due Wed Feb 7 11:59pm
+              </div>
+              <div class="ui red horizontal basic label">
+                Assignment 3 due Sun Feb 11 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Feb 12 - 18
+            </td>
+            <td>
+              <p>L10: Iterative prototyping and design</p>
+              <p>L11: High-fi prototyping & Figma</p>
+            </td>
+            <td>
+              Discussion 5
+            </td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 3 due Wed Feb 14 11:59pm
+              </div>
+              <div class="ui orange horizontal basic label">
+                Milestone 1 due Sun Feb 18 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Feb 19 - 25
+            </td>
+            <td>
+              <p>L12: Industry Practitioner's Perspective - UX in industry</p>
+              <p>No lecture Thursday</p>
+            </td>
+            <td></td>
+            <td>
+              <div class="ui pink horizontal basic label">
+                Midterm Exam Thursday Feb 22 6:00 - 7:30 pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Feb 26 - Mar 3
+            </td>
+            <td>
+              <p>March Break: No Lectures</p>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>
+              Mar 4 - 10
+            </td>
+            <td>
+              <p>L13: Heuristic Evaluation</p>
+              <p><span class="ui orange text"><strong>L14: In-class bake-off & storyboards</strong></span></p>
+            </td>
+            <td>
+              Discussion 6
+            </td>
+            <td>
+              <div class="ui orange horizontal basic label">
+                Milestone 2 - Storyboards & Speed Dating due Thur Mar 7 Before Class
+              </div>
+              <div class="ui orange horizontal basic label">
+                Milestone 2 remaining due Sun Mar 10 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mar 11 - 17
+            </td>
+            <td>
+              <p>L15: Think Aloud</p>
+              <p>L16: Vue</p>
+            </td>
+            <td>
+              Discussion 7
+            </td>
+            <td>
+              <div class="ui red horizontal basic label">
+                Assignment 4 due Sun Mar 17 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mar 18 - 24
+            </td>
+            <td>
+              <p>L17: Vue Binding, Bootstrap</p>
+              <p>L18: MVC, Web Frameworks</p>
+            </td>
+            <td>
+              Discussion 8
+            </td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 4 due Wed Mar 20 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mar 25 - 31
+            </td>
+            <td>
+              <p>L19: Industry Practitioner's Perspective - design iterations</p>
+              <p>L20: Accessible and Universal Design</p>
+            </td>
+            <td>
+              Discussion 9
+            </td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 5 due Wed Mar 27 11:59pm
+              </div>
+              <div class="ui orange horizontal basic label">
+                Milestone 3 due Sun Mar 31 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apr 1 - 7
+            </td>
+            <td>
+              <p>L21: Special Topics - Tangible Computing</p>
+              <p>L22: Special Topics - Technologies to Optimize Human Learning</p>
+            </td>
+            <td></td>
+            <td>
+              <div class="ui red horizontal basic label">
+                Assignment 5 due Sun Apr 7 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apr 8 - 14
+            </td>
+            <td>
+              <p>L23: Special Topics - Human-AI Systems for Accessibility</p>
+              <p><span class="ui orange text"><strong>L24: In-class bake-off (Final prototype show-off)</strong></span></p>
+            </td>
+            <td></td>
+            <td>
+              <div class="ui orange horizontal basic label">
+                Milestone 4 - Iterate on the prototype due Thur Apr 11 before class
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apr 15 - 21
+            </td>
+            <td>
+              <p>L25: Future of HCI</p>
+              <p><span class="ui orange text"><strong>Final Presentation</strong></span></p>
+            </td>
+            <td>
+              Discussion 10
+            </td>
+            <td>
+              <div class="ui orange horizontal basic label">
+                Final Presentation Video due Thur Apr 18 before class
+              </div>
+              <div class="ui orange horizontal basic label">
+                Milestone 4 remaining due Sun Apr 21 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apr 22 - 28
+            </td>
+            <td>
+              <p><span class="ui orange text"><strong>Final Presentation</strong></span></p>
+              <p>No class Thursday</p>
+            </td>
+            <td></td>
+            <td>
+              <div class="ui blue horizontal basic label">
+                Quiz 6 due Wed Apr 24 11:59pm
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Apr 29 - May 5
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+              <div class="ui pink horizontal basic label">
+                Final Exam Wednesday May 1 7:00 - 8:30 pm
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="ui hidden divider"></div>
+
+      <!-- People section -->
+      <h2 id="people">People</h2>
+      <p>Reach us at <a href="mailto:eecs493staff@umich.edu">eecs493staff@umich.edu</a></p>
+      
+      <!-- Emojis: https://fomantic-ui.com/elements/emoji.html -->
+      <h3>Faculty</h3>
+      <div class="ui three stackable cards">
+
+        <div class="ui fluid card">
+          <div class="image">
+            <img
+              src="assets/headshots/xwanghci.jpg"
+              alt="Xu Wang head shot"
+            />
+          </div>
+          <div class="content">
+            <div class="header">Xu Wang</div>
+            <div class="description">
+              <p><i class="icon envelope"></i>xwanghci@umich.edu</p>
+              <p>
+                <i class="icon external link"></i><a href="https://web.eecs.umich.edu/~xwanghci/" target="_blank">Portfolio</a>
+              </p>
+            </div>
+          </div>
+          <div class="extra content">
+            <span data-tooltip="I conduct HCI research."><em data-emoji="computer"></em></span>
+            <span data-tooltip="I love education."><em data-emoji="book"></em></span>
+          </div>
+        </div>
+        <!-- /fluid card -->
+
+        <div class="ui fluid card">
+          <div class="image">
+            <img
+              src="assets/headshots/anhong.jpg"
+              alt="Anhong Guo head shot"
+            />
+          </div>
+          <div class="content">
+            <div class="header">Anhong Guo</div>
+            <div class="description">
+              <p><i class="icon envelope"></i>anhong@umich.edu</p>
+              <p>
+                <i class="icon external link"></i><a href="http://www.guoanhong.com/" target="_blank">Portfolio</a>
+              </p>
+            </div>
+          </div>
+          <div class="extra content">
+            <span data-tooltip="I conduct HCI research."><em data-emoji="computer"></em></span>
+          </div>
+        </div>
+        <!-- /fluid card -->
+
+      </div><!-- ui stackable cards -->
+
+      <h3>IAs and GSIs</h3>
+      <div class="ui three stackable cards">
+
+        <div class="ui fluid card">
+          <div class="image">
+            <img src="assets/headshots/zhaojer.jpg" alt="Zirui Zhao head shot" />
+          </div>
+          <div class="content">
+            <div class="header">Zirui (Jerry) Zhao</div>
+            <div class="description">
+              <p><i class="icon envelope"></i>zhaojer@umich.edu</p>
+            </div>
+          </div>
+          <div class="extra content">
+            <span data-tooltip="UFC fan"><em data-emoji="martial_arts_uniform"></em></span>
+            <span data-tooltip="Stargazer"><em data-emoji="milky_way"></em></span>
+            <span data-tooltip="Movie/TV Show/Anime enjoyer"><em data-emoji="film_frames"></em></span>
+            <span data-tooltip="Musician"><em data-emoji="notes"></em></span>
+            <span data-tooltip="Gamer"><em data-emoji="video_game"></em></span>
+          </div>
+        </div>
+        <!-- /fluid card -->
+
+        <div class="ui fluid card">
+          <div class="image">
+            <img src="assets/headshots/anonymous.jpg" alt="Placeholder head shot" />
+          </div>
+          <div class="content">
+            <div class="header">Name Placeholder</div>
+            <div class="description">
+              <p><i class="icon envelope"></i>@umich.edu</p>
+            </div>
+          </div>
+          <div class="extra content">
+            <span data-tooltip="I love to read!"><em data-emoji="books"></em></span>
+          </div>
+        </div>
+        <!-- /fluid card -->
+
+      </div><!-- ui stackable cards -->
+
+      <div><!-- /ui styled fluid accordion -->
+        <div class="ui hidden divider"></div>
+      </div>
+      <!-- Acknowledgement -->
+      <div>Acknowledgement: This website was adpated from eecs485.org.</div>
+      <div class="ui hidden section divider"></div>
+    </div><!-- ui text container -->
+  </div>
+
+  <footer>
+    <div class="ui inverted menu">
+    </div>
+  </footer>
+
+  <script>
+   // Sidebar show and hide logic.
+   //
+   // On large screens, show the sidebar by default.  On small screens, hide it.
+   function isSmallScreen() {
+     return screen.width < 900;
+   };
+
+   function renderSidebar() {
+     $sidebar = $('.ui.sidebar');
+     $sidebar.sidebar({
+       dimPage: false,
+       transition: 'overlay',
+       mobileTransition: 'overlay',
+       exclusive: false,
+       closable: false
+     });
+     $sidebar.sidebar('attach events', '#left-sidebar-toggle');
+     if (!isSmallScreen()) {
+       $sidebar.sidebar('toggle');
+     }
+   };
+
+   renderSidebar();
+  </script>
+
+  <script>
+   // Accordion show/hide initialization
+   // https://fomantic-ui.com/modules/accordion.html#initializing-an-accordion
+   // https://fomantic-ui.com/modules/accordion.html#/settings
+   $('.ui.accordion')
+    .accordion({
+      exclusive: false,
+    })
+   ;
+  </script>
+
+</body>
+</html>
