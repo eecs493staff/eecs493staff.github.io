@@ -5,9 +5,10 @@ title: a2-asteroids-menu
 
 EECS 493 Assignment 2: Asteroids Main Menu
 ======================================
+
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 65 points | FIXME | **FIXME at 11:59 PM ET** |
+| 65 points | FIXME    | **FIXME at 11:59 PM ET**    |
 
 ## Submission Instructions
 Please submit your work to Canvas as a zip file, named `a2_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a2_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
@@ -32,9 +33,9 @@ a2_uniqname
 ## Objective
 The objective of this assignment is for you to gain practical experience in building a single-page web application with HTML, CSS, and a little bit of JS (jQuery). Specifically, you will be creating the main menu of a game. No external library or framework, other than jQuery, is allowed.
 
-Watch this video for an overview of Assignment 2: https://youtu.be/ubacBgC7YBo
+Watch this video for an overview of Assignment 2: [https://youtu.be/ubacBgC7YBo](https://youtu.be/ubacBgC7YBo)
 
-Watch this video for an overview of both Assignment 2 and 3: https://youtu.be/waDMWIfT8yg
+Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/waDMWIfT8yg](https://youtu.be/waDMWIfT8yg)
 
 ## Grading Breakdown
 This assignment has 3 main components (denominator of 65 points):
@@ -74,4 +75,25 @@ This is a recording of a group office hour session from Fall 2022, which contain
 
 The video is 2 hours long, but only the portion from 29:30 to 1:07:30 is relevant for Assignment 2. Timestamp is provided in the video description.
 
-Recording link: https://youtu.be/hXilQo1lMjE
+Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
+
+## Screenshots
+
+### Landing Page
+
+TODO: INSERT IMAGE
+
+### Settings Panel
+
+TODO: INSERT IMAGE
+
+### Tutorials Page
+
+TODO: INSERT IMAGE
+
+## Requirements
+
+We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as “Suggested”, is required.** The demo video & screenshots may be helpful in understanding the website; however, your website does NOT need to look exactly like them.
+
+### General ###
+

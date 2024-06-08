@@ -1,8 +1,14 @@
+---
+layout: spec
+title: a3-asteroids
+---
+
 EECS 493 Assignment 3: Asteroids Game
 ======================================
+
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 100 points | FIXME | **FIXME at 11:59 PM ET** |
+| 100 points| FIXME    | **FIXME at 11:59 PM ET**    |
 
 ## Submission Instructions
 Please submit your work to Canvas as a zip file, named `a3_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a3_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
