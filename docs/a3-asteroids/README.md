@@ -1,8 +1,3 @@
----
-layout: spec
-title: a3-asteroids
----
-
 EECS 493 Assignment 3: Asteroids Game
 ======================================
 | Total     | Released | Due                         |
