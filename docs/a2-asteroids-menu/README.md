@@ -285,6 +285,10 @@ No, you are not required to use the jQuery library. However, using it will make 
 
 Yes.
 
+### Is it OK if some elements briefly appear and then disappear upon opening `index.html`?
+
+Yes.
+
 ## Acknowledgments
 Original spec written by Zirui Zhao <zhaojer@umich.edu>.
 Updated by the EECS 493 team.
