@@ -11,9 +11,10 @@ EECS 493 Assignment 2: Asteroids Main Menu
 | 65 points | FIXME    | **FIXME at 11:59 PM ET**    |
 
 ## Submission Instructions
+
 Please submit your work to Canvas as a zip file, named `a2_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a2_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
 
-This zip file should have a *single directory* containing *all files and directories* provided in the starter code. In otehr words, the zip file should have the following structure.
+This zip file should have a *single directory* containing *all files and directories* provided in the starter code. In other words, the zip file should have the following structure.
 
 ```console
 a2_uniqname
@@ -30,7 +31,10 @@ a2_uniqname
     └── index.css
 ```
 
+Not following the upload instruction will result in a penalty.
+
 ## Objective
+
 The objective of this assignment is for you to gain practical experience in building a single-page web application with HTML, CSS, and a little bit of JS (jQuery). Specifically, you will be creating the main menu of a game. No external library or framework, other than jQuery, is allowed.
 
 Watch this video for an overview of Assignment 2: [https://youtu.be/ubacBgC7YBo](https://youtu.be/ubacBgC7YBo)
@@ -38,6 +42,7 @@ Watch this video for an overview of Assignment 2: [https://youtu.be/ubacBgC7YBo]
 Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/waDMWIfT8yg](https://youtu.be/waDMWIfT8yg)
 
 ## Grading Breakdown
+
 This assignment has 3 main components (denominator of 65 points):
 
 1. A landing page - *25 points*
@@ -45,6 +50,9 @@ This assignment has 3 main components (denominator of 65 points):
 3. A tutorials page - *15 points*
 
 ## Starter Code
+
+You will use the starter code we provide to complete this assignment.
+
 Download and unpack the starter files.
 
 ```console
@@ -69,6 +77,7 @@ Remarks:
 - Please make sure that your application (webpage) behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
 
 ## Helpful Resources
+
 Before starting with this assignment, we recommend that you check out the following resource that will make your progress in this assignment much easier.
 
 This is a recording of a group office hour session from Fall 2022, which contains an overview of both Assignment 2 and Assignment 3, how to start, and some challenging aspects students had questions about.
@@ -118,7 +127,7 @@ We outline the requirements for each of the components below. **Everything liste
 #### Required
 
 - When you first load the HTML page, the landing page should be shown
-- Use the background as it appears from the [screenshot](#Landing-Page) above
+- Use the background as it appears from the [screenshot](#landing-page) above
 - Header should be at the top and span the entire width of the game window
 - The text "Asteroids" should be horizontally centered
 - Asteroid gifs should appear on the left and right side of the header; they should also have the same height as the header while retaining their original width/height ratio
@@ -277,4 +286,3 @@ No, you are not required to use the jQuery library. However, using it will make 
 ### Are we allowed to use `<span>`, `<strong>`, `<em>`, `<h1>` tags?
 
 Yes.
-
