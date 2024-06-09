@@ -53,12 +53,10 @@ This assignment has 3 main components (denominator of 65 points):
 
 You will use the starter code we provide to complete this assignment.
 
-Download and unpack the starter files.
+Download and unpack the starter files (either using the following commands or simply navigating to the link).
 
 ```console
-$ pwd
-/path-to-your-assignment-directory/
-$ wget https://eecs493staff.github.io/a3-asteroids/starter_code.tar.gz
+$ wget https://eecs493staff.github.io/a2-asteroids-menu/starter_code.tar.gz
 $ tar -xvzf starter_code.tar.gz
 ```
 
