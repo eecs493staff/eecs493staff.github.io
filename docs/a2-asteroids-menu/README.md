@@ -81,15 +81,15 @@ Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
 
 ### Landing Page
 
-TODO: INSERT IMAGE
+<img src="images/landing.png" width="100%" />
 
 ### Settings Panel
 
-TODO: INSERT IMAGE
+<img src="images/settings.png" width="100%" />
 
-### Tutorials Page
+### Tutorial Page
 
-TODO: INSERT IMAGE
+<img src="images/tutorial.png" width="100%" />
 
 ## Requirements
 
