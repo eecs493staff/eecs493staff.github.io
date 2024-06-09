@@ -104,4 +104,38 @@ Remarks:
 - Please check Piazza for any modifications and clarifications.
 - Make sure that your application behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
 
+## Helpful Resources
 
+Before starting with this assignment, we recommend that you check out the following 2 resources that will make your progress in this assignment much easier.
+
+### Group OH
+
+This is a recording of a group office hour session from Fall 2022, which contains an overview of both Assignment 2 and Assignment 3, how to start, and some challenging aspects students had questions about.
+
+The video is 2 hours long: Everything, except the portion from 29:30 to 1:07:30, is relevant for this assignment. Timestamp is provided in the video description.
+
+Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
+
+### Blaster Game Demo
+
+This demo is on creating a simple game with JS from many semesters ago. It goes over some common JS functions for manipulating the DOM, which are important for this current assignment too. The demo is about 45 minutes.
+
+Blaster Game Video: (Consider downloading for better quality! Captions have been added also.) https://drive.google.com/file/d/1ttQV8_Wzm37cXrbEYuBXPAixG_UzQNFZ/view?usp=sharing
+
+Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE-5ewFbGN12Lk/view?usp=sharing
+
+## Screenshots
+
+### "Get Ready" Splash Screen
+
+<img src="images/get-ready.png" width="100%" />
+
+### Gameplay & Scoreboard
+
+<img src="images/gameplay.png" width="100%" />
+
+### Game Over Page
+
+<img src="images/gameover.png" width="100%" />
+
+The remaining pages are the same as Assignment 2.
