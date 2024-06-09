@@ -93,7 +93,158 @@ Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
 
 ## Requirements
 
-We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as “Suggested”, is required.** The demo video & screenshots may be helpful in understanding the website; however, your website does NOT need to look exactly like them.
+We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as "Suggested", is required.** The demo video & screenshots may be helpful in understanding the website; however, your website does NOT need to look exactly like them.
 
-### General ###
+### General
+
+- Only use one HTML file, `index.html`. *-10 points off if not followed.*
+- Do all styling/layout in a separate CSS file, `index.css`. *-10 points off if not followed.*
+    - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
+    - Moderate use of `<br>` tags are ok.
+- Do all JavaScript code in a separate JS file, `page.js`. *-10 points off if not followed.*
+    - Registering event listeners for an HTML element inline is ok.
+- Use relative paths for images. *-10 points off if not followed.*
+
+### Landing Page (25 points)
+
+#### Main Components
+
+- a background image
+- an "Asteroids" header
+- two buttons, "Play game!" and "Settings", that transition to the correct corresponding screen when clicked (Need JavaScript)
+    - "Play game!" transitions to Tutorials Page
+    - "Settings" transitions to the Settings Panel
+
+#### Required
+
+- When you first load the HTML page, the landing page should be shown
+- Use the background as it appears from the [screenshot](#Landing-Page) above
+- Header should be at the top and span the entire width of the game window
+- The text "Asteroids" should be horizontally centered
+- Asteroid gifs should appear on the left and right side of the header; they should also have the same height as the header while retaining their original width/height ratio
+    - Hint: [CSS Flexbox (Flexible Box)](https://www.w3schools.com/css/css3_flexbox.asp)
+- Both buttons must appear within the game’s border and be horizontally centered and aligned
+- Text in the buttons should be horizontally and vertically centered
+- There should be some space between the first button and the bottom of the header, and some space between the two buttons
+
+#### Suggested Style
+
+Header:
+
+```css
+height: 100px;
+background-color: darkslateblue;
+border-bottom: 6px groove;
+font-size: 100px;
+color: white;
+```
+
+Button:
+```css
+width: 200px;
+height: 100px;
+background-color: darkslateblue;
+color: white;
+```
+
+### Settings Panel (25 points)
+
+#### Main Components
+
+- 3 headings ("Settings", "Volume:", "Difficulty")
+- a slider under the "Volume:" heading to adjust the volume of the game
+    - default: 50
+- 3 buttons under the "Difficulty" heading to select the difficulty level
+    - default: Normal
+- a close button that transitions back to the landing page (Need JavaScript)
+- Settings should remain the same after closing the panel
+
+#### Required
+
+- The Settings Panel
+    - should have `width: 600px; height: 690px;`
+    - should be displayed within the game's border
+    - should be centered both vertically and horizontally
+- All 3 headings should be bolded and horizontally centered
+    - Remark: The volume number, e.g. 50, is NOT bolded
+- The slider has a range of 1 to 100 (inclusive); as the user drags the slider left and right, the current volume number based on the positioning of the slider should be updated next to the "Volume:" label.
+    - Hint: [How To Create Range Sliders](https://www.w3schools.com/howto/howto_js_rangeslider.asp) (Need JavaScript)
+- The three difficulty buttons
+    - have the same size (height/width)
+    - are labeled "Easy","Normal", and "Hard" respectively
+    - are vertically aligned and evenly spaced horizontally
+- There is a distinct border around the difficulty that is currently selected
+- When clicking a Difficulty button, the border should change indicating that it has been selected (Need JavaScript)
+- The close button should be horizontally aligned with the middle difficulty button (i.e. the "Normal" button)
+
+#### Suggested Style
+
+Slider:
+
+```css
+width: 100%;
+height: 25px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+transition: opacity .2s;
+```
+
+Button:
+
+```css
+background-color: purple;
+width: 180px;
+height: 100px;
+color: white;
+```
+
+### Tutorials Page (15 points)
+
+#### Main Components
+
+- All the texts and gifs as shown in the [screenshot](#tutorial-page) above
+- A "Start" button (that doesn’t need to lead anywhere, yet)
+
+#### Required
+
+- "How to play" is bolded
+- "Avoid", "Collect", "Travel", "Gain" are bolded
+- "asteroids", "shields", "portals", "points" are italicized
+- All components (texts, gifs, button) are horizontally centered on screen
+- There should be some space between each component
+- The images should retain their original aspect ratio
+
+#### Suggested Style
+
+Images
+
+```css
+width: 100px;
+```
+
+"How to play" font size
+
+```css
+font-size: 75px;
+```
+
+Other texts font size
+
+```css
+font-size: 50px;
+```
+
+Buttons
+
+```css
+width: 200px;
+height: 75px;
+```
+
+Background
+
+```css
+background-color: gainsboro;
+```
 
