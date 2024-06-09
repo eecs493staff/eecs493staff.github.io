@@ -248,3 +248,33 @@ Background
 background-color: gainsboro;
 ```
 
+## FAQ
+
+### Do I need to create additional files other than the ones provided in the starter code?
+
+No. You should write all of your code in `index.html`, `style/index.css`, and `scripts/page.js`.
+
+### What is the recommended development environment for the assignments?
+
+We recommend using any text editor (e.g. VSCode) and directly opening your `index.html` file in Google Chrome to test your code. You do not need any additional extensions (e.g. Live Server).
+
+### What are relative paths vs. absolute paths?
+
+Relative paths begin with the current directory `.`, whereas absolute paths begin with the root directory `/`. Read more in [this article](https://www.geeksforgeeks.org/absolute-relative-pathnames-unix/).
+
+### Can I use sample code from W3Schools?
+
+Yes.
+
+### Can I apply additional CSS styling in my game?
+
+Yes! As long as they do not conflict with any of the required styles mentioned in the spec.
+
+### Are we required to use jQuery (e.g. for things like event listeners)?
+
+No, you are not required to use the jQuery library. However, using it will make it much easier to complete this (and the next) assignment.
+
+### Are we allowed to use `<span>`, `<strong>`, `<em>`, `<h1>` tags?
+
+Yes.
+
