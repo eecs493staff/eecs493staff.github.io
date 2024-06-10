@@ -346,3 +346,10 @@ Yes.
 ### Does it matter where the rocket spawns?
 
 No.
+
+## Acknowledgments
+
+Original spec written by Zirui Zhao <zhaojer@umich.edu>.
+Updated by the EECS 493 team.
+
+This document is licensed under a [Creative Commons Attribution-NonCommercial 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). You're free to copy and share this document, but not to sell it.  You may not share source code provided with this document.
