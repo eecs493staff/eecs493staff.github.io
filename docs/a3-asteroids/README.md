@@ -65,7 +65,7 @@ This assignment has 8 main components (denominator of 100 points):
 3. A rocket (controlled by the user) with the goal of traveling through portals - *15 points*
 4. A scoreboard - *5 points*
 5. Sounds - *5 points*
-6. A “Get Ready” splash screen - *5 points*
+6. A "Get Ready" splash screen - *5 points*
 7. A game over page - *15 points*
 8. Overall functionality - *15 points*
 
@@ -139,3 +139,171 @@ Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE
 <img src="images/gameover.png" width="100%" />
 
 The remaining pages are the same as Assignment 2.
+
+## Requirements
+
+We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as "Suggested", is required.** The demo video & screenshots may be helpful in understanding the game; however, your game does NOT need to look exactly like them.
+
+### General
+
+- Only use one HTML file, `index.html`. *-10 points off if not followed.*
+- Do all styling/layout in a separate CSS file, `index.css`. *-10 points off if not followed.*
+    - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
+    - Moderate use of `<br>` tags are ok.
+- Do all JavaScript code in a separate JS file, `page.js`. *-10 points off if not followed.*
+    - Registering event listeners for an HTML element inline is ok.
+- Use relative paths for images. *-10 points off if not followed.*
+
+### Asteroids spawn randomly from different directions (25 points)
+
+- Asteroids should appear randomly from the side of the board, move through the board linearly, and disappear once they reach the other side of the board.
+    - Both the start and end location of the asteroid should be random.
+- The speed and spawn rate of the asteroids change depending on the difficulty.
+    - Easy:
+        - Spawn rate: every 1000 milliseconds
+        - Speed: 1x
+    - Medium:
+        - Spawn rate: every 800 milliseconds
+        - Speed: 3x
+    - Hard:
+        - Spawn rate: every 600 milliseconds
+        - Speed: 5x
+- The exact speed for each difficulty is up to you.
+- At the beginning of the game, the asteroid's speed for medium should be 3 times faster than the asteroid’s speed for easy, and the asteroid’s speed for hard should be 5 times faster than the asteroid’s speed for easy.
+- Every time the level increases (i.e. when the player goes through a portal, see next section), the asteroid’s speed increases by a certain constant multiple.
+    - You may choose whether the speed of the already-existing asteroids increases or not. But the speed of the newly-created asteroids (i.e. asteroids that are about to appear) has to increase.
+- You can implement the asteroids to have the same speed, or have them so that they all reach their destination in the same amount of time. Either is fine.
+- The asteroids can overlap each other on the board.
+- To save you time, the majority of the requirements here are already implemented for you, and the remainder can be easily implemented using methods of the Asteroid class.
+
+Asteroid Suggested Style
+```css
+height: 62px;
+width: 62px;
+```
+
+### Shields and portals appear at certain time intervals (15 points)
+
+- A portal spawns every 15 seconds and disappears 5 seconds after it was spawned.
+- A shield spawns every 10 seconds and disappears 5 seconds after it was spawned.
+- The location of the portal and shield on the board is random and should be contained entirely within the dimensions of the board.
+- It is okay for the portals and shields to appear over the scoreboard.
+- The asteroids, portals, shields, and player should all roughly appear to be around a similar size.
+
+### A rocket (controlled by the user) with the goal of traveling through portals (20 points)
+
+- The rocket should not be able to be moving "behind the scenes" when it is not visible on the screen (i.e., when it is not on the gameplay page).
+- The rocket moves up/down/left/right, controlled by the keyboard arrow keys.
+- The player can only move within the game board and should not be able to exit the board.
+- When the rocket comes into contact with an asteroid without a shield:
+    - Change the player gif to "player_touched.gif" and play the "die" audio.
+    - The player and all asteroids should immediately stop moving, and stay at their current position for 2 seconds.
+    - Then, transition to the "game over" page.
+- When the rocket comes into contact with an asteroid with a shield:
+    - The player loses the shield (and the asteroid can be removed if you want)
+    - The game continues unless the player comes into contact with an asteroid without a shield
+- When the rocket comes into contact with a shield:
+    - The player obtains a shield.
+    - The gif of the player now has a shield on.
+    - Play sound for when the player collects an item.
+- When the rocket comes into contact with a portal:
+    - The level increases by 1.
+    - The asteroid’s speed increases by 0.5 (i.e. current speed *= 1.5).
+    - The danger increases by 2.
+    - Play sound for when the player collects an item.
+- When you hold down an arrow key, the player should keep moving in that direction until you stop holding down the key.
+- The player should be able to move in two directions at the same time, such as moving left and down from pressing the left and down arrow keys. Basically, you should be able to move in diagonal directions.
+    - You do not need to worry about what happens when the player presses 2 keys with opposite directions or more than 2 keys simultaneously.
+- When the player is moving in a particular direction:
+    - The blinking light of the spaceship/player should be pointing in that direction.
+    - This can be done by using different player gifs for each of the directions.
+    - If the player is moving diagonally, pick one direction the blinking light should point towards.
+    - When the player is not moving, the blinking light should be in the center
+- The exact speed of the player is up to you but it should be consistent in all directions.
+    - You may choose whether the speed of the diagonal directions to be the same or different from the non-diagonal directions.
+
+### Scoreboard (5 points)
+
+- The scoreboard (on the top right) should always be visible during the gameplay.
+    - It should not be visible on other pages of the game.
+- It is okay for game items to appear over the scoreboard.
+- A "Score" label with the current score, which starts at 0 and increases by 40 every 500 milliseconds the player stays alive.
+- A "Danger" label:
+    - It should start at a different number depending on the difficulty:
+        - Easy: 10
+        - Medium: 20
+        - Hard: 30
+    - Everytime the player travels through a portal, "Danger" increases by 2
+- A "Level" label with that count, which starts at 1 and increases by 1 everytime the player travels through a portal
+- The Score, Danger, and Level should be reset (to their original value, corresponding to the difficulty) after the game ends.
+
+### Sounds (5 points)
+
+- When the player gets an item or when the player dies, the corresponding sound plays.
+    - It is ok if the player gets two items, one immediately after the other, and the sound only plays once.
+- The volume of the sounds should be based on what was set in the settings panel.
+
+### "Get Ready" Splash Screen (5 points)
+
+#### Main Components
+
+- All items and texts as shown in [the screenshot](#get-ready-splash-screen)
+- A scoreboard visible on the top right corner with the correct values
+
+#### Required
+
+- This screen is shown right before the player enters the gameplay
+- This screen disappears and transitions to the gameplay in 3 seconds
+- The items (besides the scoreboard) should be horizontally centered
+
+#### Suggested Style
+
+- "Get Ready" font size: 75px
+- text font size: 50px
+- font color: black
+- img size: original size
+
+### Game Over Page (15 points)
+
+#### Main Components
+
+- same background & header ("Asteroids") as landing page
+- a container with
+    - labels "Game Over!", "You have to fix your spaceship!"
+    - player’s score before dying
+    - a "Start Over" button that takes the user back to the landing page
+
+#### Required
+
+- This page is shown when the player "dies".
+    - i.e. when the player came into contact with an asteroid without a shield
+- The container should be vertically and horizontally centered
+- All components in the container
+    - should be horizontally centered
+    - should be evenly spaced vertically
+- Reminder that settings of the game should not be reset
+
+### Overall Functionality (10 points)
+
+- All of Assignment 2 features are present
+    - The landing page, the settings panel, and the “how to play” page are all present and are working correctly (as defined in Assignment 2 spec)
+    - The transitions between these 3 pages are correct (as defined in Assignment 2 spec)
+- Assignment 2 features are correctly integrated into this assignment
+    - “How to play” Page
+        - This page should only be displayed on the first time the user plays the game
+        - Clicking on the “Start” button now transitions to the “Get Ready” splash screen
+    - Landing Page
+        - Clicking on the “Start” button transitions to the
+            - “How to play” Page, if this is the first time the user plays the game
+            - “Get Ready” splash screen, otherwise
+    - Settings Panel
+        - Adjusting the settings (i.e. volume and difficulty) should be actually reflected in the gameplay (see above sections for more details)
+        - The settings should stay the same after closing the settings panel (i.e. including going to other pages, playing the game, etc.)
+- Player should be able to play the game multiple times without issues (without reloading the page)
+    - i.e. All features should still be functional when repeatedly playing the game
+    - Common examples of some features not working properly on a second playthrough of the game:
+        - asteroids, portals, or shields stop spawning
+        - rocket does not move
+        - certain buttons stop functioning
+        - etc.
+    - Points will be deducted from their corresponding rubric items when the feature doesn’t work when playing the game a second time
