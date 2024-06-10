@@ -82,6 +82,8 @@ $ tar -xvzf starter_code.tar.gz
 
 Here's a brief description of each of the starter files.
 
+| File | Description|
+|------|------------|
 | `index.html` | Some containers (divs) for the game window and the game board are defined; write your HTML code here |
 | `style/index.css` | Some stylings for the game window, game board, and images are defined; write your CSS code here |
 | `scripts/page.js` | Here is a list of things provided: <ol><li>Some comments describing the structure of the code</li><li>Some global variables for storing game states/data</li><li>An Asteroids class is defined (Asteroids that are randomly generated and travels linearly across the gameboard)</li><li>Event handler for arrow key presses</li><li>Additional helper functions (e.g. determining collision);</li></ol> write your JS code here |
