@@ -91,7 +91,7 @@ Here's a brief description of each of the starter files.
 Remarks:
 
 - You will need to import all your Assignment 2 code into Assignment 3 starter code.
-    - See Overall Functionality section for details
+    - See [Overall Functionality](#overall-functionality-10-points) section for details
 - You may choose to not use the starter code and implement those functionalities yourself.
 - Please check Piazza for any modifications and clarifications.
 - Make sure that your application behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
@@ -161,18 +161,13 @@ We outline the requirements for each of the components below. **Everything liste
         - Spawn rate: every 600 milliseconds
         - Speed: 5x
 - The exact speed for each difficulty is up to you.
-- At the beginning of the game, the asteroid's speed for medium should be 3 times faster than the asteroid’s speed for easy, and the asteroid’s speed for hard should be 5 times faster than the asteroid’s speed for easy.
-- Every time the level increases (i.e. when the player goes through a portal, see next section), the asteroid’s speed increases by a certain constant multiple.
+- At the beginning of the game, the asteroid's speed for medium should be 3 times faster than the asteroid's speed for easy, and the asteroid's speed for hard should be 5 times faster than the asteroid's speed for easy.
+- Every time the level increases (i.e. when the player goes through a portal, see next section), the asteroid's speed increases by a certain constant multiple.
     - You may choose whether the speed of the already-existing asteroids increases or not. But the speed of the newly-created asteroids (i.e. asteroids that are about to appear) has to increase.
 - You can implement the asteroids to have the same speed, or have them so that they all reach their destination in the same amount of time. Either is fine.
 - The asteroids can overlap each other on the board.
 - To save you time, the majority of the requirements here are already implemented for you, and the remainder can be easily implemented using methods of the Asteroid class.
-
-Asteroid Suggested Style
-```css
-height: 62px;
-width: 62px;
-```
+- Asteroid Suggested Style: height: 62px; width: 62px;
 
 ### Shields and portals appear at certain time intervals (15 points)
 
@@ -200,7 +195,7 @@ width: 62px;
     - Play sound for when the player collects an item.
 - When the rocket comes into contact with a portal:
     - The level increases by 1.
-    - The asteroid’s speed increases by 0.5 (i.e. current speed *= 1.5).
+    - The asteroid's speed increases by 0.5 (i.e. current speed *= 1.5).
     - The danger increases by 2.
     - Play sound for when the player collects an item.
 - When you hold down an arrow key, the player should keep moving in that direction until you stop holding down the key.
@@ -262,7 +257,7 @@ width: 62px;
 - same background & header ("Asteroids") as landing page
 - a container with
     - labels "Game Over!", "You have to fix your spaceship!"
-    - player’s score before dying
+    - player's score before dying
     - a "Start Over" button that takes the user back to the landing page
 
 #### Required
@@ -298,7 +293,7 @@ width: 62px;
         - rocket does not move
         - certain buttons stop functioning
         - etc.
-    - Points will be deducted from their corresponding rubric items when the feature doesn’t work when playing the game a second time
+    - Points will be deducted from their corresponding rubric items when the feature doesn't work when playing the game a second time
 
 ## Hints
 
