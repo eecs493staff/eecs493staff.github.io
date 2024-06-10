@@ -286,16 +286,16 @@ width: 62px;
 ### Overall Functionality (10 points)
 
 - All of Assignment 2 features are present
-    - The landing page, the settings panel, and the “how to play” page are all present and are working correctly (as defined in Assignment 2 spec)
+    - The landing page, the settings panel, and the "how to play" page are all present and are working correctly (as defined in Assignment 2 spec)
     - The transitions between these 3 pages are correct (as defined in Assignment 2 spec)
 - Assignment 2 features are correctly integrated into this assignment
-    - “How to play” Page
+    - "How to play" Page
         - This page should only be displayed on the first time the user plays the game
-        - Clicking on the “Start” button now transitions to the “Get Ready” splash screen
+        - Clicking on the "Start" button now transitions to the "Get Ready" splash screen
     - Landing Page
-        - Clicking on the “Start” button transitions to the
-            - “How to play” Page, if this is the first time the user plays the game
-            - “Get Ready” splash screen, otherwise
+        - Clicking on the "Start" button transitions to the
+            - "How to play" Page, if this is the first time the user plays the game
+            - "Get Ready" splash screen, otherwise
     - Settings Panel
         - Adjusting the settings (i.e. volume and difficulty) should be actually reflected in the gameplay (see above sections for more details)
         - The settings should stay the same after closing the settings panel (i.e. including going to other pages, playing the game, etc.)
@@ -307,3 +307,55 @@ width: 62px;
         - certain buttons stop functioning
         - etc.
     - Points will be deducted from their corresponding rubric items when the feature doesn’t work when playing the game a second time
+
+## Hints
+
+### Changing Item Size
+If you are trying to set the width and height for asteroid elements but it's not working, double check what element you're actually setting the width and height for. If you are setting the width and height on the "div" containing the image, this doesn't actually affect the image size; it's simply a container for the image. You likely will need to set the width and height for the image element itself.
+
+### Event Listeners
+If you think your event listeners aren't being triggered, one common error occurs when event listeners are created (and attached) before relevant DOM objects exist.
+
+A way around this is to create event listeners that are attached to the body, or another element that exists immediately on the page, and then filter events for a given selector. For example, if I have a UI where I expect items to get added to the page dynamically, and I want to have a "delete" button next to each dynamically added element, I might create the event listener this way:
+
+```js
+$("body").on("click", ".deleteX", function(event){
+ …
+});
+```
+
+Here, the "body" is listening for all click events, and is essentially only passing them to the callback if the item clicked actually had the "deleteX" class. See the "selector" arg here: [https://api.jquery.com/on/](https://api.jquery.com/on/)
+
+## FAQ
+
+### Is it OK if the asteroids spawn outside the game window?
+
+Yes.
+
+### Is the assignment graded for style?
+
+If "style" refers to coding style, then no. However, make sure you are following the rules listed under the [General](#general) section in the spec. If "style" refers to CSS style, then yes, at least for some pages.
+
+### Can I use \<some JS/CSS functions\> to achieve \<some behavior\>?
+
+Yes, as long as it does not involve any external libraries (other than jQuery).
+
+### What happens when a rocket carrying a shield comes into contact with another shield spawning on the game board?
+
+Up to you! The simplest solution is to do nothing.
+
+### How can I make the rocket move "smoothly"?
+
+I recommend using a `setInterval()` which constantly checks (e.g. every 20 ms) whether `UP`, `DOWN`, `LEFT`, `RIGHT` variables (set by the keypress event handlers) are `true`, and moves the player accordingly if so.
+
+### Is it OK if the shielded rocket images appear smaller/larger than the non-shielded images?
+
+Yes.
+
+### Is it OK if there is a gap between the asteroid and the rocket when they collide?
+
+Yes.
+
+### Does it matter where the rocket spawns?
+
+No.
