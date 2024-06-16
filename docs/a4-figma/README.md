@@ -175,7 +175,7 @@ Briefly describe how you've used the 5 required Figma features in your prototype
     - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
     - Suggested: Include a screenshot corresponding to your written description.
 
-## Part 2
+#### Part 2
 
 Evaluate your prototype using **3** of Nielsen's 10 usability heuristics.
 
@@ -203,7 +203,7 @@ Here are the 10 usability heuristics for your reference:
 9. Help users recognize, diagnose, and recover from errors
 10. Help and documentation
 
-## Part 3
+#### Part 3
 
 Provide feedback on this assignment.
 
@@ -211,4 +211,16 @@ Briefly describe:
 
 - What you liked about this assignment.
 - What you did not like about this assignment & what we can do to improve it.
+
+## FAQ
+
+### I want to add some creativity to my design, making it slightly different from the spec, is this OK?
+
+Yes, as long as all elements mentioned in the spec still exist in your design. If your design is too different from the spec, then please clearly indicate these differences either in your written report or as a comment on Canvas so graders can easily know where to look.
+
+### What is the difference between microinteractions vs. interactive components?
+
+Microinteraction is a design concept, which describes the minor yet important interactions that enhance user experiences and improves usability.
+
+For instance, a button changing color being pressed, an animated progress bar showing the status of the machine. On the other hand, an interactive component is a feature of Figma. You can use this feature to implement a microinteraction in Figma.
 
