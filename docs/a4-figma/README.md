@@ -46,3 +46,11 @@ This assignment has 2 parts:
     - [Video](https://youtu.be/6t_dYhXyYjI) showing how to use basic features to design a wireframe
     - [Video](https://youtu.be/iBkXf6u8htI) showing how to use prototyping features for interactivity
 
+## Storyboard
+
+Use the following storyboard to design and develop your prototype.
+
+<img src="images/teamGuzzi_storyboard.png" width="100%" />
+
+Credit: Team Guzzi, Fall 2021.
+
