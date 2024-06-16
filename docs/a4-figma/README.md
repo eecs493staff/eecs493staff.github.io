@@ -54,3 +54,70 @@ Use the following storyboard to design and develop your prototype.
 
 Credit: Team Guzzi, Fall 2021.
 
+## Requirements
+
+We outlined the requirements for each part of the assignment. **Everything listed below, unless labeled as "Suggested", is required.** Bullet points under "Suggested" will not be graded.
+
+### Figma Prototype
+
+This section describes the specific Figma requirements that your prototype must meet.
+
+#### Mobile
+
+The prototype should be designed for mobile devices. You may choose any mobile frame (e.g. iPhone 15, Google Pixel 6, etc.) you like to use in your prototype.
+
+#### Frames
+
+The prototype should have the following 6 frames.
+
+**Frame 1**
+
+- Dsplaying a list of (new) quests (i.e. quest names).
+- The quests have to be written using meaningful texts instead of placeholders like "Lorem ipsum".
+- Example Quest Name: "Art at UMMA."
+- Hint: Try using components and auto-layout.
+- After clicking on one (and only one) of the quests, it should navigate to Frame 2.
+
+**Frame 2**
+
+- Displaying one quest in detail, including
+    - a concise description of the quest
+    - a map with
+        - a route to the quest's location (from the user's current location)
+        - distance/ETA
+    - buttons to accept and decline the quest
+- Example Quest Description: "Go to UMMA and take 3 pictures of art pieces you liked!"
+- After declining the quest, it should navigate back to Frame 1.
+- After accepting the quest, it should navigate to Frame 3.
+- Remark: the "map" can simply be a static image.
+
+**Frame 3**
+
+- Displaying the current quest in detail, including
+    - a map with
+        - a route to the destination
+        - distance/ETA
+    - a button to open the camera
+    - a button to mark the quest as complete
+- After clicking on the "mark the quest as complete" button (or something similar), it should navigate to Frame 4.
+
+**Frame 4**
+
+- Displaying a message asking the user to confirm whether they have truly completed the quest.
+- Hint: This frame can simply be a pop-up that gets displayed over Frame 3. Try using Figma's "Open Overlay" feature.
+- After the user confirms that the quest is truly completed, it should navigate to Frame 5.
+
+**Frame 5**
+
+- Displaying "Quest Completed!" and a "reward" given to the user.
+- The user has to somehow be able to navigate to Frame 6.
+
+**Frame 6**
+
+- For user to add a completed quest to their "Favorites".
+- The user must be able to interact with some elements of the frame and then it should provide at least 1 clear feedback that the quest is now added to their "Favorites".
+- Example: User clicks on a black "heart" icon next to a completed quest -> "heart" changes to red or a piece of text gets displayed briefly saying "Added to favorites".
+- Hint: Use an Interactive Component.
+- The user has to be able to navigate back to either Frame 1 or Frame 2* depending on your design of this frame.
+
+<img src="images/interactive-component.gif" height="400px" />
