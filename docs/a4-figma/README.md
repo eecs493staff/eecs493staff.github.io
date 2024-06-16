@@ -150,27 +150,29 @@ Other than the basic features like frames, texts, and shapes, which you have to 
 
 ### Written Report
 
-This section describes the specific requirements of the report, which has 3 parts.
+This section describes the specific requirements of the report, which has 3 main parts.
 
 #### Figma Link
 
 At the very beginning of the report (document), include a link to your Figma prototype with access type "can view".
 
-<img src="images/share.gif" width="50%" />
+<img src="images/share.gif" width="40%" />
 
 Please make sure the link is working properly by opening it in an incognito/private window, and that clicking on the "Present" button will present your prototype which the user can interact with by clicking on certain elements on each frame.
 
 Failing to do so will result in a 20% grade deduction.
 
-#### Length
+#### Length & Organization
 
 The report should be short and concise; it should not be longer than 700 words. Points will be deducted if your report is longer than 700 words.
+
+Please use headings/subheadings to better organize your report.
 
 #### Part 1
 
 Briefly describe how you've used the 5 required Figma features in your prototype and what is the micro-interaction you created in your prototype.
 
-- The 5 required features are listed in the Figma Prototype section.
+- The 5 required features are listed in the [Figma Prototype](#required-figma-features) section.
 - For each feature, simply describe 1 example of what you used it for in 1 or 2 sentences; same applies for the micro-interaction.
     - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
     - Suggested: Include a screenshot corresponding to your written description.
@@ -181,7 +183,7 @@ Evaluate your prototype using **3** of Nielsen's 10 usability heuristics.
 
 For each heuristic you chose, provide 2 examples in your prototype along with their screenshots to briefly explain how they meet or don't meet the heuristic.
 
-- i.e. For each example, you need to submit a screenshot and provide a short description
+- i.e. For each example, you need to submit a screenshot and provide a short description.
 - Please use the following template to structure each of your heuristic/example:
     - Heuristic Rule: 
     - Example 1 screenshot:
@@ -223,4 +225,6 @@ Yes, as long as all elements mentioned in the spec still exist in your design. I
 Microinteraction is a design concept, which describes the minor yet important interactions that enhance user experiences and improves usability.
 
 For instance, a button changing color being pressed, an animated progress bar showing the status of the machine. On the other hand, an interactive component is a feature of Figma. You can use this feature to implement a microinteraction in Figma.
+
+You can implement whatever microinteraction you would like as long as you clearly describe it in your report.
 
