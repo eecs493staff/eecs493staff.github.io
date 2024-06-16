@@ -148,3 +148,67 @@ Other than the basic features like frames, texts, and shapes, which you have to 
 - Add more frames if you believe it can better demonstrate how a user navigates through your prototype.
 - Explore additional Figma features in your prototype.
 
+### Written Report
+
+This section describes the specific requirements of the report, which has 3 parts.
+
+#### Figma Link
+
+At the very beginning of the report (document), include a link to your Figma prototype with access type "can view".
+
+<img src="images/share.gif" width="50%" />
+
+Please make sure the link is working properly by opening it in an incognito/private window, and that clicking on the "Present" button will present your prototype which the user can interact with by clicking on certain elements on each frame.
+
+Failing to do so will result in a 20% grade deduction.
+
+#### Length
+
+The report should be short and concise; it should not be longer than 700 words. Points will be deducted if your report is longer than 700 words.
+
+#### Part 1
+
+Briefly describe how you've used the 5 required Figma features in your prototype and what is the micro-interaction you created in your prototype.
+
+- The 5 required features are listed in the Figma Prototype section.
+- For each feature, simply describe 1 example of what you used it for in 1 or 2 sentences; same applies for the micro-interaction.
+    - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
+    - Suggested: Include a screenshot corresponding to your written description.
+
+## Part 2
+
+Evaluate your prototype using **3** of Nielsen's 10 usability heuristics.
+
+For each heuristic you chose, provide 2 examples in your prototype along with their screenshots to briefly explain how they meet or don't meet the heuristic.
+
+- i.e. For each example, you need to submit a screenshot and provide a short description
+- Please use the following template to structure each of your heuristic/example:
+    - Heuristic Rule: 
+    - Example 1 screenshot:
+    - Example 1 description:
+        - e.g. what the user might be doing in this screenshot
+    - Does it support or violate the heuristic?
+    - Reason:
+
+Here are the 10 usability heuristics for your reference:
+
+1. Visibility of system status
+2. Match between system and the real world
+3. User control and freedom
+4. Consistency and standards
+5. Error prevention
+6. Recognition rather than recall
+7. Flexibility and efficiency of use
+8. Aesthetic and minimalist design
+9. Help users recognize, diagnose, and recover from errors
+10. Help and documentation
+
+## Part 3
+
+Provide feedback on this assignment.
+
+Briefly describe:
+
+- What you liked about this assignment.
+- What you did not like about this assignment & what we can do to improve it.
+
