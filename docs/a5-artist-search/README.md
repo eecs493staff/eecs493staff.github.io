@@ -67,12 +67,69 @@ Here's a brief description for each of the starter files.
 | `script.js` | Placeholder for one Vue.js instance **\[Write your JS code in this file\]** |
 | `index.css` | Additional customized style \[Do NOT modify this file\] |
 | `loading.gif` | Show this gif while waiting for fetch \[Optional\] |
-| `img/` | A directory containing 2 image placeholders \[Your final code won’t need them\] |
+| `img/` | A directory containing 2 image placeholders \[Your final code won't need them\] |
 
 Remarks
 
-- You aren’t required to use any of the starter code, but it’s there to help you.
+- You aren't required to use any of the starter code, but it's there to help you.
 - Unless you know what you are doing, please do NOT modify anything inside the `<head>` tag in `index.html`.
 - Please refer to Piazza for any modifications and clarifications.
 - Make sure that your application (webpage) behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
 - To make sure your code runs correctly, it might be helpful to test it on a different computer.
+
+## Helpful Resources
+
+### iTunes API
+
+- Constructing Search: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1>
+    - Hint: Most useful parameters are *term* and *attribute*.
+- Search Examples: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1>
+- Understanding Search Results: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1>
+
+### Vue
+
+- Get Started using createApp: <https://vuejs.org/guide/quick-start.html#without-build-tools>
+- Vue Cheat Sheet w/examples: <https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf>
+- Template: <https://vuejs.org/guide/essentials/template-syntax.html>
+    - Dynamically update HTML text using `{{ }}`
+    - Dynamically update HTML attributes using `v-bind`
+    - Single JavaScript expressions can be used in `{{ }}` for text and `" "` for attributes
+- Binding Classes (`v-bind`): <https://vuejs.org/guide/essentials/class-and-style.html>
+    - Dynamically toggle a class depending on certain conditions
+- Conditional Rendering (`v-show`, `v-if`): <https://vuejs.org/guide/essentials/conditional.html>
+    - Dynamically render a block (e.g. `<div>`) under certain conditions
+- List Rendering (`v-for`): <https://vuejs.org/guide/essentials/list.html>
+- Events (`v-on`): <https://v2.vuejs.org/v2/guide/events.html>
+    - Listener
+    - Method Handler
+    - Modifier (prevent page from reloading)
+    - Keyboard events (listening for specific keys)
+- For making api calls, we can use the following. Both are supported in Vue 3.
+    - `fetch`: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch>
+    - `Axios`: <https://axios-http.com/docs/example>
+
+### JavaScript
+
+- Object.keys(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
+- Object.entries(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries>
+- Array.prototype.sort(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort>
+- Array.prototype.forEach(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach>
+- Arrow functions: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
+
+### Bootstrap
+
+- Object.keys(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
+- Object.entries(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries>
+- Array.prototype.sort(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort>
+- Array.prototype.forEach(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach>
+- Arrow functions: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
+
+### Additional Tips/Hints
+
+When trying to toggle the 'Description' and 'Track info.' tabs, take a look at this tutorial and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
+
+Specifically, quoting directly from it: 'Add `data-toggle="tab"` to each tab, and add a `.tab-pane` class with a unique ID for every tab and wrap them in a `.tab-content` class.'
+
+If you have trouble (e.g. clicking on 1 Description tab changes all Description tabs, or no matter which Description tab is clicked, only 1 Description tab changes), make sure the stuff bolded is implemented correctly. Put into context of our assignment, each 'Description' and 'Track info.' tab must have its own unique ID (i.e. `<div id='[something unique]'> </div>`). In other words, suppose there are 50 songs returned by the API call, then there will be 50 'Description' and 'Track info.' tabs, so we need 50 unique IDs for 'Description' and 50 unique IDs for 'Track info.'
+
+Note: This is not the only way to achieve this behavior, but it is in my opinion the easiest way to do so.
