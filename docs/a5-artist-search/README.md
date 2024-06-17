@@ -91,9 +91,9 @@ Remarks
 - Get Started using createApp: <https://vuejs.org/guide/quick-start.html#without-build-tools>
 - Vue Cheat Sheet w/examples: <https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf>
 - Template: <https://vuejs.org/guide/essentials/template-syntax.html>
-    - Dynamically update HTML text using `{{ }}`
+    - Dynamically update HTML text using <code>&#123;&#123; &#125;&#125;</code>
     - Dynamically update HTML attributes using `v-bind`
-    - Single JavaScript expressions can be used in `{{ }}` for text and `" "` for attributes
+    - Single JavaScript expressions can be used in <code>&#123;&#123; &#125;&#125;</code> for text and `" "` for attributes
 - Binding Classes (`v-bind`): <https://vuejs.org/guide/essentials/class-and-style.html>
     - Dynamically toggle a class depending on certain conditions
 - Conditional Rendering (`v-show`, `v-if`): <https://vuejs.org/guide/essentials/conditional.html>
@@ -118,11 +118,11 @@ Remarks
 
 ### Bootstrap
 
-- Object.keys(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
-- Object.entries(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries>
-- Array.prototype.sort(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort>
-- Array.prototype.forEach(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach>
-- Arrow functions: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
+- Intro: <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
+- Button (btn): <https://getbootstrap.com/docs/5.3/components/buttons/>
+- Dropdown: <https://getbootstrap.com/docs/5.3/components/dropdowns/>
+- Navigation tabs: <https://getbootstrap.com/docs/5.3/components/navs-tabs/>
+- Grid System: <https://getbootstrap.com/docs/5.3/layout/grid/>
 
 ### Additional Tips/Hints
 
