@@ -41,6 +41,7 @@ Watch this video for an overview of this assignment: [https://youtu.be/uZ_q3TYPZ
 ## Grading Breakdown
 
 The assignment has 6 main components and 1 optional component (denominator of 100 points):
+
 1. Search Bar - *25 points*
 2. Artists Grid - *30 points*
 3. Navigation Tabs - *5 points*
@@ -49,3 +50,29 @@ The assignment has 6 main components and 1 optional component (denominator of 10
 6. Sort Menu - *15 points*
 7. (Optional) Bonus Features - *up to 10 points*
 
+## Starter Code
+
+You will use the starter code we provide to complete this assignment.
+
+Download and unpack the starter files (either using the following commands or simply navigating to the link).
+
+```console
+$ wget https://eecs493staff.github.io/a5-artist-search/starter_code.tar.gz
+$ tar -xvzf starter_code.tar.gz
+```
+
+Here's a brief description for each of the starter files.
+
+| `index.html` | HTML page **\[Write your HTML code in this file\]** |
+| `script.js` | Placeholder for one Vue.js instance **\[Write your JS code in this file\]** |
+| `index.css` | Additional customized style \[Do NOT modify this file\] |
+| `loading.gif` | Show this gif while waiting for fetch \[Optional\] |
+| `img/` | A directory containing 2 image placeholders \[Your final code won’t need them\] |
+
+Remarks
+
+- You aren’t required to use any of the starter code, but it’s there to help you.
+- Unless you know what you are doing, please do NOT modify anything inside the `<head>` tag in `index.html`.
+- Please refer to Piazza for any modifications and clarifications.
+- Make sure that your application (webpage) behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
+- To make sure your code runs correctly, it might be helpful to test it on a different computer.
