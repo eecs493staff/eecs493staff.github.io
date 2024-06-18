@@ -163,3 +163,23 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 ### After (resetting sort to original and) selecting the "Dance" and "Pop" genre selections
 
 <img src="images/select-genre.png" width="100%" />
+
+## Ground Rules
+
+1. The primary point of the assignment is to use MVC pattern in developing the application using Vue.js. Therefore, reference and direct modification of HTML elements (such as `$(".class")`, `append()`, `document`) in JavaScript and jQuery are NOT allowed.
+    - For example, using jQuery or JavaScript code that access HTML elements is NOT allowed (will result in significant deductions).
+2. We've given you some starter code, and you'll only need to write JS code inside Vue instance(s) (in the JS file) and Vue directives in the HTML file.
+    - We already created one Vue instance for you. You may add other instances if you prefer, but NO extra JS code should be written outside of Vue instances.
+3. Every style-related element of the assignment MUST be done via Bootstrap. You are NOT allowed to use inline styling or define/use any custom CSS class/id other than the ones we provided in `index.css`.
+    - i.e. Do NOT modify `index.css`
+4. The provided `index.html` file includes (links to) jQuery, Bootstrap, Vue.js, and Axios.
+    - In order for index.html to work properly, make sure you
+        - Have internet connection,
+        - Do NOT modify anything inside the `<head>` tag in `index.html`.
+    - Note that `index.html` has some hard-coded data. This is just to show you an example, but the hard-coded data should eventually be replaced.
+5. Follow the submission instructions at the beginning of the spec.
+6. After unzipping your submission, the index.html file should work by directly opening it in Google Chrome, as long as there is an internet connection.
+7. This assignment uses the iTunes API, which again requires internet access. Plan ahead if you will be in a situation that has no internet access. It is your responsibility to read the documentation and figure out the data structure of the JSON object.
+8. This assignment requires online search and reading the documentation of Vue.js and iTunes API that we use. The assignment may include materials that are not covered in class. We believe that, in today's programming practice, searching and mining information from online materials is a significant part of a programmer's expertise.
+9. Check out Piazza frequently for any changes or additional information.
+
