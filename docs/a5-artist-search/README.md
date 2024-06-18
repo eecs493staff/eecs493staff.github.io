@@ -300,3 +300,29 @@ Add a "play" button to each of the 'Description' tabs (as shown below).
 
 After pressing the play button, it should start playing the song, and the text of the button should change from "play" to "stop". When the "stop" button is clicked, it should stop playing the song and revert back to "play".
 
+## CORS Header
+
+When doing this assignment, you might run into your search results being rejected with a "CORS" message. This error is largely server-side, so there is no simple solution. The success of the request will change depending on what browser you are using, if you are hosting the page on the server, and the configuration of the iTunes server the artist you are requesting is stored on.
+
+One solution that often works is adding `&origin=*` to the end of your search query. This will often resolve the error if you are running your code directly from a file.
+
+There are other ways that might help if you still encounter this issues:
+- Test with an artist that isn't the one shown in the example video. We suspect that iTunes has changed the way it processes requests coming from the UMich wireless network for the example artist, since there are suddenly several hundred identical requests every minute in the exact same format from the exact same location. Suggesting a different artist to search would be self-defeating, but you should be testing your implementation with a variety of artists anyway.
+- Ordering matters in the iTunes API call, so you can play around with the ordering of your added keys to the query.
+- Do not open the file as a local server (`localhost:XXXX/<file path>`). Some IDEs may automatically open HTML files in a server rather than opening the raw file in a browser (`<filepath>`); opening it as a raw file may stop it.
+
+Again, many of these errors are configuration dependent. If you continue to have issues, please come speak to us in office hours or post on Piazza.
+
+## FAQ
+
+### Sometimes, the search result seems unrelated to the search keyword, is this fine?
+
+Yes, as long as you are correctly using the 2 query parameters listed in the [iTunes API](#itunes-api) section.
+
+### When I minimize the window to the minimum width, the text in one artist grid overlaps with the next artist grid, is this fine?
+
+Yes.
+
+### Should our search results match exactly the ones in the spec?
+
+Not necessarily, since API results change from time to time. As long as you make sure you are using the 2 (and only those 2) parameters in the [iTunes API](#itunes-api) section, you should be all set.
