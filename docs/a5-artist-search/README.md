@@ -247,3 +247,40 @@ Ground rules - *max 50 points off if not followed*
 - If ALL is selected, the other genres are deselected, and the results return back to the original list but maintaining the current sort selection. (see Sort Menu)
 - The genre selected should automatically reset to ALL when you search for a new artist.
 
+### Sort Menu (15 points)
+
+- A "Sort list of results by: " button that displays a dropdown menu when clicked.
+    - There are three options in the menu: 
+        - Reset to original
+        - Collection Name
+        - Price
+- For "Reset to original", reset the displayed results to the original order.
+    - This should be the default selection.
+- For "Collection Name", sort results alphabetically by collection name.
+- For "Price", sort results by increasing price.
+- For API results that did not return a Collection Name or Price, they should be sorted as if their Collection Name was "No information provided" and Price was 0.
+- The selected option should be indicated by a distinct background color.
+- Please use Bootstrap’s dropdown (and related classes) for this part. Note that different background colors of the options can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- When multiple genres are selected, the list of results should still be updated by the current sort selection (e.g., collection name or price).
+    - In other words, when you select a genre, the sort option should not reset.
+- The sort should automatically reset when you search for a new artist.
+
+Here is another example of what the sort menu should look like and how it works.
+
+In the dropdown menu, initially, it should be set as the "Reset to original"  indicated below by blue background.
+
+<img src="images/sort-eg2-initial.png" width="100%" />
+
+When selecting a different option, it should be changed to that selection, for example, selecting "Collection Name", indicated by the blue background.
+
+<img src="images/sort-eg2-collection.png" width="100%" />
+
+After an artist search and sorting by "Collection Name", then selecting different genres should still update the list by "Collection Name".
+
+In other words, if the user sorts by Collection Name, it should update the list sorted by collection name; after that, if the user picks a genre, e.g. Anime, it should update the Anime list sorted by collection name too.
+
+<img src="images/sort-eg2-genre.png" width="100%" />
+
+This should work when selecting any of the three sort options.
+
+
