@@ -164,7 +164,15 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 
 <img src="images/select-genre.png" width="100%" />
 
-## Ground Rules
+## Requirements
+
+We outline the requirements for each of the components below. Everything listed in this section, unless labeled as "Suggested", is required. Please be sure to examine the overview video and screenshots to understand the expected behavior. Again, remember that your website does not have to look exactly like the one in the video/screenshots.
+
+**Please read the [Helpful Resources](#helpful-resources) section for hints and learning resources.**
+
+### General
+
+Ground rules - *max 50 points off if not followed*
 
 1. The primary point of the assignment is to use MVC pattern in developing the application using Vue.js. Therefore, reference and direct modification of HTML elements (such as `$(".class")`, `append()`, `document`) in JavaScript and jQuery are NOT allowed.
     - For example, using jQuery or JavaScript code that access HTML elements is NOT allowed (will result in significant deductions).
@@ -182,4 +190,60 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 7. This assignment uses the iTunes API, which again requires internet access. Plan ahead if you will be in a situation that has no internet access. It is your responsibility to read the documentation and figure out the data structure of the JSON object.
 8. This assignment requires online search and reading the documentation of Vue.js and iTunes API that we use. The assignment may include materials that are not covered in class. We believe that, in today's programming practice, searching and mining information from online materials is a significant part of a programmer's expertise.
 9. Check out Piazza frequently for any changes or additional information.
+
+### Search Bar (30 points)
+
+- There is one input textbox provided in the HTML file.
+- When a user types a keyword and presses the "Enter" key, the entered string should be used to make an AJAX call that requests a json object.
+    - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not
+- The entered string will be used to search artists whose names contain the keyword.
+- Use either `Axios()` or `fetch()` for the AJAX call.
+- The URL that you need to make an AJAX request and the data structure of the returned json object are specified here: 
+    - iTunes Search API: <https://goo.gl/UXwDce>
+    - When sending the request, all media types & entities should be included.
+    - When a query has over 50 results, it should only return a maximum of 50 tracks.
+- Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
+    - This should be the only thing that is printed in the console.
+    - We will take off points if the above requirements are not met.
+- When there are no artists returned from iTunes, alert the user, using JS alert(), that no artist was found with the keyword.
+- "Total *N* found" message should display *N* = the total number of artists (results) returned by the iTunes API.
+
+### Artists Grid (30 points)
+
+- The returned artists should be displayed in two columns, where each result grid contains both an image and 5 types of related information displayed right next to each other (when the browser is in full size).
+- One exception will be the last row that may have less than two artist grids depending on the number of artists returned.
+- Please use the Bootstrap Grid system to accomplish the above requirements. Check out [this web page](https://getbootstrap.com/examples/grid/) for more detail. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
+- When correctly implemented with Bootstrap, the layout will naturally be responsive (e.g. resizing the browser will automatically resize the images and the nav-tabs, and shift them to the next row).
+- Typically, iTunes will provide an image URL for each artist. Use the first URL in the list in general.
+- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the project intro video), your web page should look pretty much the same as the one in the screenshot.
+
+### Navigation Tabs (5 points)
+
+- The returned artists should also have their information displayed next to them in the navigation tabs.
+- Please use Bootstrap's nav-tabs (and other related classes) for this and next part (i.e. 4 and 5). Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
+- The 'Description' tab should contain: artist name, collection name, collection price, type (kind), and preview link. They can be found in the response JSON data.
+    - If the price is not provided, set the price to 0.
+    - Else, if one of the returned values is an empty string, display "No information provided" instead.
+- Clicking the preview link should open the preview of the song (or any other media) from this artist in another tab or directly download it (both are fine).
+
+### Track Information (5 points)
+
+- When clicking the 'Track Info.' tab, the system should display the Track ID (which is a unique identifier) & Country for that particular search result.
+    - You may assume that Track ID and Country are always going to be provided by the API.
+- This means, whenever you click on the 'Track Info.' tab, the unique identifier will be different for each different 'Track Info.' tab you click on. See the [screenshots](#track-info-tab-for-the-left-two-results) section for an example.
+- Hint: The key to getting this section to work is figuring out how to get only that particular div to change when you click on that 'Track Info.' tab. Check out the [Helpful Resources](#helpful-resources) section if you would like a more specific hint.
+- When clicking back to the 'Description' tab, the five types of information should still be there.
+
+### Genre Selection (15 points)
+
+- Create a list of tags of which genre labels are available from the search results. (See screenshots/video above)
+- As a user toggles a genre, only the artists that are categorized in the selected genre should appear in the grid.
+    - The number of results should update as well.
+    - You can select and deselect genres.
+    - The genres selected should be indicated by the change in the background color.
+- Once you select other genres besides ALL, the ALL button should be deselected, indicated by a change in its background color.
+- Please use Bootstrap’s btn (and related classes) for this part. Note that different button colors can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- The genre selection works like a set union: The more genres that are selected the more results should be displayed.
+- If ALL is selected, the other genres are deselected, and the results return back to the original list but maintaining the current sort selection. (see Sort Menu)
+- The genre selected should automatically reset to ALL when you search for a new artist.
 
