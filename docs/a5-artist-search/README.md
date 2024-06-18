@@ -242,7 +242,7 @@ Ground rules - *max 50 points off if not followed*
     - You can select and deselect genres.
     - The genres selected should be indicated by the change in the background color.
 - Once you select other genres besides ALL, the ALL button should be deselected, indicated by a change in its background color.
-- Please use Bootstrap’s btn (and related classes) for this part. Note that different button colors can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- Please use Bootstrap's btn (and related classes) for this part. Note that different button colors can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
 - The genre selection works like a set union: The more genres that are selected the more results should be displayed.
 - If ALL is selected, the other genres are deselected, and the results return back to the original list but maintaining the current sort selection. (see Sort Menu)
 - The genre selected should automatically reset to ALL when you search for a new artist.
@@ -260,7 +260,7 @@ Ground rules - *max 50 points off if not followed*
 - For "Price", sort results by increasing price.
 - For API results that did not return a Collection Name or Price, they should be sorted as if their Collection Name was "No information provided" and Price was 0.
 - The selected option should be indicated by a distinct background color.
-- Please use Bootstrap’s dropdown (and related classes) for this part. Note that different background colors of the options can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- Please use Bootstrap's dropdown (and related classes) for this part. Note that different background colors of the options can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
 - When multiple genres are selected, the list of results should still be updated by the current sort selection (e.g., collection name or price).
     - In other words, when you select a genre, the sort option should not reset.
 - The sort should automatically reset when you search for a new artist.
@@ -283,4 +283,20 @@ In other words, if the user sorts by Collection Name, it should update the list 
 
 This should work when selecting any of the three sort options.
 
+### Bonus (10 points max)
+
+- This part is completely optional.
+- If you have added any feature, please include README.txt file in the submission and explain what you implemented; otherwise we won't grade this task (this is the only time you are allowed to add a file to the directory structure).
+- DO NOT CHANGE ANY EXISTING REQUIREMENTS FROM THE SPEC!
+- Here is a video showing the expected behavior of the bonus section: <https://youtu.be/C8FJeIzlCVM>
+
+#### Display a results list
+
+Add a button next to the 'Sort list of results by:' button. Upon clicking, a popup should appear that displays all the track names returned by fetch grouped by the collection name.
+
+#### Play
+
+Add a "play" button to each of the 'Description' tabs (as shown below).
+
+After pressing the play button, it should start playing the song, and the text of the button should change from "play" to "stop". When the "stop" button is clicked, it should stop playing the song and revert back to "play".
 
