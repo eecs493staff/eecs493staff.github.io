@@ -133,3 +133,33 @@ Specifically, quoting directly from it: 'Add `data-toggle="tab"` to each tab, an
 If you have trouble (e.g. clicking on 1 Description tab changes all Description tabs, or no matter which Description tab is clicked, only 1 Description tab changes), make sure the stuff bolded is implemented correctly. Put into context of our assignment, each 'Description' and 'Track info.' tab must have its own unique ID (i.e. `<div id='[something unique]'> </div>`). In other words, suppose there are 50 songs returned by the API call, then there will be 50 'Description' and 'Track info.' tabs, so we need 50 unique IDs for 'Description' and 50 unique IDs for 'Track info.'
 
 Note: This is not the only way to achieve this behavior, but it is in my opinion the easiest way to do so.
+
+## Screenshots
+
+### Landing page with search bar
+
+<img src="images/search-bar.png" width="100%" />
+
+### After searching for an artist
+
+<img src="images/search-result.png" width="100%" />
+
+### "Track Info." tab for the left two results
+
+<img src="images/track-info.png" width="100%" />
+
+### Sort menu
+
+<img src="images/sort-menu.png" width="100%" />
+
+### After sorting by "Collection Name"
+
+<img src="images/sorted-collection.png" width="100%" />
+
+### After sorting by "Price"
+
+<img src="images/sorted-price.png" width="100%" />
+
+### After (resetting sort to original and) selecting the "Dance" and "Pop" genre selections
+
+<img src="images/select-genre.png" width="100%" />

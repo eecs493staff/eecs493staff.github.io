@@ -27,6 +27,6 @@ Do NOT directly modify the starter code in this repo; please see each assignment
 
 ## Future TODOs
 
-- Write spec & create starter code for each assignment (A4 and A5 left).
+- Write spec & create starter code for each assignment (A5 left).
 - As we approach the start of the semester, document a comprehensive list of things that need to be updated.
 - Consider upgrading to GitHub Team: this allows hosting websites from prviate github repos.
