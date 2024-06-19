@@ -296,7 +296,7 @@ Add a button next to the 'Sort list of results by:' button. Upon clicking, a pop
 
 #### Play
 
-Add a "play" button to each of the 'Description' tabs (as shown below).
+Add a "play" button to each of the 'Description' tabs.
 
 After pressing the play button, it should start playing the song, and the text of the button should change from "play" to "stop". When the "stop" button is clicked, it should stop playing the song and revert back to "play".
 
@@ -326,3 +326,10 @@ Yes.
 ### Should our search results match exactly the ones in the spec?
 
 Not necessarily, since API results change from time to time. As long as you make sure you are using the 2 (and only those 2) parameters in the [iTunes API](#itunes-api) section, you should be all set.
+
+## Acknowledgments
+Original spec written by Zirui Zhao <zhaojer@umich.edu>.
+Updated by the EECS 493 team.
+
+This document is licensed under a [Creative Commons Attribution-NonCommercial 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). You're free to copy and share this document, but not to sell it.  You may not share source code provided with this document.
+
