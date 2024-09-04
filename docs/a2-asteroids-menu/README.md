@@ -8,7 +8,7 @@ EECS 493 Assignment 2: Asteroids Main Menu
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 65 points | FIXME    | **FIXME at 11:59 PM ET**    |
+| 65 points | 9/4    | 9/15 11:59 PM    |
 
 ## Submission Instructions
 
