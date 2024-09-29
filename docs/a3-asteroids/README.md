@@ -300,7 +300,7 @@ We outline the requirements for each of the components below. **Everything liste
         - This page should only be displayed on the first time the user plays the game
         - Clicking on the "Start" button now transitions to the "Get Ready" splash screen
     - Landing Page
-        - Clicking on the "Start" button transitions to the
+        - Clicking on the "Play game!" button transitions to the
             - "How to play" Page, if this is the first time the user plays the game
             - "Get Ready" splash screen, otherwise
     - Settings Panel
