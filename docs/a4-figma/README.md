@@ -32,7 +32,7 @@ This assignment has 2 parts:
 
 ## Helpful Resources
 
-1. Figma Lecture recording/slides on Canvas
+1. **Figma Lecture recording/slides on Canvas** (very helpful)
 2. Figma documentation on the specific features required in this assignment
     - [Constraints](https://help.figma.com/hc/en-us/articles/360039957734-Apply-constraints-to-define-how-layers-resize)
     - [Auto Layout](https://help.figma.com/hc/en-us/articles/5731482952599-Using-auto-layout)
@@ -42,9 +42,8 @@ This assignment has 2 parts:
         - [Variants](https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants)
 3. [Free Icons](https://thenounproject.com/icons/) to use in your design
 4. Additional video tutorials
-    - [Video](https://youtu.be/D56hs0Twfco) introducing all basic Figma features in detail
-    - [Video](https://youtu.be/6t_dYhXyYjI) showing how to use basic features to design a wireframe
-    - [Video](https://youtu.be/iBkXf6u8htI) showing how to use prototyping features for interactivity
+    - [world's shortest Figma course](https://youtu.be/1pW_sk-2y40)
+    - [Figma UI Design Tutorial](https://youtu.be/FTFaQWZBqQ8)
 
 ## Storyboard
 
