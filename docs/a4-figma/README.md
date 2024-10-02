@@ -65,9 +65,28 @@ This section describes the specific Figma requirements that your prototype must 
 
 The prototype should be designed for mobile devices. You may choose any mobile frame (e.g. iPhone 15, Google Pixel 6, etc.) you like to use in your prototype.
 
+#### Figma Features
+
+Other than the basic features like frames, texts, and shapes, which you have to use by default, you *must* also use the following Figma features at least once in your prototype:
+
+1. Auto Layout
+2. Constraints
+3. Components
+4. Prototyping (interactivity)
+5. Interactive Components
+
+#### Micro-Interaction
+
+There should be an instance of micro-interaction present in the prototype. Read [this article](https://www.nngroup.com/articles/microinteractions/) for some examples. Be creative!
+
+Remark: This micro-interaction should be different from the "add to favorites" in Frame 6.
+
+#### Style
+All frames should have appropriate & good style. Does not have to be complex; you just need to show that you have put in the effort in designing these frames.
+
 #### Frames
 
-The prototype should have the following 6 frames.
+The prototype should have the following 6 top-level frames.
 
 **Frame 1**
 
@@ -121,24 +140,6 @@ The prototype should have the following 6 frames.
     - *This should technically be an "Alternate Version of Frame 1 or Frame 2" since a quest has just been completed by the user at this point in time. But for simplicity, you do not have to make a different version for Frame 1 or Frame 2.
 
 <img src="images/interactive-component.gif" height="400px" />
-
-#### Micro-Interaction
-
-There should be an instance of micro-interaction (in addition to the "add to favorites" in Frame 6) present in the prototype. Watch [this video](https://www.youtube.com/watch?v=kr8hNFg2oAY) for some examples. Be creative!
-
-#### Style
-
-All frames should have appropriate/good style. Does not have to be complicated; you just need to show that you have put in the effort in designing these frames and they do not look like plain-HTML pages.
-
-#### Required Figma Features
-
-Other than the basic features like frames, texts, and shapes, which you have to use by default, you must also use the following Figma features at least once in your prototype:
-
-1. Auto Layout
-2. Constraints
-3. Components
-4. Prototyping (interactivity)
-5. Interactive Components
 
 #### Suggested
 
