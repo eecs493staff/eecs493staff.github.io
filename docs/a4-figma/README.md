@@ -220,6 +220,15 @@ For instance, a button changing color being pressed, an animated progress bar sh
 
 You can implement whatever microinteraction you would like as long as you clearly describe it in your report.
 
+### How is this assignment graded?
+
+The grading will be lenient. You should receive full points as long as your Figma Prototype has all the required features.
+
+### How do I design my prototype to be aesthetically pleasing?
+
+The best way to create aesthetically pleasing designs is to look for examples online. Can you find a website or product that is aesthetically pleasing to you? If so, what aspects of their design can you take inspiration from? Try to incorporate them into your design!
+
+
 ## Acknowledgments
 Original spec written by Zirui Zhao <zhaojer@umich.edu>.
 Updated by the EECS 493 team.
