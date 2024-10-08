@@ -110,6 +110,7 @@ The prototype should have the following 6 top-level frames.
 **Frame 3**
 
 - Display the current quest details, including
+    - a concise description of the quest
     - a map with a route to the quest's location (from the user's current location)
     - distance/ETA
     - a button to open the camera
