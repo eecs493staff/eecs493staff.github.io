@@ -24,11 +24,10 @@ The objective of this assignment is to gain practical experience using Figma in 
 
 This assignment has 2 parts:
 
-1. Develop a prototype based on a storyboard using Figma - *45 points*
-2. Write a report - *55 points*
+1. Develop a prototype based on a storyboard using Figma - *55 points*
+2. Write a report - *45 points*
     - describing the Figma features you used in your prototype
     - evaluating your prototype using 3 of Nielsen's 10 usability heuristics
-    - reflecting on this assignment
 
 ## Helpful Resources
 
