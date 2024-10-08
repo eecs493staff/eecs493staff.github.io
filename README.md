@@ -27,4 +27,6 @@ Do NOT directly modify the starter code in this repo; please see each assignment
 
 ## Future TODOs
 
-- Consider upgrading to GitHub Team: this allows hosting websites from prviate github repos.
+- Upgrade to GitHub Teams to host course website from a private repo - [#2](https://github.com/eecs493staff/eecs493staff.github.io/issues/2)
+    - Can also encapsulate each assignment spec into its own website by moving them to their respective private repos
+- Improve GitHub Pages config to fix Google search result issue - [#3](https://github.com/eecs493staff/eecs493staff.github.io/issues/3)
