@@ -8,7 +8,7 @@ EECS 493 Assignment 5: Artist Search
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 100 points| FIXME    | **FIXME at 11:59 PM ET**    |
+| 100 points| 10/28    | **11/17 at 11:59 PM ET**    |
 
 ## Submission Instructions
 
