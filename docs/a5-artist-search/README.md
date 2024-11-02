@@ -201,7 +201,7 @@ Ground rules - *max 50 points off if not followed*
 - The URL that you need to make an AJAX request and the data structure of the returned json object are specified here: 
     - iTunes Search API: <https://goo.gl/UXwDce>
     - When sending the request, all media types & entities should be included.
-    - When a query has over 50 results, it should only return a maximum of 50 tracks.
+    - Optional: When a query has over 50 results, it should only return a maximum of 50 tracks.
 - Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
     - This should be the only thing that is printed in the console.
     - We will take off points if the above requirements are not met.
