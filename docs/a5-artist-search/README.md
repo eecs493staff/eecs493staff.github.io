@@ -191,7 +191,7 @@ Ground rules - *max 50 points off if not followed*
 8. This assignment requires online search and reading the documentation of Vue.js and iTunes API that we use. The assignment may include materials that are not covered in class. We believe that, in today's programming practice, searching and mining information from online materials is a significant part of a programmer's expertise.
 9. Check out Piazza frequently for any changes or additional information.
 
-### Search Bar (30 points)
+### Search Bar (25 points)
 
 - There is one input textbox provided in the HTML file.
 - When a user types a keyword and presses the "Enter" key, the entered string should be used to make an AJAX call that requests a json object.
@@ -233,7 +233,7 @@ Ground rules - *max 50 points off if not followed*
 - Hint: The key to getting this section to work is figuring out how to get only that particular div to change when you click on that 'Track Info.' tab. Check out the [Helpful Resources](#helpful-resources) section if you would like a more specific hint.
 - When clicking back to the 'Description' tab, the five types of information should still be there.
 
-### Genre Selection (15 points)
+### Genre Selection (20 points)
 
 - Create a list of tags of which genre labels are available from the search results. (See screenshots/video above)
 - As a user toggles a genre, only the artists that are categorized in the selected genre should appear in the grid.
