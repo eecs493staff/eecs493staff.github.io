@@ -126,7 +126,7 @@ Remarks
 
 ### Additional Tips/Hints
 
-When trying to toggle the 'Description' and 'Track info.' tabs, take a look at this tutorial and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
+When trying to toggle the 'Description' and 'Track info.' tabs, take a look at [this tutorial](https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp) and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
 
 Specifically, quoting directly from it: 'Add `data-toggle="tab"` to each tab, and add a `.tab-pane` class with a unique ID for every tab and wrap them in a `.tab-content` class.'
 
