@@ -194,13 +194,12 @@ Ground rules - *max 50 points off if not followed*
 ### Search Bar (25 points)
 
 - There is one input textbox provided in the HTML file.
-- When a user types a keyword and presses the "Enter" key, the entered string should be used to make an AJAX call that requests a json object.
-    - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not
-- The entered string will be used to search artists whose names contain the keyword.
-- Use either `Axios()` or `fetch()` for the AJAX call.
-- The URL that you need to make an AJAX request and the data structure of the returned json object are specified here: 
-    - iTunes Search API: <https://goo.gl/UXwDce>
-    - When making the request, *all* media types & entities should be included.
+- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to search for tracks made by the artist(s) whose name contains (or is close to) this keyword.
+    - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not.
+    - Use either `Axios()` or `fetch()` for the AJAX call.
+- The URL for the AJAX request and the returned JSON data are specified in the iTunes API documentation: <https://goo.gl/UXwDce>
+    - Check out the [iTunes API section](#itunes-api) for a hint on which URL parameters you will need to get the correct results.
+    - Note: Please do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
 - Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
     - This should be the only thing that is printed in the console.
     - We will take off points if the above requirements are not met.
