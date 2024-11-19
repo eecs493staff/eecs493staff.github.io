@@ -194,7 +194,7 @@ Ground rules - *max 50 points off if not followed*
 ### Search Bar (25 points)
 
 - There is one input textbox provided in the HTML file.
-- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to search for tracks made by the artist(s) whose name contains (or is close to) this keyword.
+- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to search for all tracks made by the artist(s) whose name contains (or is close to) this keyword.
     - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not.
     - Use either `Axios()` or `fetch()` for the AJAX call.
 - The URL for the AJAX request and the returned JSON data are specified in the iTunes API documentation: <https://goo.gl/UXwDce>
