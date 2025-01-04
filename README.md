@@ -21,7 +21,9 @@ Here are a list of things that need to be updated each semester for the course w
 
 `index.html`
 
-- [ ] Links to course resources (e.g. Gradescope, Canvas, Piazza, etc.)
+- [ ] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
+- [x] Term (pick a color of your choice!)
+- [x] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
 - [ ] Dates/Times (of lectures, office hours, due dates, etc.)
 - [ ] Course schedule
 - [ ] Course Google Calendar link
