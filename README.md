@@ -11,7 +11,7 @@ The course homepage was adapted from eecs485.org. The specs were written using p
 
 To update the course website, modify the files in `/docs/eecs493.org/` in `master` branch and push to GitHub.
 
-Here are a list of things that need to be updated each semester for the course website (nearly comprehensive, please add more items to this list if you find them):
+A list of items that need to be updated each semester for the course website is listed below (nearly comprehensive, please add more items to this list if you find them). Feel free to uncheck/check items off of this list as you update the website.
 
 `syllabus.html`
 
@@ -24,6 +24,19 @@ Here are a list of things that need to be updated each semester for the course w
 - [ ] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
 - [x] Term (pick a color of your choice!)
 - [x] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
+- [ ] Course Info cards
+    - [x] Lecture time and location
+    - [ ] Links to lecture resources (i.e., recordings and slides)
+    - [ ] Links to discussion resources (i.e., recordings and slides)
+    - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
+    - [ ] Assignment card
+        - [ ] Due date
+        - [x] Title (e.g., Assignment 1: PEERRS Training)
+        - [ ] Links to spec and canvas submission portal
+    - [ ] Project milestone card
+        - [ ] Due date
+        - [x] Tilte (e.g., Milestone 0: Team Formation)
+        - [ ] Links to spec and canvas submission portal
 - [ ] Dates/Times (of lectures, office hours, due dates, etc.)
 - [ ] Course schedule
 - [ ] Course Google Calendar link
