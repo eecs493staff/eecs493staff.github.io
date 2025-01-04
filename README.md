@@ -11,13 +11,21 @@ The course homepage was adapted from eecs485.org. The specs were written using p
 
 To update the course website, modify the files in `/docs/eecs493.org/` in `master` branch and push to GitHub.
 
-Here are a list of things that need to be updated each semester for the course website (might not be comprehensive):
+Here are a list of things that need to be updated each semester for the course website (nearly comprehensive, please add more items to this list if you find them):
 
-1. Links to course resources (e.g. Gradescope, Canvas, Piazza, etc.)
-2. Dates/Times (of lectures, office hours, due dates, etc.)
-3. Course schedule
-4. Course Google Calendar link
-5. People section
+`syllabus.html`
+
+- [x] Term (e.g., Winter 2025)
+- [x] Instructors and their contact info
+- [ ] Link to past semester's awesome final projects
+
+`index.html`
+
+- [ ] Links to course resources (e.g. Gradescope, Canvas, Piazza, etc.)
+- [ ] Dates/Times (of lectures, office hours, due dates, etc.)
+- [ ] Course schedule
+- [ ] Course Google Calendar link
+- [ ] People section
 
 ### Assignment Spec and Starter Code
 
