@@ -37,10 +37,12 @@ A list of items that need to be updated each semester for the course website is 
         - [ ] Due date
         - [x] Tilte (e.g., Milestone 0: Team Formation)
         - [ ] Links to spec and canvas submission portal
-- [ ] Dates/Times (of lectures, office hours, due dates, etc.)
-- [ ] Course schedule
 - [ ] Course Google Calendar link
+- [ ] Course schedule (this section is quite long and tedious)
 - [ ] People section
+    - [ ] Staff email
+    - [ ] For every member: photo, name, email
+    - [ ] For IAs/GSIs: include which lab section (time and location) do they teach
 
 ### Assignment Spec and Starter Code
 
