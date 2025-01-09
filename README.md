@@ -42,7 +42,7 @@ A list of items that need to be updated each semester for the course website is 
 - [ ] People section
     - [x] Staff email
     - [x] For every member: photo, name, email
-    - [ ] For IAs/GSIs: include which lab section (time and location) do they teach
+    - [x] For IAs/GSIs: include which lab section (time and location) do they teach
 
 ### Assignment Spec and Starter Code
 
