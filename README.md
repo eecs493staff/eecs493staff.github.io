@@ -21,7 +21,7 @@ A list of items that need to be updated each semester for the course website is 
 
 `index.html`
 
-- [ ] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
+- [x] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
 - [x] Term (pick a color of your choice!)
 - [x] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
 - [ ] Course Info cards
