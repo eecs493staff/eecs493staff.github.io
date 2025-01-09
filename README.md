@@ -30,9 +30,9 @@ A list of items that need to be updated each semester for the course website is 
     - [ ] Links to discussion resources (i.e., recordings and slides)
     - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
     - [ ] Assignment card
-        - [ ] Due date
+        - [x] Due date
         - [x] Title (e.g., Assignment 1: PEERRS Training)
-        - [ ] Links to spec and canvas submission portal
+        - [x] Links to spec and canvas submission portal
     - [ ] Project milestone card
         - [ ] Due date
         - [x] Tilte (e.g., Milestone 0: Team Formation)
