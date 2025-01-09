@@ -40,7 +40,7 @@ A list of items that need to be updated each semester for the course website is 
 - [ ] Course Google Calendar link
 - [ ] Course schedule (this section is quite long and tedious)
 - [ ] People section
-    - [ ] Staff email
+    - [x] Staff email
     - [ ] For every member: photo, name, email
     - [ ] For IAs/GSIs: include which lab section (time and location) do they teach
 
