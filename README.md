@@ -26,7 +26,7 @@ A list of items that need to be updated each semester for the course website is 
 - [x] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
 - [ ] Course Info cards
     - [x] Lecture time and location
-    - [ ] Links to lecture resources (i.e., recordings and slides)
+    - [x] Links to lecture resources (i.e., recordings and slides)
     - [ ] Links to discussion resources (i.e., recordings and slides)
     - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
     - [ ] Assignment card
