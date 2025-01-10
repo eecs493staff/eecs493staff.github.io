@@ -38,7 +38,7 @@ A list of items that need to be updated each semester for the course website is 
         - [x] Tilte (e.g., Milestone 0: Team Formation)
         - [ ] Links to spec and canvas submission portal
 - [x] Course Google Calendar link
-- [ ] Course schedule (this section is quite long and tedious)
+- [x] Course schedule (this section is quite long and tedious)
 - [ ] People section
     - [x] Staff email
     - [x] For every member: photo, name, email
