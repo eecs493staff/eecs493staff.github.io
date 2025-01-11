@@ -17,6 +17,7 @@ A list of items that need to be updated each semester for the course website is 
 
 - [x] Term (e.g., Winter 2025)
 - [x] Instructors and their contact info
+- [x] Staff email (under the "Communication" section)
 - [x] Update previous semester's exemplary final projects in `final-project/README.md`
 
 `index.html`
