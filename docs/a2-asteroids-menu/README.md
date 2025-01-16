@@ -8,7 +8,7 @@ EECS 493 Assignment 2: Asteroids Main Menu
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 65 points | 9/4    | 9/15 11:59 PM    |
+| 65 points | 1/16   | 1/26 11:59 PM    |
 
 ## Submission Instructions
 
@@ -129,7 +129,7 @@ We outline the requirements for each of the components below. **Everything liste
 - Header should be at the top and span the entire width of the game window
 - The text "Asteroids" should be horizontally centered
 - Asteroid gifs should appear on the left and right side of the header; they should also have the same height as the header while retaining their original width/height ratio
-    - Hint: [CSS Flexbox (Flexible Box)](https://www.w3schools.com/css/css3_flexbox.asp)
+    - Hint: [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) ([Flexbox Froggy](https://flexboxfroggy.com) is a great website to learn about Flexbox)
 - Both buttons must appear within the game’s border and be horizontally centered and aligned
 - Text in the buttons should be horizontally and vertically centered
 - There should be some space between the first button and the bottom of the header, and some space between the two buttons
