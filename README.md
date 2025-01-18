@@ -28,9 +28,9 @@ A list of items that need to be updated each semester for the course website is 
 - [ ] Course Info cards
     - [x] Lecture time and location
     - [x] Links to lecture resources (i.e., recordings and slides)
-    - [ ] Links to discussion resources (i.e., recordings and slides)
+    - [x] Links to discussion resources (i.e., recordings and slides)
     - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
-    - [ ] Assignment card
+    - [x] Assignment card
         - [x] Due date
         - [x] Title (e.g., Assignment 1: PEERRS Training)
         - [x] Links to spec and canvas submission portal
@@ -40,7 +40,7 @@ A list of items that need to be updated each semester for the course website is 
         - [ ] Links to spec and canvas submission portal
 - [x] Course Google Calendar link
 - [x] Course schedule (this section is quite long and tedious)
-- [ ] People section
+- [x] People section
     - [x] Staff email
     - [x] For every member: photo, name, email
     - [x] For IAs/GSIs: include which lab section (time and location) do they teach
