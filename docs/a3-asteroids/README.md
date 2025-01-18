@@ -54,7 +54,7 @@ Not following the upload instruction will result in a penalty.
 
 The objective of this assignment is for you to gain practical experience in building an interactive single-page web application with HTML, CSS, and JavaScript/jQuery. Specifically, you will be creating a game called "Asteroids" as outlined in this spec. No external library, other than jQuery, is allowed.
 
-Watch this video for an overview: [https://youtu.be/waDMWIfT8yg](https://youtu.be/waDMWIfT8yg)
+Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.be/FeEbwuNbsiI)
 
 ## Grading Breakdown
 

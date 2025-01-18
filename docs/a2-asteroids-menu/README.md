@@ -39,7 +39,7 @@ The objective of this assignment is for you to gain practical experience in buil
 
 Watch this video for an overview of Assignment 2: [https://youtu.be/ubacBgC7YBo](https://youtu.be/ubacBgC7YBo)
 
-Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/waDMWIfT8yg](https://youtu.be/waDMWIfT8yg)
+Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/FeEbwuNbsiI](https://youtu.be/FeEbwuNbsiI)
 
 ## Grading Breakdown
 
