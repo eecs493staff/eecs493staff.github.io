@@ -70,6 +70,7 @@ This assignment has 8 main components (denominator of 120 points):
 8. Overall functionality - *10 points*
 9. Pause - *20 points*
 10. Resume - *5 points*
+11. Exit - *5 points*
 
 ## Starter Code
 
@@ -359,6 +360,16 @@ We outline the requirements for each of the components below. **Everything liste
     - i.e. The game can be played just like before pausing
 - It is ok if there is a discrepancy between the spawning of new shields and portals (and asteroids, if you will) before pausing vs. after resuming the game
     - e.g. Suppose there were only 4 seconds left until a new shield spawns before pausing, it is ok for the new shield to spawn after any seconds between 0 to 9 (instead of exactly 4 seconds) after resuming the game
+
+### Exit (5 points)
+
+- When the game is paused, clicking the "Exit" button returns the user back to the landing page
+- The first button on the landing page should now display "Resume game!" (as opposed to "Play game!")
+    - Note: When the player dies and returns to the main menu, the first button should be "Play game!"
+        - i.e. Basically, only display "Resume game!" when the game is paused
+- Clicking "Resume game!" takes the user back to the game window, with the game still being paused and all game states remaining the same
+    - e.g. All asteroids are still in their original positions before pausing
+- Note: When the game is paused, do *not* worry about what should happen if the player interacts with (i.e. changes) settings
 
 
 ## Hints
