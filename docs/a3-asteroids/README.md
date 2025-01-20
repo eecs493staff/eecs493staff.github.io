@@ -58,7 +58,7 @@ Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.b
 
 ## Grading Breakdown
 
-This assignment has 8 main components (denominator of 120 points):
+This assignment has 8 main components (denominator of 135 points):
 
 1. "Get Ready" Splash Screen - *5 points*
 2. Asteroids - *25 points*
@@ -71,6 +71,7 @@ This assignment has 8 main components (denominator of 120 points):
 9. Pause - *20 points*
 10. Resume - *5 points*
 11. Exit - *5 points*
+12. Restart - *10 points*
 
 ## Starter Code
 
@@ -156,6 +157,14 @@ Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE
 ### Pause Screen
 
 <img src="images/pause.png" width="100%" />
+
+### Restart Confirmation
+
+<img src="images/restart-confirmation.png" width="100%" />
+
+### Restarting
+
+<img src="images/restarting.png" width="100%" />
 
 The remaining pages are the same as Assignment 2.
 
@@ -370,6 +379,17 @@ We outline the requirements for each of the components below. **Everything liste
 - Clicking "Resume game!" takes the user back to the game window, with the game still being paused and all game states remaining the same
     - e.g. All asteroids are still in their original positions before pausing
 - Note: When the game is paused, do *not* worry about what should happen if the player interacts with (i.e. changes) settings
+
+### Restart (10 points)
+
+- When the game is paused, clicking the "restart" button first displays a popup asking the user to confirm whether they actually want to restart (see [screenshot](#restart-confirmation))
+- The popup should have:
+    - Title asking the user "Are you sure you want to restart?"
+    - "Yes" button
+    - "No" button
+- The popup should be both horizontally and vertically centered (w.r.t. the game window)
+- If the user clicks "No", then they are returned back to the pause menu (i.e. hide the confirmation popup and the pause menu appears)
+- If the user clicks "Yes", then the popup disappears and the word "Restarting..." appears in the center of the screen; after 3 seconds, the game restarts from the "Get Ready" state (see [overview video](#objective))
 
 
 ## Hints
