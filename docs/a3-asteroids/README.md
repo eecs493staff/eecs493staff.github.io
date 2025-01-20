@@ -395,9 +395,11 @@ We outline the requirements for each of the components below. **Everything liste
 ## Hints
 
 ### Changing Item Size
+
 If you are trying to set the width and height for asteroid elements but it's not working, double check what element you're actually setting the width and height for. If you are setting the width and height on the "div" containing the image, this doesn't actually affect the image size; it's simply a container for the image. You likely will need to set the width and height for the image element itself.
 
 ### Event Listeners
+
 If you think your event listeners aren't being triggered, one common error occurs when event listeners are created (and attached) before relevant DOM objects exist.
 
 A way around this is to create event listeners that are attached to the body, or another element that exists immediately on the page, and then filter events for a given selector. For example, if I have a UI where I expect items to get added to the page dynamically, and I want to have a "delete" button next to each dynamically added element, I might create the event listener this way:
@@ -409,6 +411,26 @@ $("body").on("click", ".deleteX", function(event){
 ```
 
 Here, the "body" is listening for all click events, and is essentially only passing them to the callback if the item clicked actually had the "deleteX" class. See the "selector" arg here: [https://api.jquery.com/on/](https://api.jquery.com/on/)
+
+### `setInterval` and Collision Detection
+
+All programming projects from the core EECS classes are considered "serial" (or "synchronous"), where the code is executed sequentially. For instance, in the example code below where both functions are serial/synchronous, `loadPage()` will only begin execution *after* `getData()` has finished. This is also known as `getData()` "blocking" the program from executing `loadPage()`. If `getData()` takes one minute to finish, then `loadPage()` has to wait one minute to begin execution. Imagine sitting in front of your computer and waiting one whole minute for a page to load; that's not the desired scenario.
+
+```js
+getData();
+loadPage();
+```
+
+JavaScript has "Asynchronous Function", which is a function that can be exeucted *without* blocking the program from running other code/functions. Using the same example but suppose `getData()` is asynchronous, then `loadPage()` can start executing *before* `getData()` has finished, thus allowing programs to start long-running tasks (like `getData()`) and continue working on other tasks (like `loadPage()`).
+
+When completing the [Asteroids section](#asteroids-25-points) of this assignment, you will use `setInterval`, which is an asynchronous function, to
+1. repeatedly spawn asteroids, and
+2. move each asteroid across the screen.
+
+So how exactly is asynchronous function useful here? Without going too detailed (but feel free to really think about this more), the usage of `setInterval` here allows multiple asteroids on the screen to move "at the same time" (not *exactly* the case but it is a good intuition).
+
+In other words, each asteroid has its own spawn function that is moving it. For collision detection, instead of having one `for` loop that checks the collision between the rocket and every asteroid on the screen, use a simple `if` condition within the `setInterval` (`spawn_helper`) function that is moving each asteroid, and have that check the collision between this asteroid and the rocket. As such, you are exploiting the asynchronous nature of JavaScript.
+
 
 ## FAQ
 
