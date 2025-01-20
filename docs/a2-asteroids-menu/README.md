@@ -165,6 +165,7 @@ color: white;
     - default: Normal
 - a close button that transitions back to the landing page (Need JavaScript)
 - Settings should remain the same after closing the panel
+    - Note: When the page is reloaded/refreshed, settings do *not* have to remain the same.
 
 #### Required
 
