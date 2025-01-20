@@ -58,7 +58,7 @@ Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.b
 
 ## Grading Breakdown
 
-This assignment has 8 main components (denominator of 100 points):
+This assignment has 8 main components (denominator of 120 points):
 
 1. "Get Ready" Splash Screen - *5 points*
 2. Asteroids - *25 points*
@@ -68,6 +68,8 @@ This assignment has 8 main components (denominator of 100 points):
 6. Sounds - *5 points*
 7. Game Over Page - *10 points*
 8. Overall functionality - *10 points*
+9. Pause - *20 points*
+10. Resume - *5 points*
 
 ## Starter Code
 
@@ -150,6 +152,10 @@ Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE
 
 <img src="images/gameover.png" width="100%" />
 
+### Pause Screen
+
+<img src="images/pause.png" width="100%" />
+
 The remaining pages are the same as Assignment 2.
 
 ## Requirements
@@ -213,6 +219,7 @@ We outline the requirements for each of the components below. **Everything liste
 
 - A portal spawns every 6 seconds and disappears 3 seconds after it was spawned.
 - A shield spawns every 9 seconds and disappears 3 seconds after it was spawned.
+- These spawning intervals guarantee that there will *never* be more than one portal or more than one shield appear on the screen at the same time.
 - The location of the portal and shield on the board is random and should be contained entirely within the dimensions of the board.
 - It is okay for the portals and shields to appear over the scoreboard.
 - The asteroids, portals, shields, and rocket should all roughly appear to be around a similar size.
@@ -316,6 +323,43 @@ We outline the requirements for each of the components below. **Everything liste
         - certain buttons stop functioning
         - etc.
     - Points will be deducted from their corresponding rubric items when the feature doesn't work when playing the game a second time
+
+### Pause (20 points)
+
+- A pause button should appear on the top right corner in the game window (next to the scoreboard) when the game is running
+- Clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [screenshot](#pause-screen))
+- When the game is paused, nothing in the game window should change
+    - This means:
+        - the player cannot move
+        - the asteroids do not move
+        - new asteroids, shields, portals should not be spawned
+        - the score, danger, and level values remain the same
+    - The only exception to this is that existing shields and portals (i.e. those that were already on the screen before pausing) may disappear after a fixed time period even when the game is paused
+        - Optional: Feel free to challenge yourself to make the shields & portals not disappear when the game is paused
+- When the game is paused, the game window in the background should appear darker (the objects in the game window should still be somewhat visible)
+- The "pause menu" should have the following components:
+    - "Game Paused" title
+    - Rocket gif
+    - "Resume" button
+    - "Restart" button
+    - "Exit" button
+- Required Style:
+    - The pause menu should be both vertically and horizontally centered (w.r.t. the game window)
+    - All components in the pause menu should be horizontally centered
+    - The "Game Paused" title should have a large font size (e.g. 60px)
+    - The "Restart" and "Exit" buttons should be next to each other horizontally, and below the "Resume" button vertically
+    - The "Resume" button's width should be equal to the other two buttons' combined width
+
+### Resume (5 points)
+
+- When the game is paused, clicking the "Resume" button or pressing the "space" key resumes the game
+    - This means: 
+        - hiding the pause menu
+        - making all objects in the game window going back to their normal state/motion
+    - i.e. The game can be played just like before pausing
+- It is ok if there is a discrepancy between the spawning of new shields and portals (and asteroids, if you will) before pausing vs. after resuming the game
+    - e.g. Suppose there were only 4 seconds left until a new shield spawns before pausing, it is ok for the new shield to spawn after any seconds between 0 to 9 (instead of exactly 4 seconds) after resuming the game
+
 
 ## Hints
 
