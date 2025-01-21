@@ -336,16 +336,17 @@ We outline the requirements for each of the components below. **Everything liste
 
 ### Pause (20 points)
 
-- A pause button should appear on the top right corner in the game window (next to the scoreboard) when the game is running
-- Clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [screenshot](#pause-screen))
+- A pause button should appear on the top right corner in the game window (next to the scoreboard) after the game starts (i.e. after "Get Ready")
+- When the game is running (i.e. not paused), clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [screenshot](#pause-screen))
 - When the game is paused, nothing in the game window should change
     - This means:
         - the player cannot move
         - the asteroids do not move
         - new asteroids, shields, portals should not be spawned
         - the score, danger, and level values remain the same
-    - The only exception to this is that existing shields and portals (i.e. those that were already on the screen before pausing) may disappear after a fixed time period even when the game is paused
+    - The only exception to this is that existing shields and portals (i.e. those that were already on the screen before pausing) may disappear (after the fixed time period specified in [Shields and Portals](#shields-and-portals-15-points) section) even when the game is paused
         - Optional: Feel free to challenge yourself to make the shields & portals not disappear when the game is paused
+    - Note: the pause state is pretty much the same as what happens when the player dies (specified in [Rocket](#rocket-20-points) section)
 - When the game is paused, the game window in the background should appear darker (the objects in the game window should still be somewhat visible)
 - The "pause menu" should have the following components:
     - "Game Paused" title
@@ -364,8 +365,8 @@ We outline the requirements for each of the components below. **Everything liste
 
 - When the game is paused, clicking the "Resume" button or pressing the "space" key resumes the game
     - This means: 
-        - hiding the pause menu
-        - making all objects in the game window going back to their normal state/motion
+        - hide the pause menu
+        - make all objects in the game window go back to their normal state/motion
     - i.e. The game can be played just like before pausing
 - It is ok if there is a discrepancy between the spawning of new shields and portals (and asteroids, if you will) before pausing vs. after resuming the game
     - e.g. Suppose there were only 4 seconds left until a new shield spawns before pausing, it is ok for the new shield to spawn after any seconds between 0 to 9 (instead of exactly 4 seconds) after resuming the game
@@ -388,7 +389,7 @@ We outline the requirements for each of the components below. **Everything liste
     - "Yes" button
     - "No" button
 - The popup should be both horizontally and vertically centered (w.r.t. the game window)
-- If the user clicks "No", then they are returned back to the pause menu (i.e. hide the confirmation popup and the pause menu appears)
+- If the user clicks "No", then they are returned back to the pause menu (i.e. hide the confirmation popup and show the pause menu)
 - If the user clicks "Yes", then the popup disappears and the word "Restarting..." appears in the center of the screen; after 3 seconds, the game restarts from the "Get Ready" state (see [overview video](#objective))
 
 
@@ -429,7 +430,7 @@ When completing the [Asteroids section](#asteroids-25-points) of this assignment
 
 So how exactly is asynchronous function useful here? Without going too detailed (but feel free to really think about this more), the usage of `setInterval` here allows multiple asteroids on the screen to move "at the same time" (not *exactly* the case but it is a good intuition).
 
-In other words, each asteroid has its own spawn function that is moving it. For collision detection, instead of having one `for` loop that checks the collision between the rocket and every asteroid on the screen, use a simple `if` condition within the `setInterval` (`spawn_helper`) function that is moving each asteroid, and have that check the collision between this asteroid and the rocket. As such, you are exploiting the asynchronous nature of JavaScript.
+In other words, each asteroid has its own spawn function that is moving it. For collision detection, instead of having one `for` loop that checks the collision between the rocket and every asteroid on the screen, use a simple `if` condition within the `setInterval` (`move`) function that is moving each asteroid, and have that check the collision between this asteroid and the rocket. As such, you are exploiting the asynchronous nature of JavaScript.
 
 
 ## FAQ
