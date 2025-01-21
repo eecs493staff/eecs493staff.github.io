@@ -12,6 +12,8 @@ EECS 493 Assignment 2: Asteroids Main Menu
 
 ## Submission Instructions
 
+Before submitting, please ensure your website loads in Google Chrome by simply clicking and opening the `index.html` without using server hosting tools (e.g. VS Code Live Server).
+
 Please submit your work to Canvas as a zip file, named `a2_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a2_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
 
 This zip file should have a *single directory* containing *all files and directories* provided in the starter code. In other words, the zip file should have the following structure.
@@ -39,7 +41,7 @@ The objective of this assignment is for you to gain practical experience in buil
 
 Watch this video for an overview of Assignment 2: [https://youtu.be/ubacBgC7YBo](https://youtu.be/ubacBgC7YBo)
 
-Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/waDMWIfT8yg](https://youtu.be/waDMWIfT8yg)
+Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/FeEbwuNbsiI](https://youtu.be/FeEbwuNbsiI)
 
 ## Grading Breakdown
 
@@ -165,6 +167,7 @@ color: white;
     - default: Normal
 - a close button that transitions back to the landing page (Need JavaScript)
 - Settings should remain the same after closing the panel
+    - Note: When the page is reloaded/refreshed, settings do *not* have to remain the same.
 
 #### Required
 
