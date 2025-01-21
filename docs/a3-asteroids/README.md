@@ -60,7 +60,7 @@ Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.b
 
 ## Grading Breakdown
 
-This assignment has 8 main components (denominator of 135 points):
+This assignment has 8 main components (denominator of 125 points):
 
 1. "Get Ready" Splash Screen - *5 points*
 2. Asteroids - *25 points*
@@ -70,10 +70,10 @@ This assignment has 8 main components (denominator of 135 points):
 6. Sounds - *5 points*
 7. Game Over Page - *10 points*
 8. Overall functionality - *10 points*
-9. Pause - *20 points*
+9. Pause - *15 points*
 10. Resume - *5 points*
-11. Exit - *5 points*
-12. Restart - *10 points*
+11. Exit - *3 points*
+12. Restart - *7 points*
 
 ## Starter Code
 
@@ -336,7 +336,7 @@ We outline the requirements for each of the components below. **Everything liste
         - etc.
     - Points will be deducted from their corresponding rubric items when the feature doesn't work when playing the game a second time
 
-### Pause (20 points)
+### Pause (15 points)
 
 - A pause button should appear on the top right corner in the game window (next to the scoreboard) after the game starts (i.e. after "Get Ready")
 - When the game is running (i.e. not paused), clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [screenshot](#pause-screen))
@@ -373,7 +373,7 @@ We outline the requirements for each of the components below. **Everything liste
 - It is ok if there is a discrepancy between the spawning of new shields and portals (and asteroids, if you will) before pausing vs. after resuming the game
     - e.g. Suppose there were only 4 seconds left until a new shield spawns before pausing, it is ok for the new shield to spawn after any seconds between 0 to 9 (instead of exactly 4 seconds) after resuming the game
 
-### Exit (5 points)
+### Exit (3 points)
 
 - When the game is paused, clicking the "Exit" button returns the user back to the landing page
 - The first button on the landing page should now display "Resume game!" (as opposed to "Play game!")
@@ -383,7 +383,7 @@ We outline the requirements for each of the components below. **Everything liste
     - e.g. All asteroids are still in their original positions before pausing
 - Note: When the game is paused, do *not* worry about what should happen if the player interacts with (i.e. changes) settings
 
-### Restart (10 points)
+### Restart (7 points)
 
 - When the game is paused, clicking the "restart" button first displays a popup asking the user to confirm whether they actually want to restart (see [screenshot](#restart-confirmation))
 - The popup should have:
