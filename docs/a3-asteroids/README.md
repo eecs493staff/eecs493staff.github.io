@@ -62,14 +62,14 @@ Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.b
 
 This assignment has 8 main components (denominator of 125 points):
 
-1. "Get Ready" Splash Screen - *5 points*
-2. Asteroids - *25 points*
-3. Shields and Portals - *15 points*
-4. Rocket - *20 points*
-5. Scoreboard - *5 points*
-6. Sounds - *5 points*
-7. Game Over Page - *10 points*
-8. Overall functionality - *10 points*
+1. Overall Functionality - *10 points*
+2. "Get Ready" Splash Screen - *5 points*
+3. Asteroids - *25 points*
+4. Shields and Portals - *15 points*
+5. Rocket - *20 points*
+6. Scoreboard - *5 points*
+7. Sounds - *5 points*
+8. Game Over Page - *10 points*
 9. Pause - *15 points*
 10. Resume - *5 points*
 11. Exit - *3 points*
@@ -183,6 +183,31 @@ We outline the requirements for each of the components below. **Everything liste
 - Do all JavaScript code in a separate JS file, `page.js`. *-10 points off if not followed.*
     - Registering event listeners for an HTML element inline is ok.
 - Use relative paths for images. *-10 points off if not followed.*
+
+### Overall Functionality (10 points)
+
+- All of Assignment 2 features are present
+    - The landing page, the settings panel, and the "how to play" page are all present and are working correctly (as defined in Assignment 2 spec)
+    - The transitions between these 3 pages are correct (as defined in Assignment 2 spec)
+- Assignment 2 features are correctly integrated into this assignment
+    - "How to play" Page
+        - This page should only be displayed on the first time the user plays the game
+        - Clicking on the "Start" button now transitions to the "Get Ready" splash screen
+    - Landing Page
+        - Clicking on the "Play game!" button transitions to the
+            - "How to play" Page, if this is the first time the user plays the game
+            - "Get Ready" splash screen, otherwise
+    - Settings Panel
+        - Adjusting the settings (i.e. volume and difficulty) should be actually reflected in the gameplay (see above sections for more details)
+        - The settings should stay the same after closing the settings panel (i.e. including going to other pages, playing the game, etc.)
+- Player should be able to play the game multiple times without issues (without reloading the page)
+    - i.e. All features should still be functional when repeatedly playing the game
+    - Common examples of some features not working properly on a second playthrough of the game:
+        - asteroids, portals, or shields stop spawning
+        - rocket does not move
+        - certain buttons stop functioning
+        - etc.
+    - Points will be deducted from their corresponding rubric items when the feature doesn't work when playing the game a second time
 
 ### "Get Ready" Splash Screen (5 points)
 
@@ -310,31 +335,6 @@ We outline the requirements for each of the components below. **Everything liste
     - should be horizontally centered
     - should be evenly spaced vertically
 - Reminder that settings of the game should not be reset
-
-### Overall Functionality (10 points)
-
-- All of Assignment 2 features are present
-    - The landing page, the settings panel, and the "how to play" page are all present and are working correctly (as defined in Assignment 2 spec)
-    - The transitions between these 3 pages are correct (as defined in Assignment 2 spec)
-- Assignment 2 features are correctly integrated into this assignment
-    - "How to play" Page
-        - This page should only be displayed on the first time the user plays the game
-        - Clicking on the "Start" button now transitions to the "Get Ready" splash screen
-    - Landing Page
-        - Clicking on the "Play game!" button transitions to the
-            - "How to play" Page, if this is the first time the user plays the game
-            - "Get Ready" splash screen, otherwise
-    - Settings Panel
-        - Adjusting the settings (i.e. volume and difficulty) should be actually reflected in the gameplay (see above sections for more details)
-        - The settings should stay the same after closing the settings panel (i.e. including going to other pages, playing the game, etc.)
-- Player should be able to play the game multiple times without issues (without reloading the page)
-    - i.e. All features should still be functional when repeatedly playing the game
-    - Common examples of some features not working properly on a second playthrough of the game:
-        - asteroids, portals, or shields stop spawning
-        - rocket does not move
-        - certain buttons stop functioning
-        - etc.
-    - Points will be deducted from their corresponding rubric items when the feature doesn't work when playing the game a second time
 
 ### Pause (15 points)
 
