@@ -56,11 +56,17 @@ You should choose *only* one of the two options to complete.
 
 ## Storyboard
 
+### Option 1
+
 Use the following storyboard to design and develop your prototype.
 
 <img src="images/teamGuzzi_storyboard.png" width="100%" />
 
 Credit: Team Guzzi, Fall 2021.
+
+### Option 2
+
+Use a storyboard from your group project. Make sure to include your storyboard in your report when you are submitting your assignment to Canvas.
 
 ## Requirements
 
