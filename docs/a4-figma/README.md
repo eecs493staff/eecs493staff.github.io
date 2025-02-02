@@ -24,9 +24,9 @@ The objective of this assignment is to gain practical experience using Figma in 
 
 This assignment has 2 parts:
 
-1. Develop a prototype based on a storyboard using Figma - *55 points*
-2. Write a report - *45 points*
-    - describing the Figma features you used in your prototype
+1. Develop a prototype based on a storyboard using Figma - *50 points*
+2. Write a report - *50 points*
+    - describing the different features you used in your prototype
     - evaluating your prototype using 3 of Nielsen's 10 usability heuristics
 
 ## Helpful Resources
@@ -74,7 +74,7 @@ We outlined the requirements for each part of the assignment. **Everything liste
 
 Please finish reading the entire spec before starting.
 
-### Figma Prototype
+### Figma Prototype (50 points)
 
 This section describes the specific Figma requirements that your prototype must meet.
 
@@ -184,7 +184,7 @@ The prototype should have the following 6 top-level frames.
 - Add more frames if you believe it can better demonstrate how a user navigates through your prototype.
 - Explore additional Figma features in your prototype.
 
-### Written Report
+### Written Report (50 points)
 
 This section describes the specific requirements of the report, which has 2 main parts.
 
@@ -206,10 +206,13 @@ Please use headings/subheadings to better organize your report.
 
 #### Part 1
 
-Briefly describe how you've used the 5 required Figma features in your prototype ***and*** what is the micro-interaction you created in your prototype.
+Briefly describe how you've used/incorporated the following in your prototype:
 
-- The 5 required features are listed in the [Figma Prototype](#figma-features) section.
-- For each feature, simply describe 1 example of what you used it for in 1 or 2 sentences; same applies for the micro-interaction.
+1. The 5 required Figma features (listed in the [Figma Features](#figma-features) section)
+2. The 2 different items from Figma Community (see the [Figma Community](#figma-community) section)
+3. The micro-interaction (see the [Micro-Interaction](#micro-interaction) section)
+
+For *each* Figma feature, *each* Figma Community item, and the micro-interaction, give 1 example in your prototype (describe what/where is it in 1 or 2 sentences).
     - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
     - Suggested: Include a screenshot accompanying your written description.
 
