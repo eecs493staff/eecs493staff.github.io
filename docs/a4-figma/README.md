@@ -12,7 +12,11 @@ EECS 493 Assignment 4: Figma Prototype Development
 
 ## Submission Instructions
 
-Please submit a written report to Canvas as a .docx or .doc or .pdf.
+Please submit
+
+- a written report titled `a4_<uniqname>_option<N>` to Canvas as a .docx, .doc, or .pdf
+    - replace `<uniqname>` with your uniqname and `<N>` with the option number
+- your storyboard as a .jpeg, .png, or .pdf (only if you did Option 2)
 
 Not following the upload instruction will result in a penalty.
 
