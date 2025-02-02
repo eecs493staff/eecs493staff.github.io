@@ -90,25 +90,25 @@ The prototype should have the following 6 top-level frames.
 **Frame 1**
 
 - Display a list of new quests (i.e. quest names).
-- The quests have to be written using meaningful texts instead of placeholders like "Lorem ipsum".
-- Example Quest Name: "Art at UMMA."
-- Hint: Try using components and auto-layout.
-- After clicking on one (and only one) of the quests, it should navigate to Frame 2.
+    - The quest names have to be written using meaningful texts instead of placeholders like "Lorem ipsum".
+        - e.g. "Art at UMMA."
+    - Hint: Try using components and auto-layout.
+- After clicking on one (*and only one*) of the quests, it should navigate to Frame 2.
 
 **Frame 2**
 
 - Display only one quest in detail, including
     - a concise description of the quest
+        - e.g. "Go to UMMA and take 3 pictures of art pieces you liked!"
     - a map showing the quest's location (destination)
     - distance/ETA
     - buttons to accept and decline the quest
-- Example Quest Description: "Go to UMMA and take 3 pictures of art pieces you liked!"
 - After declining the quest, it should navigate back to Frame 1.
 - After accepting the quest, it should navigate to Frame 3.
 
 **Frame 3**
 
-- Display the current quest details, including
+- Display the current quest's details, including
     - a concise description of the quest
     - a map with a route to the quest's location (from the user's current location)
     - distance/ETA
@@ -120,7 +120,7 @@ The prototype should have the following 6 top-level frames.
 **Frame 4**
 
 - Display a message asking the user to confirm whether they have truly completed the quest.
-- Hint: This frame can simply be a pop-up that gets displayed over Frame 3. Try using Figma's "Open Overlay" feature.
+    - Hint: This frame can simply be a pop-up that gets displayed over Frame 3. Try using Figma's "Open Overlay" feature.
 - After the user confirms that the quest is truly completed, it should navigate to Frame 5.
 
 **Frame 5**
@@ -130,10 +130,11 @@ The prototype should have the following 6 top-level frames.
 
 **Frame 6**
 
-- Allow user to add a completed quest to their "Favorites".
+- Allow the user to add a completed quest to their "Favorites".
 - The user must be able to interact with some elements of the frame and then it should provide at least 1 clear feedback that the quest is now added to their "Favorites".
-- Example: User clicks on a dark "heart" icon next to a completed quest -> "heart" changes to red or a piece of text gets displayed briefly saying "Added to favorites".
-- Hint: Use an Interactive Component.
+    - Example: User clicks on a dark "heart" icon next to a completed quest &rarr; "heart" changes to red or a piece of text gets displayed briefly saying "Added to favorites".
+        - Remark: This is just an example; you may choose other ways to realize this feature.
+    - Hint: Use an Interactive Component.
 - The user has to be able to navigate back to either Frame 1 or Frame 2* depending on your design of this frame.
     - *This should technically be an "Alternate Version of Frame 1 or Frame 2" since a quest has just been completed by the user at this point in time. But for simplicity, you do not have to make a different version for Frame 1 or Frame 2.
 
@@ -162,7 +163,7 @@ Failing to do so will result in a *20% grade deduction*.
 
 #### Length & Organization
 
-The report should be short and concise; it should not be longer than 600 words. Points will be deducted if your report is longer than 600 words. The word count requirement is not intended to work against you; it is to show that the report simply doesn't have to be that long.
+The report should be short and concise, no longer than 600 words. *Points will be deducted* if your report is longer than 600 words. The word count requirement is not intended to work against you; it is to show that the report simply doesn't have to be that long.
 
 Please use headings/subheadings to better organize your report.
 
@@ -220,7 +221,7 @@ You can implement whatever microinteraction you would like as long as you clearl
 
 ### How is this assignment graded?
 
-The grading will be lenient. You should receive full points as long as your Figma Prototype has all the required features.
+The grading will be lenient. You will receive full points as long as your Figma Prototype has all the required features.
 
 ### How do I design my prototype to be aesthetically pleasing?
 
