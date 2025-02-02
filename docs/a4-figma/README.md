@@ -44,6 +44,16 @@ This assignment has 2 parts:
     - [world's shortest Figma course](https://youtu.be/1pW_sk-2y40)
     - [Figma UI Design Tutorial](https://youtu.be/FTFaQWZBqQ8)
 
+## Options
+
+There are 2 options for completing this assignment.
+1. Option 1: Use a storyboard we provided to build a Figma prototype with specific requirements (features/details) we defined.
+2. Option 2: Use your own storyboard from your group project to build a Figma prototype with similar amounts of features/details as that of Option 1.
+
+Option 1 provides more structure and guidance, and is recommended for those who are new to Figma. Option 2 offers more flexibility, and is recommended for those already experienced with Figma and would like more creative freedom. If you feel that Option 2 is too vague, we recommend you to complete Option 1 instead.
+
+You should choose *only* one of the two options to complete.
+
 ## Storyboard
 
 Use the following storyboard to design and develop your prototype.
