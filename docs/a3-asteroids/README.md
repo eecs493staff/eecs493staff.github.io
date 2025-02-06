@@ -22,30 +22,31 @@ This zip file should have a *single directory* containing *all files and directo
 a3_uniqname
 ├── index.html
 ├── scripts
-│   ├── jquery.min.js
-│   └── page.js
+│   ├── jquery.min.js
+│   └── page.js
 ├── src
-│   ├── arrowkeys.png
-│   ├── asteroid.png
-│   ├── audio
-│   │   ├── collect.mp3
-│   │   ├── die.mp3
-│   │   └── pew.mp3
-│   ├── frontpage_background.jpg
-│   ├── player
-│   │   ├── player.gif
-│   │   ├── player_down.gif
-│   │   ├── player_left.gif
-│   │   ├── player_right.gif
-│   │   ├── player_shielded.gif
-│   │   ├── player_shielded_down.gif
-│   │   ├── player_shielded_left.gif
-│   │   ├── player_shielded_right.gif
-│   │   ├── player_shielded_up.gif
-│   │   ├── player_touched.gif
-│   │   └── player_up.gif
-│   ├── port.gif
-│   └── shield.gif
+│   ├── arrowkeys.png
+│   ├── asteroid.png
+│   ├── audio
+│   │   ├── collect.mp3
+│   │   └── die.mp3
+│   ├── frontpage_background.jpg
+│   ├── pause-rocket.gif
+│   ├── pause.png
+│   ├── player
+│   │   ├── player.gif
+│   │   ├── player_down.gif
+│   │   ├── player_left.gif
+│   │   ├── player_right.gif
+│   │   ├── player_shielded.gif
+│   │   ├── player_shielded_down.gif
+│   │   ├── player_shielded_left.gif
+│   │   ├── player_shielded_right.gif
+│   │   ├── player_shielded_up.gif
+│   │   ├── player_touched.gif
+│   │   └── player_up.gif
+│   ├── port.gif
+│   └── shield.gif
 └── style
     └── index.css
 ```
