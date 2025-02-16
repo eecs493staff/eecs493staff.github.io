@@ -14,9 +14,8 @@ EECS 493 Assignment 4: Figma Prototype Development
 
 Please submit
 
-- a written report titled `a4_<uniqname>_option<N>` to Canvas as a .docx, .doc, or .pdf
-    - replace `<uniqname>` with your uniqname and `<N>` with the option number
-- your storyboard as a .jpeg, .png, or .pdf (only if you did Option 2)
+- a written report titled `a4_<uniqname>` to Canvas as a .docx, .doc, or .pdf
+    - replace `<uniqname>` with your uniqname
 
 Not following the upload instruction will result in a penalty.
 
@@ -48,29 +47,13 @@ This assignment has 2 parts:
     - [world's shortest Figma course](https://youtu.be/1pW_sk-2y40)
     - [Figma UI Design Tutorial](https://youtu.be/FTFaQWZBqQ8)
 
-## Options
-
-There are 2 options for completing this assignment.
-1. Option 1: Use a storyboard we provided to build a Figma prototype with specific requirements (features/details) we defined.
-2. Option 2: Use your own storyboard from your group project to build a Figma prototype with similar amounts of features/details as that of Option 1.
-
-Option 1 provides more structure and guidance, and is recommended for those who are new to Figma. Option 2 offers more flexibility, and is recommended for those already experienced with Figma and would like more creative freedom. If you feel that Option 2 is too vague, we recommend you to complete Option 1 instead.
-
-You should choose *only* one of the two options to complete.
-
 ## Storyboard
-
-### Option 1
 
 Use the following storyboard to design and develop your prototype.
 
 <img src="images/teamGuzzi_storyboard.png" width="100%" />
 
 Credit: Team Guzzi, Fall 2021.
-
-### Option 2
-
-Use a storyboard from your group project. Make sure to include your storyboard in your report when you are submitting your assignment to Canvas.
 
 ## Requirements
 
@@ -100,7 +83,7 @@ Other than the basic features like frames, texts, and shapes, which you have to 
 
 Throughout your prototype, you must use at least 2 different assets, widgets, icons, or anything you can think of from Figma Community: <https://www.figma.com/community>
 
-For example, if you are doing Option 1, you can use a map made by other Figma users or use one of the Figma plugins to build your own map on Frames 2 and 3.
+For example, you can use a map made by other Figma users or use one of the Figma plugins to build your own map on Frames 2 and 3.
 
 Remember: You don't have to recreate things that have already been done before (unless you want to make them better); learning how to use existing designs is also an important part of Figma.
 
@@ -108,13 +91,13 @@ Remember: You don't have to recreate things that have already been done before (
 
 There should be an instance of micro-interaction present in the prototype. Read [this article](https://www.nngroup.com/articles/microinteractions/) for some examples. Be creative!
 
-Remark (Option 1 only): This micro-interaction should be different from the "add to favorites" in Frame 6.
+This micro-interaction should be different from the "add to favorites" in Frame 6.
 
 #### Style
 
 All frames should have appropriate & good style. Does not have to be complex; you just need to show that you have put in the effort in designing these frames.
 
-#### Frames (Option 1)
+#### Frames
 
 The prototype should have the following 6 top-level frames.
 
@@ -170,16 +153,6 @@ The prototype should have the following 6 top-level frames.
     - *This should technically be an "Alternate Version of Frame 1 or Frame 2" since a quest has just been completed by the user at this point in time. But for simplicity, you do not have to make a different version for Frame 1 or Frame 2.
 
 <img src="images/interactive-component.gif" height="400px" />
-
-#### Frames (Option 2)
-
-- The prototype should have at least 6 frames that clearly capture the user journey shown in the storyboard.
-- The frames are clearly different from each other.
-    - i.e. Each frame has distinct details/features.
-- Each frame should have a similar amount of items/details compared to Option 1.
-    - e.g. Frame 2 is a good reference for how much details we expect.
-- The frames should all be connected.
-    - i.e. The user should be able to navigate between frames.
 
 #### Suggested
 
