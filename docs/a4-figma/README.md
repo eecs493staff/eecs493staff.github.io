@@ -8,11 +8,14 @@ EECS 493 Assignment 4: Figma Prototype Development
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 100 points| 10/9    |  **10/27 at 11:59 PM ET**  |
+| 100 points| 2/18    |  **3/16 at 11:59 PM ET**  |
 
 ## Submission Instructions
 
-Please submit a written report to Canvas as a .docx or .doc or .pdf.
+Please submit
+
+- a written report titled `a4_<uniqname>` to Canvas as a .docx, .doc, or .pdf
+    - replace `<uniqname>` with your uniqname
 
 Not following the upload instruction will result in a penalty.
 
@@ -24,9 +27,9 @@ The objective of this assignment is to gain practical experience using Figma in 
 
 This assignment has 2 parts:
 
-1. Develop a prototype based on a storyboard using Figma - *55 points*
-2. Write a report - *45 points*
-    - describing the Figma features you used in your prototype
+1. Develop a prototype based on a storyboard using Figma - *50 points*
+2. Write a report - *50 points*
+    - describing the different features you used in your prototype
     - evaluating your prototype using 3 of Nielsen's 10 usability heuristics
 
 ## Helpful Resources
@@ -56,7 +59,9 @@ Credit: Team Guzzi, Fall 2021.
 
 We outlined the requirements for each part of the assignment. **Everything listed below, unless labeled as "Suggested", is required.** Bullet points under "Suggested" will not be graded.
 
-### Figma Prototype
+Please finish reading the entire spec before starting.
+
+### Figma Prototype (50 points)
 
 This section describes the specific Figma requirements that your prototype must meet.
 
@@ -74,13 +79,22 @@ Other than the basic features like frames, texts, and shapes, which you have to 
 4. Prototyping (interactivity)
 5. Interactive Components
 
+#### Figma Community
+
+Throughout your prototype, you must use at least 2 different assets, widgets, icons, or anything you can think of from Figma Community: <https://www.figma.com/community>
+
+For example, you can use a map made by other Figma users or use one of the Figma plugins to build your own map on Frames 2 and 3.
+
+Remember: You don't have to recreate things that have already been done before (unless you want to make them better); learning how to use existing designs is also an important part of Figma.
+
 #### Micro-Interaction
 
 There should be an instance of micro-interaction present in the prototype. Read [this article](https://www.nngroup.com/articles/microinteractions/) for some examples. Be creative!
 
-Remark: This micro-interaction should be different from the "add to favorites" in Frame 6.
+This micro-interaction should be different from the "add to favorites" in Frame 6.
 
 #### Style
+
 All frames should have appropriate & good style. Does not have to be complex; you just need to show that you have put in the effort in designing these frames.
 
 #### Frames
@@ -90,25 +104,25 @@ The prototype should have the following 6 top-level frames.
 **Frame 1**
 
 - Display a list of new quests (i.e. quest names).
-- The quests have to be written using meaningful texts instead of placeholders like "Lorem ipsum".
-- Example Quest Name: "Art at UMMA."
-- Hint: Try using components and auto-layout.
-- After clicking on one (and only one) of the quests, it should navigate to Frame 2.
+    - The quest names have to be written using meaningful texts instead of placeholders like "Lorem ipsum".
+        - e.g. "Art at UMMA."
+    - Hint: Try using components and auto-layout.
+- After clicking on one (*and only one*) of the quests, it should navigate to Frame 2.
 
 **Frame 2**
 
 - Display only one quest in detail, including
     - a concise description of the quest
+        - e.g. "Go to UMMA and take 3 pictures of art pieces you liked!"
     - a map showing the quest's location (destination)
     - distance/ETA
     - buttons to accept and decline the quest
-- Example Quest Description: "Go to UMMA and take 3 pictures of art pieces you liked!"
 - After declining the quest, it should navigate back to Frame 1.
 - After accepting the quest, it should navigate to Frame 3.
 
 **Frame 3**
 
-- Display the current quest details, including
+- Display the current quest's details, including
     - a concise description of the quest
     - a map with a route to the quest's location (from the user's current location)
     - distance/ETA
@@ -120,7 +134,7 @@ The prototype should have the following 6 top-level frames.
 **Frame 4**
 
 - Display a message asking the user to confirm whether they have truly completed the quest.
-- Hint: This frame can simply be a pop-up that gets displayed over Frame 3. Try using Figma's "Open Overlay" feature.
+    - Hint: This frame can simply be a pop-up that gets displayed over Frame 3. Try using Figma's "Open Overlay" feature.
 - After the user confirms that the quest is truly completed, it should navigate to Frame 5.
 
 **Frame 5**
@@ -130,10 +144,11 @@ The prototype should have the following 6 top-level frames.
 
 **Frame 6**
 
-- Allow user to add a completed quest to their "Favorites".
+- Allow the user to add a completed quest to their "Favorites".
 - The user must be able to interact with some elements of the frame and then it should provide at least 1 clear feedback that the quest is now added to their "Favorites".
-- Example: User clicks on a dark "heart" icon next to a completed quest -> "heart" changes to red or a piece of text gets displayed briefly saying "Added to favorites".
-- Hint: Use an Interactive Component.
+    - Example: User clicks on a dark "heart" icon next to a completed quest &rarr; "heart" changes to red or a piece of text gets displayed briefly saying "Added to favorites".
+        - Remark: This is just an example; you may choose other ways to realize this feature.
+    - Hint: Use an Interactive Component.
 - The user has to be able to navigate back to either Frame 1 or Frame 2* depending on your design of this frame.
     - *This should technically be an "Alternate Version of Frame 1 or Frame 2" since a quest has just been completed by the user at this point in time. But for simplicity, you do not have to make a different version for Frame 1 or Frame 2.
 
@@ -146,7 +161,7 @@ The prototype should have the following 6 top-level frames.
 - Add more frames if you believe it can better demonstrate how a user navigates through your prototype.
 - Explore additional Figma features in your prototype.
 
-### Written Report
+### Written Report (50 points)
 
 This section describes the specific requirements of the report, which has 2 main parts.
 
@@ -162,16 +177,19 @@ Failing to do so will result in a *20% grade deduction*.
 
 #### Length & Organization
 
-The report should be short and concise; it should not be longer than 600 words. Points will be deducted if your report is longer than 600 words. The word count requirement is not intended to work against you; it is to show that the report simply doesn't have to be that long.
+The report should be short and concise, no longer than 600 words. *Points will be deducted* if your report is longer than 600 words. The word count requirement is not intended to work against you; it is to show that the report simply doesn't have to be that long.
 
 Please use headings/subheadings to better organize your report.
 
 #### Part 1
 
-Briefly describe how you've used the 5 required Figma features in your prototype ***and*** what is the micro-interaction you created in your prototype.
+Briefly describe how you've used/incorporated the following in your prototype:
 
-- The 5 required features are listed in the [Figma Prototype](#figma-features) section.
-- For each feature, simply describe 1 example of what you used it for in 1 or 2 sentences; same applies for the micro-interaction.
+1. The 5 required Figma features (listed in the [Figma Features](#figma-features) section)
+2. The 2 different items from Figma Community (see the [Figma Community](#figma-community) section)
+3. The micro-interaction (see the [Micro-Interaction](#micro-interaction) section)
+
+For *each* Figma feature, *each* Figma Community item, and the micro-interaction, give 1 example in your prototype (describe what/where is it in 1 or 2 sentences).
     - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
     - Suggested: Include a screenshot accompanying your written description.
 
@@ -220,7 +238,7 @@ You can implement whatever microinteraction you would like as long as you clearl
 
 ### How is this assignment graded?
 
-The grading will be lenient. You should receive full points as long as your Figma Prototype has all the required features.
+The grading will be lenient. You will receive full points as long as your Figma Prototype has all the required features.
 
 ### How do I design my prototype to be aesthetically pleasing?
 
