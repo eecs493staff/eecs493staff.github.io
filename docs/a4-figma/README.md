@@ -190,8 +190,9 @@ Briefly describe how you've used/incorporated the following in your prototype:
 3. The micro-interaction (see the [Micro-Interaction](#micro-interaction) section)
 
 For *each* Figma feature, *each* Figma Community item, and the micro-interaction, give 1 example in your prototype (describe what/where is it in 1 or 2 sentences).
-    - e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
-    - Suggested: Include a screenshot accompanying your written description.
+
+- e.g. I used the "auto layout" feature in Frame #1 to vertically stack the quests on top of each other.
+- Suggested: Include a screenshot accompanying your written description.
 
 #### Part 2
 
