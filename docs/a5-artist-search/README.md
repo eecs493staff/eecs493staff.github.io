@@ -138,33 +138,65 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 
 ## Screenshots
 
-### Landing page with search bar
+### Landing Page
 
 <img src="images/search-bar.png" width="100%" />
 
-### After searching for an artist
+### Search for an Artist
 
 <img src="images/search-result.png" width="100%" />
 
-### "Track Info." tab for the left two results
+### "Track Info" Tab (for the left two results)
 
 <img src="images/track-info.png" width="100%" />
 
-### Sort menu
+### Sort
+
+#### Menu
 
 <img src="images/sort-menu.png" width="100%" />
 
-### After sorting by "Collection Name"
+#### Sort by "Collection Name"
 
 <img src="images/sorted-collection.png" width="100%" />
 
-### After sorting by "Price"
+#### Sort by "Price"
 
 <img src="images/sorted-price.png" width="100%" />
 
-### After (resetting sort to original and) selecting the "Dance" and "Pop" genre selections
+### Select the "Dance" and "Pop" Genres
+
+Remark: Sort is reset to original in this screenshot.
 
 <img src="images/select-genre.png" width="100%" />
+
+### Search History
+
+#### Dropdown
+
+<img src="images/search-history.png" width="100%" />
+
+#### After searching for "John Williams"
+
+<img src="images/search-history-add.png" width="100%" />
+
+#### After deleting "ayokay"
+
+<img src="images/search-history-remove.png" width="100%" />
+
+### Favorites
+
+#### Left Panel
+
+<img src="images/favorites.png" width="100%" />
+
+#### After adding "Hedwig's Theme"
+
+<img src="images/favorites-add.png" width="100%" />
+
+### Play
+
+<img src="images/play.png" width="100%" />
 
 ## Requirements
 
