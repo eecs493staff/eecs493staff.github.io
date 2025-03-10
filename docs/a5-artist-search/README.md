@@ -227,36 +227,37 @@ Ground rules - *max 50 points off if not followed*
 
 ### Search Bar (25 points)
 
-- There is one input textbox provided in the HTML file.
-- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to search for all tracks made by the artist(s) whose name contains (or is close to) this keyword.
+- There is an input text box at the top left of the screen (already provided for you in the starter HTML file).
+- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to the iTunes API, searching for *music* tracks made by the artist(s) whose name contains (or is close to) this keyword.
     - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not.
     - Use either `Axios()` or `fetch()` for the AJAX call.
 - The URL for the AJAX request and the returned JSON data are specified in the iTunes API documentation: <https://goo.gl/UXwDce>
     - Check out the [iTunes API section](#itunes-api) for a hint on which URL parameters you will need to get the correct results.
-    - Note: Please do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
+    - When constructing the request, only *music* media types should be included.
+    - Do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
 - Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
-    - This should be the only thing that is printed in the console.
+    - This should be the *only* thing that is printed in the console.
     - We will take off points if the above requirements are not met.
 - When there are no artists returned from iTunes, alert the user, using JS alert(), that no artist was found with the keyword.
 - "Total *N* found" message should display *N* = the total number of artists (results) returned by the iTunes API.
 
 ### Artists Grid (30 points)
 
-- The returned artists should be displayed in two columns, where each result grid contains both an image and 5 types of related information displayed right next to each other (when the browser is in full size).
-- One exception will be the last row that may have less than two artist grids depending on the number of artists returned.
-- Please use the Bootstrap Grid system to accomplish the above requirements. Check out [this web page](https://getbootstrap.com/examples/grid/) for more detail. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
+- The returned tracks of the artist should be displayed in two columns, where each result grid displays an image and related information of the track right next to each other (when the browser is in full size).
+    - One exception will be the last row which may have less than two artist grids when the number of results is odd.
+- Please use the Bootstrap Grid system to accomplish the above requirements. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
 - When correctly implemented with Bootstrap, the layout will naturally be responsive (e.g. resizing the browser will automatically resize the images and the nav-tabs, and shift them to the next row).
-- Typically, iTunes will provide an image URL for each artist. Use the first URL in the list in general.
-- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the project intro video), your web page should look pretty much the same as the one in the screenshot.
+- Typically, iTunes will provide an image URL for each track returned. Use the first available URL in the properties.
+- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video), your web page should look pretty much the same as the one in the screenshot.
 
 ### Navigation Tabs (5 points)
 
 - The returned artists should also have their information displayed next to them in the navigation tabs.
-- Please use Bootstrap's nav-tabs (and other related classes) for this and next part (i.e. 4 and 5). Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
-- The 'Description' tab should contain: artist name, collection name, collection price, type (kind), and preview link. They can be found in the response JSON data.
+- Please use Bootstrap's nav-tabs (and other related classes) for this and next section. Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
+- The 'Description' tab should contain: artist name, track name, collection name, and collection price. These properties can be found in the response JSON object.
     - If the price is not provided, set the price to 0.
-    - Else, if one of the returned values is an empty string, display "No information provided" instead.
-- Clicking the preview link should open the preview of the song (or any other media) from this artist in another tab or directly download it (both are fine).
+    - If one of the returned values is an empty string, display "No information provided".
+- There should also be a "play" button and a "favorites" button under the description tab, but they are discussed later in the spec in their respective sections.
 
 ### Track Information (5 points)
 
