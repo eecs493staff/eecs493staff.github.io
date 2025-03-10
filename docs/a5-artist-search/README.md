@@ -400,23 +400,6 @@ This should work when selecting any of the three sort options.
 - Adjusting the volume slider should update the currently playing track's volume.
 
 
-### Bonus (10 points max)
-
-- This part is completely optional.
-- If you have added any feature, please include README.txt file in the submission and explain what you implemented; otherwise we won't grade this task (this is the only time you are allowed to add a file to the directory structure).
-- DO NOT CHANGE ANY EXISTING REQUIREMENTS FROM THE SPEC!
-- Here is a video showing the expected behavior of the bonus section: <https://youtu.be/C8FJeIzlCVM>
-
-#### Display a results list
-
-Add a button next to the 'Sort list of results by:' button. Upon clicking, a popup should appear that displays all the track names returned by fetch grouped by the collection name.
-
-#### Play
-
-Add a "play" button to each of the 'Description' tabs.
-
-After pressing the play button, it should start playing the song, and the text of the button should change from "play" to "stop". When the "stop" button is clicked, it should stop playing the song and revert back to "play".
-
 ## CORS Header
 
 When doing this assignment, you might run into your search results being rejected with a "CORS" message. This error is largely server-side, so there is no simple solution. The success of the request will change depending on what browser you are using, if you are hosting the page on the server, and the configuration of the iTunes server the artist you are requesting is stored on.
