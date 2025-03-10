@@ -34,7 +34,7 @@ Not following the upload instruction will result in a penalty.
 
 The objective of this assignment is for you to gain practical experience with the MVC pattern using Vue.js, a web application development framework, and Bootstrap, a CSS framework for responsive design. Specifically, you will create a website that searches for artists using the iTunes API.
 
-Watch this video for an overview of this assignment: [https://youtu.be/uZ_q3TYPZTY](https://youtu.be/uZ_q3TYPZTY)
+Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN9M](https://youtu.be/C4ekC9MYN9M)
 
 *Remark: The search results from the video may not be up to date. Please refer to the screenshots below for more recent, accurate results.*
 
