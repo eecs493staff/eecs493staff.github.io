@@ -365,6 +365,40 @@ This should work when selecting any of the three sort options.
 - The Favorites do not have to be displayed in the order they were added.
 - Remark: It's ok if the Favorites reset after refreshing the page.
 
+### Play (25 points)
+
+- There are 3 (possible) locations on the screen where there is a "play" icon/button, which the user can use to play the corresponding track:
+    - In the Description tab of a track
+    - In the top panel
+        - already implemented for you in starter HTML file
+    - On top of a track's image in the left panel's Favorites list
+        - only appears when this track is added to Favorites and the user is hovering over this track in the left panel's Favorites list
+        see Favorites section of the spec for more details
+- The "play" button in these 3 locations should all behave the exact same.
+- Upon clicking the "play" button in (in any of the 3 locations):
+    - The corresponding track plays.
+        - Exception: Clicking the play button in the top panel initially when there was no previously playing track would not do anything.
+    - The 3 "play" icons change to the "pause" icons.
+    - The middle part of the top panel displays the information of the currently playing track, including:
+        1. track image
+        2. track name
+        3. artist name
+        4. collection name
+        5. a progress bar
+- While a track is playing:
+    - The progress bar (in the top panel) should dynamically update indicating the progress of how much the song has been played.
+    - The track and artist names of the corresponding track in the left panel's Favorites list should keep scrolling (just as if you are hovering over it).
+- Upon clicking on either of the 3 "pause" buttons (i.e. in the top panel, in the corresponding track's description tab, or in the corresponding track in the left panel's Favorites list):
+    - The currently playing track pauses.
+    - All 3 "pause" icons change to "play" icons.
+- When a track finishes playing on its own, the 3 "pause" icons should change to "play" icons.
+- Clicking the "next" button selects a random track in the search result and plays it.
+    - Playing follows the same behavior as mentioned previously.
+- Clicking the "repeat" button plays the track on repeat and changes the icon appearance.
+    - Use the svg from the "assets/" folder for the alternative appearance.
+- Clicking on the "repeat" button again stops playing the song on repeat (i.e. finish the current play iteration and stop) and changes the icon appearance back to the original.
+- Adjusting the volume slider should update the currently playing track's volume.
+
 
 ### Bonus (10 points max)
 
