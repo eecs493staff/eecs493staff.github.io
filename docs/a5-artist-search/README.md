@@ -316,6 +316,27 @@ In other words, if the user sorts by Collection Name, it should update the list 
 
 This should work when selecting any of the three sort options.
 
+
+### Search History (10 points)
+
+- When the user clicks on the input text box, a search history list should appear below the text box, displaying top 5 most recent searches made by the user.
+    - The most recent search should always be displayed at the top of the list.
+        - i.e. You should dynamically update the search history as the user makes more searches.
+    - There should be no duplicates in the search history: If the user searches for an artist again, simply move this search up to the top of the list.
+    - Even though only the top 5 most recent searches are displayed, your code should remember more than 5 searches.
+        - This matters when deleting.
+    - It's ok if a small box appears even when there are no previous searches.
+- Clicking anywhere on the screen closes the search history.
+- *When* hovering over a search in the search history list, a cross mark appears on the right side.
+    - Clicking on the cross mark deletes this search from the search history.
+- When a search is deleted, all searches below should move up in the list by one.
+    - Previously hidden searches (when number of searches in the history > 5) should also move up in the list, making them appear on the screen.
+    - e.g., There are 6 searches in the history and only the top 5 are displayed on the screen; the user deletes a search, now there are 5 searches in the history and all 5 searches are displayed on the screen.
+- Clicking on a search searches for this artist again.
+    - Optional: You may use caching to save the previous search results to avoid repeated AJAX requests, but this is not required.
+- Remark: It's ok if the search history resets after refreshing the page.
+
+
 ### Bonus (10 points max)
 
 - This part is completely optional.
