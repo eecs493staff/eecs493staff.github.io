@@ -48,7 +48,9 @@ The assignment has 6 main components and 1 optional component (denominator of 10
 4. Track Information - *5 points*
 5. Genre Selection - *20 points*
 6. Sort Menu - *15 points*
-7. (Optional) Bonus Features - *up to 10 points*
+7. Search History - *10 points*
+8. Favorites - *15 points*
+9. Play - *25 points*
 
 ## Starter Code
 
@@ -82,7 +84,7 @@ Remarks
 ### iTunes API
 
 - Constructing Search: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1>
-    - Hint: Most useful parameters are *term* and *attribute*.
+    - Hint: Most useful parameters are *term*, *media*, and *attribute*.
 - Search Examples: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1>
 - Understanding Search Results: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1>
 
@@ -124,7 +126,7 @@ Remarks
 - Navigation tabs: <https://getbootstrap.com/docs/5.3/components/navs-tabs/>
 - Grid System: <https://getbootstrap.com/docs/5.3/layout/grid/>
 
-### Additional Tips/Hints
+### Other
 
 When trying to toggle the 'Description' and 'Track info.' tabs, take a look at [this tutorial](https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp) and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
 
