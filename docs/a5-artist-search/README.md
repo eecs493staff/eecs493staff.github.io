@@ -336,6 +336,35 @@ This should work when selecting any of the three sort options.
     - Optional: You may use caching to save the previous search results to avoid repeated AJAX requests, but this is not required.
 - Remark: It's ok if the search history resets after refreshing the page.
 
+### Favorites (15 points)
+
+- A "star" icon/button should be displayed at the bottom of the "description" tab of each track.
+- Upon clicking the "star" button, add the corresponding track to "Favorites".
+- When a track is added to "Favorites":
+    - This track should appear under the "Favorites" tab/list in the left panel.
+        - Each track should display:
+            1. an image (same as the one in the search result)
+            2. the track name
+            3. the artist name
+        - *When* hovering over a track (in the "Favorites" tab):
+            1. a "play" icon/button should appear on top of the track image
+                - more on this in the Play section of the spec
+            2. the track and artist names should scroll left (CSS code provided for you)
+            3. a cross mark appears on the right side
+    - The star icon in this track's description tab should show a change in appearance to indicate it has been added to Favorites.
+        - e.g. from an outline star symbol (&#9734;) to a filled star symbol (&#9733;)
+    - Remark: Favorites should NOT reset between searches.
+        - e.g. If I added a track titled "Radioactive" from "Imagine Dragons" search results to Favorites and then searched "John Williams", "Radioactive" should still be in Favorites.
+        - i.e. This essentially means that the Favorites can have tracks from different search results.
+    - Remark: You cannot add the same track to Favorites twice (more than once).
+        - e.g. If I added a track titled "Radioactive" from "Imagine Dragons" search results to Favorites, then searched "John Williams", and then searched "Imagine Dragons" again, "Radioactive" track's Description tab should still have a star icon appearance indicating it is added to Favorites (e.g. &#9733;).
+- Upon clicking the star icon again OR clicking the cross mark (on the right side of the track in the left panel's Favorites tab), remove the corresponding track from Favorites.
+- When a track is removed from "Favorites":
+    - The track should no longer be displayed in the left panel's Favorites tab.
+    - The star icon in this track's description tab should change back to its original state (e.g. no longer filled).
+- The Favorites do not have to be displayed in the order they were added.
+- Remark: It's ok if the Favorites reset after refreshing the page.
+
 
 ### Bonus (10 points max)
 
