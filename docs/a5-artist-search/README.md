@@ -36,7 +36,7 @@ The objective of this assignment is for you to gain practical experience with th
 
 Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN9M](https://youtu.be/C4ekC9MYN9M)
 
-*Remark: The search results from the video may not be up to date. Please refer to the screenshots below for more recent, accurate results.*
+*Remark: The search results from the video may not be what you get. To determine whether your results are correct, please see the [FAQ](#should-our-search-results-match-exactly-the-ones-in-the-spec) section.*
 
 ## Grading Breakdown
 
