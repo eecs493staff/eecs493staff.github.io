@@ -40,7 +40,7 @@ Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN
 
 ## Grading Breakdown
 
-The assignment has 6 main components and 1 optional component (denominator of 100 points):
+The assignment has 9 main component (denominator of 150 points):
 
 1. Search Bar - *25 points*
 2. Artists Grid - *30 points*
