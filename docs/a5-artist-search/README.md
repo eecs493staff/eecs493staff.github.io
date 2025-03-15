@@ -8,7 +8,7 @@ EECS 493 Assignment 5: Artist Search
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 100 points| 10/28    | **11/17 at 11:59 PM ET**    |
+| 150 points| 3/14    | **4/6 at 11:59 PM ET**    |
 
 ## Submission Instructions
 
@@ -34,7 +34,7 @@ Not following the upload instruction will result in a penalty.
 
 The objective of this assignment is for you to gain practical experience with the MVC pattern using Vue.js, a web application development framework, and Bootstrap, a CSS framework for responsive design. Specifically, you will create a website that searches for artists using the iTunes API.
 
-Watch this video for an overview of this assignment: [https://youtu.be/uZ_q3TYPZTY](https://youtu.be/uZ_q3TYPZTY)
+Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN9M](https://youtu.be/C4ekC9MYN9M)
 
 *Remark: The search results from the video may not be up to date. Please refer to the screenshots below for more recent, accurate results.*
 
@@ -48,7 +48,9 @@ The assignment has 6 main components and 1 optional component (denominator of 10
 4. Track Information - *5 points*
 5. Genre Selection - *20 points*
 6. Sort Menu - *15 points*
-7. (Optional) Bonus Features - *up to 10 points*
+7. Search History - *10 points*
+8. Favorites - *15 points*
+9. Play - *25 points*
 
 ## Starter Code
 
@@ -82,7 +84,7 @@ Remarks
 ### iTunes API
 
 - Constructing Search: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1>
-    - Hint: Most useful parameters are *term* and *attribute*.
+    - Hint: Most useful parameters are *term*, *media*, and *attribute*.
 - Search Examples: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1>
 - Understanding Search Results: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1>
 
@@ -124,7 +126,7 @@ Remarks
 - Navigation tabs: <https://getbootstrap.com/docs/5.3/components/navs-tabs/>
 - Grid System: <https://getbootstrap.com/docs/5.3/layout/grid/>
 
-### Additional Tips/Hints
+### Other
 
 When trying to toggle the 'Description' and 'Track info.' tabs, take a look at [this tutorial](https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp) and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
 
@@ -136,33 +138,65 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 
 ## Screenshots
 
-### Landing page with search bar
+### Landing Page
 
 <img src="images/search-bar.png" width="100%" />
 
-### After searching for an artist
+### Search for an Artist
 
 <img src="images/search-result.png" width="100%" />
 
-### "Track Info." tab for the left two results
+### "Track Info" Tab (for the left two results)
 
 <img src="images/track-info.png" width="100%" />
 
-### Sort menu
+### Sort
+
+#### Menu
 
 <img src="images/sort-menu.png" width="100%" />
 
-### After sorting by "Collection Name"
+#### Sort by "Collection Name"
 
 <img src="images/sorted-collection.png" width="100%" />
 
-### After sorting by "Price"
+#### Sort by "Price"
 
 <img src="images/sorted-price.png" width="100%" />
 
-### After (resetting sort to original and) selecting the "Dance" and "Pop" genre selections
+### Select the "Dance" and "Pop" Genres
+
+Remark: Sort is reset to original in this screenshot.
 
 <img src="images/select-genre.png" width="100%" />
+
+### Search History
+
+#### Dropdown
+
+<img src="images/search-history.png" width="100%" />
+
+#### After searching for "John Williams"
+
+<img src="images/search-history-add.png" width="100%" />
+
+#### After deleting "ayokay"
+
+<img src="images/search-history-remove.png" width="100%" />
+
+### Favorites
+
+#### Left Panel
+
+<img src="images/favorites.png" width="100%" />
+
+#### After adding "Hedwig's Theme"
+
+<img src="images/favorites-add.png" width="100%" />
+
+### Play
+
+<img src="images/play.png" width="100%" />
 
 ## Requirements
 
@@ -193,36 +227,37 @@ Ground rules - *max 50 points off if not followed*
 
 ### Search Bar (25 points)
 
-- There is one input textbox provided in the HTML file.
-- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to search for all tracks made by the artist(s) whose name contains (or is close to) this keyword.
+- There is an input text box at the top left of the screen (already provided for you in the starter HTML file).
+- When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to the iTunes API, searching for *music* tracks made by the artist(s) whose name contains (or is close to) this keyword.
     - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not.
     - Use either `Axios()` or `fetch()` for the AJAX call.
 - The URL for the AJAX request and the returned JSON data are specified in the iTunes API documentation: <https://goo.gl/UXwDce>
     - Check out the [iTunes API section](#itunes-api) for a hint on which URL parameters you will need to get the correct results.
-    - Note: Please do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
+    - When constructing the request, only *music* media types should be included.
+    - Do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
 - Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
-    - This should be the only thing that is printed in the console.
+    - This should be the *only* thing that is printed in the console.
     - We will take off points if the above requirements are not met.
 - When there are no artists returned from iTunes, alert the user, using JS alert(), that no artist was found with the keyword.
 - "Total *N* found" message should display *N* = the total number of artists (results) returned by the iTunes API.
 
 ### Artists Grid (30 points)
 
-- The returned artists should be displayed in two columns, where each result grid contains both an image and 5 types of related information displayed right next to each other (when the browser is in full size).
-- One exception will be the last row that may have less than two artist grids depending on the number of artists returned.
-- Please use the Bootstrap Grid system to accomplish the above requirements. Check out [this web page](https://getbootstrap.com/examples/grid/) for more detail. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
+- The returned tracks of the artist should be displayed in two columns, where each result grid displays an image and related information of the track right next to each other (when the browser is in full size).
+    - One exception will be the last row which may have less than two artist grids when the number of results is odd.
+- Please use the Bootstrap Grid system to accomplish the above requirements. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
 - When correctly implemented with Bootstrap, the layout will naturally be responsive (e.g. resizing the browser will automatically resize the images and the nav-tabs, and shift them to the next row).
-- Typically, iTunes will provide an image URL for each artist. Use the first URL in the list in general.
-- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the project intro video), your web page should look pretty much the same as the one in the screenshot.
+- Typically, iTunes will provide an image URL for each track returned. Use the first available URL in the properties.
+- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video), your web page should look pretty much the same as the one in the screenshot.
 
 ### Navigation Tabs (5 points)
 
 - The returned artists should also have their information displayed next to them in the navigation tabs.
-- Please use Bootstrap's nav-tabs (and other related classes) for this and next part (i.e. 4 and 5). Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
-- The 'Description' tab should contain: artist name, collection name, collection price, type (kind), and preview link. They can be found in the response JSON data.
+- Please use Bootstrap's nav-tabs (and other related classes) for this and next section. Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
+- The 'Description' tab should contain: artist name, track name, collection name, and collection price. These properties can be found in the response JSON object.
     - If the price is not provided, set the price to 0.
-    - Else, if one of the returned values is an empty string, display "No information provided" instead.
-- Clicking the preview link should open the preview of the song (or any other media) from this artist in another tab or directly download it (both are fine).
+    - If one of the returned values is an empty string, display "No information provided".
+- There should also be a "play" button and a "favorites" button under the description tab, but they are discussed later in the spec in their respective sections.
 
 ### Track Information (5 points)
 
@@ -281,22 +316,89 @@ In other words, if the user sorts by Collection Name, it should update the list 
 
 This should work when selecting any of the three sort options.
 
-### Bonus (10 points max)
 
-- This part is completely optional.
-- If you have added any feature, please include README.txt file in the submission and explain what you implemented; otherwise we won't grade this task (this is the only time you are allowed to add a file to the directory structure).
-- DO NOT CHANGE ANY EXISTING REQUIREMENTS FROM THE SPEC!
-- Here is a video showing the expected behavior of the bonus section: <https://youtu.be/C8FJeIzlCVM>
+### Search History (10 points)
 
-#### Display a results list
+- When the user clicks on the input text box, a search history list should appear below the text box, displaying top 5 most recent searches made by the user.
+    - The most recent search should always be displayed at the top of the list.
+        - i.e. You should dynamically update the search history as the user makes more searches.
+    - There should be no duplicates in the search history: If the user searches for an artist again, simply move this search up to the top of the list.
+    - Even though only the top 5 most recent searches are displayed, your code should remember more than 5 searches.
+        - This matters when deleting.
+    - It's ok if a small box appears even when there are no previous searches.
+- Clicking anywhere on the screen closes the search history.
+- *When* hovering over a search in the search history list, a cross mark appears on the right side.
+    - Clicking on the cross mark deletes this search from the search history.
+- When a search is deleted, all searches below should move up in the list by one.
+    - Previously hidden searches (when number of searches in the history > 5) should also move up in the list, making them appear on the screen.
+    - e.g., There are 6 searches in the history and only the top 5 are displayed on the screen; the user deletes a search, now there are 5 searches in the history and all 5 searches are displayed on the screen.
+- Clicking on a search searches for this artist again.
+    - Optional: You may use caching to save the previous search results to avoid repeated AJAX requests, but this is not required.
+- Remark: It's ok if the search history resets after refreshing the page.
 
-Add a button next to the 'Sort list of results by:' button. Upon clicking, a popup should appear that displays all the track names returned by fetch grouped by the collection name.
+### Favorites (15 points)
 
-#### Play
+- A "star" icon/button should be displayed at the bottom of the "description" tab of each track.
+- Upon clicking the "star" button, add the corresponding track to "Favorites".
+- When a track is added to "Favorites":
+    - This track should appear under the "Favorites" tab/list in the left panel.
+        - Each track should display:
+            1. an image (same as the one in the search result)
+            2. the track name
+            3. the artist name
+        - *When* hovering over a track (in the "Favorites" tab):
+            1. a "play" icon/button should appear on top of the track image
+                - more on this in the Play section of the spec
+            2. the track and artist names should scroll left (CSS code provided for you)
+            3. a cross mark appears on the right side
+    - The star icon in this track's description tab should show a change in appearance to indicate it has been added to Favorites.
+        - e.g. from an outline star symbol (&#9734;) to a filled star symbol (&#9733;)
+    - Remark: Favorites should NOT reset between searches.
+        - e.g. If I added a track titled "Radioactive" from "Imagine Dragons" search results to Favorites and then searched "John Williams", "Radioactive" should still be in Favorites.
+        - i.e. This essentially means that the Favorites can have tracks from different search results.
+    - Remark: You cannot add the same track to Favorites twice (more than once).
+        - e.g. If I added a track titled "Radioactive" from "Imagine Dragons" search results to Favorites, then searched "John Williams", and then searched "Imagine Dragons" again, "Radioactive" track's Description tab should still have a star icon appearance indicating it is added to Favorites (e.g. &#9733;).
+- Upon clicking the star icon again OR clicking the cross mark (on the right side of the track in the left panel's Favorites tab), remove the corresponding track from Favorites.
+- When a track is removed from "Favorites":
+    - The track should no longer be displayed in the left panel's Favorites tab.
+    - The star icon in this track's description tab should change back to its original state (e.g. no longer filled).
+- The Favorites do not have to be displayed in the order they were added.
+- Remark: It's ok if the Favorites reset after refreshing the page.
 
-Add a "play" button to each of the 'Description' tabs.
+### Play (25 points)
 
-After pressing the play button, it should start playing the song, and the text of the button should change from "play" to "stop". When the "stop" button is clicked, it should stop playing the song and revert back to "play".
+- There are 3 (possible) locations on the screen where there is a "play" icon/button, which the user can use to play the corresponding track:
+    - In the Description tab of a track
+    - In the top panel
+        - already implemented for you in starter HTML file
+    - On top of a track's image in the left panel's Favorites list
+        - only appears when this track is added to Favorites and the user is hovering over this track in the left panel's Favorites list
+        see Favorites section of the spec for more details
+- The "play" button in these 3 locations should all behave the exact same.
+- Upon clicking the "play" button in (in any of the 3 locations):
+    - The corresponding track plays.
+        - Exception: Clicking the play button in the top panel initially when there was no previously playing track would not do anything.
+    - The 3 "play" icons change to the "pause" icons.
+    - The middle part of the top panel displays the information of the currently playing track, including:
+        1. track image
+        2. track name
+        3. artist name
+        4. collection name
+        5. a progress bar
+- While a track is playing:
+    - The progress bar (in the top panel) should dynamically update indicating the progress of how much the song has been played.
+    - The track and artist names of the corresponding track in the left panel's Favorites list should keep scrolling (just as if you are hovering over it).
+- Upon clicking on either of the 3 "pause" buttons (i.e. in the top panel, in the corresponding track's description tab, or in the corresponding track in the left panel's Favorites list):
+    - The currently playing track pauses.
+    - All 3 "pause" icons change to "play" icons.
+- When a track finishes playing on its own, the 3 "pause" icons should change to "play" icons.
+- Clicking the "next" button selects a random track in the search result and plays it.
+    - Playing follows the same behavior as mentioned previously.
+- Clicking the "repeat" button plays the track on repeat and changes the icon appearance.
+    - Use the svg from the "assets/" folder for the alternative appearance.
+- Clicking on the "repeat" button again stops playing the song on repeat (i.e. finish the current play iteration and stop) and changes the icon appearance back to the original.
+- Adjusting the volume slider should update the currently playing track's volume.
+
 
 ## CORS Header
 
