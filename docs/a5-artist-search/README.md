@@ -417,7 +417,7 @@ Again, many of these errors are configuration dependent. If you continue to have
 
 ### Sometimes, the search result seems unrelated to the search keyword, is this fine?
 
-Yes, as long as you are correctly using the 2 query parameters listed in the [iTunes API](#itunes-api) section.
+Yes, as long as you are correctly using the 3 query parameters listed in the [iTunes API](#itunes-api) section.
 
 ### When I minimize the window to the minimum width, the text in one artist grid overlaps with the next artist grid, is this fine?
 
@@ -425,7 +425,7 @@ Yes.
 
 ### Should our search results match exactly the ones in the spec?
 
-Not necessarily, since API results change from time to time. As long as you make sure you are using the 2 (and only those 2) parameters in the [iTunes API](#itunes-api) section, you should be all set.
+Not necessarily, since API results change from time to time. As long as you make sure you are using the 3 (and only those 3) parameters in the [iTunes API](#itunes-api) section, you should be all set.
 
 ## Acknowledgments
 Original spec written by Zirui Zhao <zhaojer@umich.edu>.
