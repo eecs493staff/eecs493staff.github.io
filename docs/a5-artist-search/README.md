@@ -18,13 +18,24 @@ This zip file should have a *single directory* containing *all files and directo
 
 ```console
 a5_uniqname
-├── README.txt (OPTIONAL)
+├── assets
+│   ├── Back.svg
+│   ├── Fwd.svg
+│   ├── Library.svg
+│   ├── Pause.svg
+│   ├── Play.svg
+│   ├── Repeat.svg
+│   ├── Repeating.svg
+│   ├── Shuffle.svg
+│   ├── Song.svg
+│   ├── VolumeDown.svg
+│   ├── VolumeUp.svg
+│   └── loading.gif
 ├── img
 │   ├── 1.jpg
 │   └── 2.jpg
 ├── index.css
 ├── index.html
-├── loading.gif
 └── script.js
 ```
 
