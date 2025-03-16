@@ -68,7 +68,7 @@ Here's a brief description for each of the starter files.
 | `index.html` | HTML page **\[Write your HTML code in this file\]** |
 | `script.js` | Placeholder for one Vue.js instance **\[Write your JS code in this file\]** |
 | `index.css` | Additional customized style \[Do NOT modify this file\] |
-| `loading.gif` | Show this gif while waiting for fetch \[Optional\] |
+| `assets/` | A directory containing icons that you may use in your code |
 | `img/` | A directory containing 2 image placeholders \[Your final code won't need them\] |
 
 Remarks
