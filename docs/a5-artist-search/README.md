@@ -223,8 +223,10 @@ Ground rules - *max 50 points off if not followed*
     - For example, using jQuery or JavaScript code that access HTML elements is NOT allowed (will result in significant deductions).
 2. We've given you some starter code, and you'll only need to write JS code inside Vue instance(s) (in the JS file) and Vue directives in the HTML file.
     - We already created one Vue instance for you. You may add other instances if you prefer, but NO extra JS code should be written outside of Vue instances.
-3. Every style-related element of the assignment MUST be done via Bootstrap. You are NOT allowed to use inline styling or define/use any custom CSS class/id other than the ones we provided in `index.css`.
-    - i.e. Do NOT modify `index.css`
+3. Every style-related element of the assignment MUST be done via Bootstrap.
+    - You are NOT allowed to define/use any custom CSS class/id other than the ones we provided in `index.css`.
+        - i.e. Do NOT modify `index.css`.
+    - You are NOT allowed to use inline styling (e.g. `style=''`). The *only* exception to this rule is when implementing the [progress bar](#play-25-points), you may use inline styling (e.g. `style=''`) to dynamically update its width.
 4. The provided `index.html` file includes (links to) jQuery, Bootstrap, Vue.js, and Axios.
     - In order for index.html to work properly, make sure you
         - Have internet connection,
