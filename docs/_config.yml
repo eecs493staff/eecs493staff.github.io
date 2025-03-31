@@ -22,8 +22,8 @@ title: EECS 493
 favicon: https://eecs493staff.github.io/eecs493.org/assets/images/eecs493favicon.ico
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-url: "https://eecs493staff.github.io/eecs493.org" # the base hostname & protocol
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://eecs493staff.github.io" # the base hostname & protocol
+baseurl: "/eecs493.org" # the subpath of your site, e.g. /blog
 
 # Build settings
 github: [metadata]
