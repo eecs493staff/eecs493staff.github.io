@@ -12,7 +12,7 @@ EECS 493 Assignment 3: Asteroids Game
 
 ## Submission Instructions
 
-Before submitting, please ensure your website loads in Google Chrome by simply clicking and opening the `index.html` without using server hosting tools (e.g. VS Code Live Server).
+**Before submitting, please ensure your website loads in Google Chrome by simply clicking and opening the `index.html` without using server hosting tools (e.g. VS Code Live Server).**
 
 Please submit your work to Canvas as a zip file, named `a3_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a3_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
 
