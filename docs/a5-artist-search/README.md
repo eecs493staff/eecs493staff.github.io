@@ -228,7 +228,7 @@ Ground rules - *max 50 points off if not followed*
 3. Every style-related element of the assignment MUST be done via Bootstrap.
     - You are NOT allowed to define/use any custom CSS class/id other than the ones we provided in `index.css`.
         - i.e. Do NOT modify `index.css`.
-    - You are NOT allowed to use inline styling (e.g. `style=''`). The *only* exception to this rule is when implementing the [progress bar](#play-25-points), you may use inline styling (e.g. `style=''`) to dynamically update its width.
+    - You are NOT allowed to use inline styling (e.g. `style=''`). The *only* exception to this rule is when implementing the [progress bar](#play-25-points), which you may use *exactly one* instance of inline styling (`style=''`) to dynamically update its width.
 4. The provided `index.html` file includes (links to) jQuery, Bootstrap, Vue.js, and Axios.
     - In order for index.html to work properly, make sure you
         - Have internet connection,
