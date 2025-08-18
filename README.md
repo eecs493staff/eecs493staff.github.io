@@ -18,32 +18,32 @@ A list of items that need to be updated each semester for the course website is 
 - [x] Term (e.g., Winter 2025)
 - [x] Instructors and their contact info
 - [x] Staff email (under the "Communication" section)
-- [] Update previous semester's exemplary final projects in `final-project/README.md`
+- [ ] Update previous semester's exemplary final projects in `final-project/README.md`
 
 `index.html`
 
-- [] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
+- [ ] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
 - [x] Term (pick a color of your choice!)
-- [] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
-- [] Course Info cards
+- [ ] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
+- [ ] Course Info cards
     - [x] Lecture time and location
     - [x] Links to lecture resources (i.e., recordings and slides)
     - [x] Links to discussion resources (i.e., recordings and slides)
     - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
-    - [] Assignment card
-        - [] Due date
-        - [] Title (e.g., Assignment 1: PEERRS Training)
-        - [] Links to spec and canvas submission portal
-    - [] Project milestone card
-        - [] Due date
-        - [] Title (e.g., Milestone 0: Team Formation)
-        - [] Links to spec and canvas submission portal
+    - [ ] Assignment card
+        - [ ] Due date
+        - [ ] Title (e.g., Assignment 1: PEERRS Training)
+        - [ ] Links to spec and canvas submission portal
+    - [ ] Project milestone card
+        - [ ] Due date
+        - [ ] Title (e.g., Milestone 0: Team Formation)
+        - [ ] Links to spec and canvas submission portal
 - [x] Course Google Calendar link
-- [] Course schedule (this section is quite long and tedious)
-- [] People section
+- [ ] Course schedule (this section is quite long and tedious)
+- [ ] People section
     - [x] Staff email
-    - [] For every member: photo, name, email
-    - [] For IAs/GSIs: include which lab section (time and location) do they teach
+    - [ ] For every member: photo, name, email
+    - [ ] For IAs/GSIs: include which lab section (time and location) do they teach
 
 ### Assignment Spec and Starter Code
 
