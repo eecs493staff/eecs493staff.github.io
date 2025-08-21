@@ -22,24 +22,24 @@ A list of items that need to be updated each semester for the course website is 
 
 `index.html`
 
-- [ ] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
+- [x] Links to course resources in the left navigation menu (e.g. Piazza, Canvas, Gradescope, etc.)
 - [x] Term (pick a color of your choice!)
-- [ ] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
+- [x] Announcement (e.g., write something like "Welcome to EECS 493!" and other important info)
 - [ ] Course Info cards
     - [x] Lecture time and location
     - [x] Links to lecture resources (i.e., recordings and slides)
     - [x] Links to discussion resources (i.e., recordings and slides)
     - [x] Remove previous semester's assignment/project info cards (e.g., "Project Milestone 4")
-    - [ ] Assignment card
-        - [ ] Due date
-        - [ ] Title (e.g., Assignment 1: PEERRS Training)
-        - [ ] Links to spec and canvas submission portal
+    - [x] Assignment card
+        - [x] Due date
+        - [x] Title (e.g., Assignment 1: PEERRS Training)
+        - [x] Links to spec and canvas submission portal
     - [ ] Project milestone card
         - [ ] Due date
         - [ ] Title (e.g., Milestone 0: Team Formation)
         - [ ] Links to spec and canvas submission portal
 - [x] Course Google Calendar link
-- [ ] Course schedule (this section is quite long and tedious)
+- [x] Course schedule (this section is quite long and tedious)
 - [ ] People section
     - [x] Staff email
     - [x] For every member: photo, name, email
