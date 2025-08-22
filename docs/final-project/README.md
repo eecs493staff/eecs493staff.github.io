@@ -6,6 +6,14 @@ title: final-project
 EECS 493 Awesome Final Projects from Past Semesters
 ======================================
 
+## Winter 2025
+
+- StudyScout: <https://youtu.be/h8W3WvK1x8s>
+- Broke but Woke: <https://youtu.be/R76cEL5xrVI>
+- Notionairy: <https://youtu.be/gEyuubPOfOg>
+- The Sweats: <https://www.youtube.com/watch?v=gfeK_lRBMXM>
+- Pixel Penguins: <https://www.youtube.com/watch?v=ElFLOTaTQBo>
+
 ## Fall 2024
 
 - rota: <https://youtu.be/uoK-ry9dNps>
