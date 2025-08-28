@@ -51,7 +51,11 @@ You need to submit the following as one zip file on Canvas.
 5. An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx.
 
 ### Grading Rubric
+<!-- TODO: Update Rubric -->
+
 - 6 points: interview data (background, protocol, transcripts)
 - 6 points: Interpretation notes.
 - 6 points: Affinity diagram.
 - 2 points: A written report of up to two user needs and two break points you have identified. 
+
+### [Final Project Overview](https://eecs493staff.github.io/m0-team-formation/)

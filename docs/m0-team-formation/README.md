@@ -41,3 +41,5 @@ In Milestone 1, you will need to
 - Conduct your own interviews with a minimum of 4 participants (i.e. each team member needs to conduct at least 1 interview), each lasting 20-30 minutes;
 - Transcribe your interviews;
 - Clean your interview transcripts and submit them.
+
+### [Final Project Overview](https://eecs493staff.github.io/m0-team-formation/)
