@@ -43,12 +43,12 @@ Please also have another document describing the background information, and inc
 
 ### Deliverable
 You need to submit the following as one zip file on Canvas.
-1. A folder with clean transcripts following the format of the example transcripts.
-2. A written report with background information about the interview, brief descriptions of how you conducted interviews, your interview questions, and a demographic table.
-3. A spreadsheet with the interpretation notes (e.g., the base layer notes (white notes)).
-4. A pdf/image file of the affinity diagram. You can do this on paper+whiteboard (we recommend printing out the notes on paper rather than writing), or on a digital platform like Mural or Miro. Make sure all texts are legible.
-    - You need to have at least 70+ white notes, 18-24 blue notes, 6-12 pink notes, and 3-4 green notes
-5. An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx.
+- [ ] A folder with clean transcripts following the format of the example transcripts.
+- [ ] A written report with background information about the interview, brief descriptions of how you conducted interviews, your interview questions, and a demographic table.
+- [ ] A spreadsheet with the interpretation notes (e.g., the base layer notes (white notes)).
+- [ ] A pdf/image file of the affinity diagram. You can do this on paper+whiteboard (we recommend printing out the notes on paper rather than writing), or on a digital platform like Mural or Miro. Make sure all texts are legible.
+    - [ ] You need to have at least 70+ white notes, 18-24 blue notes, 6-12 pink notes, and 3-4 green notes
+- [ ] An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx.
 
 ### Grading Rubric
 <!-- TODO: Update Rubric -->
@@ -58,4 +58,4 @@ You need to submit the following as one zip file on Canvas.
 - 6 points: Affinity diagram.
 - 2 points: A written report of up to two user needs and two break points you have identified. 
 
-### [Final Project Overview](https://eecs493staff.github.io/m0-team-formation/)
+### [Final Project Overview](https://eecs493staff.github.io/final-project-summary/)

@@ -42,4 +42,4 @@ In Milestone 1, you will need to
 - Transcribe your interviews;
 - Clean your interview transcripts and submit them.
 
-### [Final Project Overview](https://eecs493staff.github.io/m0-team-formation/)
+### [Final Project Overview](https://eecs493staff.github.io/final-project-summary/)
