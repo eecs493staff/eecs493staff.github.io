@@ -8,7 +8,7 @@ EECS 493 Assignment 2: Asteroids Main Menu
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 65 points | 1/16   | 1/26 11:59 PM    |
+| 65 points | 9/2   | 9/14 11:59 PM    |
 
 ## Submission Instructions
 
