@@ -3,8 +3,21 @@ layout: spec
 title: final-project
 ---
 
-EECS 493 Awesome Final Projects from Past Semesters
-======================================
+# Final Project Spec
+
+# Milestones
+
+## Milestone 0
+
+## Milestone 1
+
+## Milestone 2
+
+## Milestone 3
+
+## Milestone 4
+
+# Awesome Final Projects from Past Semesters
 
 ## Winter 2025
 
