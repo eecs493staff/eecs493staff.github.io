@@ -19,7 +19,7 @@ Your team will come up with your own project theme, with the only restriction be
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------------- | -------------------------------------------------------------------------- |
 | [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                    | Sun 9/21 11:59 PM                 | - Team membership                                                          |
 | [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**               | Sun 10/5 11:59 PM                 | - User need<br>- Break point                                               |
-| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Fri 10/17 10:30 AM (before class) | - In-class storyboard bakeoff                                              |
+| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Fri 10/17 10:30 AM (before class) | - In-class storyboard showcase                                             |
 |                                                                                                                       | Sun 10/19 11:59 PM                | - Storyboards<br>- Speed dating with 4 users<br>- Written report           |
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 11/9 11:59 PM                 | - High-fi Figma prototype                                                  |
 |                                                                                                                       | Sun 11/9 11:59 PM                 | - First user evaluation using think-aloud with 2 users<br>- Written report |
@@ -89,7 +89,7 @@ Teams should ideally consist of **4** members.
 - _You are welcome to use Piazza’s search for teammates feature, or try to meet new people in class or discussion\!_
 - You should aim for a team of **4**. A team of 3 will be expected to do the _same_ amount of work as a team of 4\. A team of 5 will be expected to take on _additional work_\.
 - Aim for diverse skills (e.g., design/drawing, interviewing, Figma).
-- **_All members must be present for the Storyboard Bake-Off, Prototype Bake-Off, and Final Presentation._** Absent member(s) will receive a 4% deduction from the final project grade for each absence.
+- **_All members must be present for the Storyboard Showcase, Prototype Showcase, and Final Presentation._** Absent member(s) will receive a 4% deduction from the final project grade for each absence.
 - If conflicts with team members arise, notify the staff promptly. Grading will be based on deliverables as a group.
 
 ### Choosing a Project Theme
