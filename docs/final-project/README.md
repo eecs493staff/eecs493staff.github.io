@@ -15,10 +15,22 @@ Your team will come up with your own project theme, with the only restriction be
 
 ## Detailed Timeline
 
+| Milestone                                                                                                             | Due date                          | Task / Objective                                                      |
+| --------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------- |
+| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                    | Sun 9/21 11:59 PM                 | Team membership                                                       |
+| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**               | Sun 10/5 11:59 PM                 | User need + break point                                               |
+| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Fri 10/17 10:30 AM (before class) | In-class storyboard bakeoff                                           |
+|                                                                                                                       | Sun 10/19 11:59 PM                | Storyboards + speed dating with 4 users + written report              |
+| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 11/9 11:59 PM                 | High-fi Figma prototype                                               |
+|                                                                                                                       | Sun 11/9 11:59 PM                 | First user evaluation using think-aloud with 2 users + written report |
+| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation** | Wed 11/19 10:30 AM (before class) | User need + break point                                               |
+| [**Final Presentation Video**]()                                                                                      | Wed 12/3 10:30 AM (before class)  | Final Video                                                           |
+| [**Evaluation Report**]()                                                                                             | Wed 12/7 11:59 PM                 | Evaluation Report                                                     |
+
 <!-- TODO: To release milestone add link to corresponding document -->
 <!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
 
-| Due date                                                                     | Task / Objective                                                      |
+<!-- | Due date                                                                     | Task / Objective                                                      |
 | ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0) | **Team Formation**                                                    |
 | Sun 9/21 11:59 PM                                                            | Team membership                                                       |
@@ -35,7 +47,7 @@ Your team will come up with your own project theme, with the only restriction be
 | [**Final Presentation Video**]()                                             |                                                                       |
 | Wed 12/3 10:30 AM (before class)                                             | Final Video                                                           |
 | [**Evaluation Report**]()                                                    |                                                                       |
-| Wed 12/7 11:59 PM                                                            | Evaluation Report                                                     |
+| Wed 12/7 11:59 PM                                                            | Evaluation Report                                                     | -->
 
 # Milestones
 
