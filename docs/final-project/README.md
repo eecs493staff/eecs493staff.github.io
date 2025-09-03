@@ -3,9 +3,54 @@ layout: spec
 title: final-project
 ---
 
+# EECS 493 Final Project Spec
+
+# Project Overview
+
+Throughout the semester, you’ll be working together on a team project that follows the user-centered design process. This project makes up 25% of your total course grade. You will submit milestones at different stages of the project, and the detailed timeline is provided below.
+
+## Project Theme
+
+Your team will come up with your own project theme, with the only restriction being that the stakeholder group should be people you can easily have access to, e.g., other undergraduate students. You can find a list of final project examples below.
+
+## Detailed Timeline
+
+<!-- TODO: To release milestone add link to corresponding document -->
+<!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
+
+| Due date                                                                     | Task / Objective                                                      |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0) | **Team Formation**                                                    |
+| Sun 9/21 11:59 PM                                                            | Team membership                                                       |
+| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1) | **Need Identification**                                               |
+| Sun 10/5 11:59 PM                                                            | User need + break point                                               |
+| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2) | **Ideation & Speed Dating**                                           |
+| Fri 10/17 10:30 AM (before class)                                            | In-class storyboard bakeoff                                           |
+| Sun 10/19 11:59 PM                                                           | Storyboards + speed dating with 4 users + written report              |
+| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3) | **Prototype & Evaluation**                                            |
+| Sun 11/9 11:59 PM                                                            | High-fi Figma prototype                                               |
+| Sun 11/9 11:59 PM                                                            | First user evaluation using think-aloud with 2 users + written report |
+| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4) | **Iterate on Prototype & Evaluation**                                 |
+| Wed 11/19 10:30 AM (before class)                                            | User need + break point                                               |
+| [**Final Presentation Video**]()                                             |                                                                       |
+| Wed 12/3 10:30 AM (before class)                                             | Final Video                                                           |
+| [**Evaluation Report**]()                                                    |                                                                       |
+| Wed 12/7 11:59 PM                                                            | Evaluation Report                                                     |
+
 # Milestones
 
 ## Milestone 0: Team Formation (Due 9/21)
+
+| Due date          | Task / Objective                           |
+| ----------------- | ------------------------------------------ |
+| Sun 9/21 11:59 PM | Team registration form / team finding form |
+| Sun 9/21 11:59 PM | Team registration form for assigned teams  |
+
+| Resource                                                      | Description                                                |
+| ------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Team Registration Form](https://forms.gle/x9itCsb9UCqgsbfk8) | Register your teams here                                   |
+| [Team Finding Form](https://forms.gle/5G7CpkLgL7JjW1rR6)      | Fill this out, if you would like us to form a team for you |
+| [Project Team Spreadsheet (Te be released)]()                 | A detailed list of all project teams for this semester     |
 
 ### Goals
 
@@ -42,15 +87,15 @@ Teams should ideally consist of **4** members.
 
 ### Milestone 1 Preview
 
-In Milestone 1, you will need to:
+The goal of Milestone 1 (20% of your final project grade; 5% of your total grade) is to identify users’ needs that will guide and motivate your product design. As part of your Milestone 1 deliverables, you will:
 
-- Conduct your own interviews with a minimum of 4 participants (i.e. each team member needs to conduct at least 1 interview), each lasting 20-30 minutes;
-- Transcribe your interviews;
-- Clean your interview transcripts and submit them.
+- Conduct interviews with at least 4 participants total (each team member must conduct at least one interview), lasting 20–30 minutes each.
+- Transcribe all interviews.
+- Clean and format the transcripts according to the provided guidelines, and submit them.
 
 ## Milestone 1
 
-(Worth 20% of final project grade, 5% of total grade)
+<!-- (Worth 20% of final project grade, 5% of total grade)
 
 ### Goals
 
@@ -96,7 +141,7 @@ Grading Rubric
 - 6 points: interview data (background, protocol, transcripts)
 - 6 points: Interpretation notes.
 - 6 points: Affinity diagram.
-- 2 points: A written report of up to two user needs and two break points you have identified.
+- 2 points: A written report of up to two user needs and two break points you have identified. -->
 
 ## Milestone 2
 
