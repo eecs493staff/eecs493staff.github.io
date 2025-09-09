@@ -8,7 +8,7 @@ EECS 493 Assignment 3: Asteroids Game
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 125 points| 1/23    | **2/9 at 11:59 PM ET**    |
+| 125 points| 9/10    | **9/28 at 11:59 PM ET**    |
 
 ## Submission Instructions
 
