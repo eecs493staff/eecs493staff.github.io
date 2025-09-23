@@ -53,10 +53,10 @@ Your team will come up with your own project theme, with the only restriction be
 
 ## Milestone 0: Team Formation (Due 9/21)
 
-| Due date          | Task / Objective                           |
-| ----------------- | ------------------------------------------ |
-| Sun 9/21 11:59 PM | Team registration form / team finding form |
-| Sun 9/21 11:59 PM | Team registration form for assigned teams  |
+| Due date           | Task / Objective                           |
+| ------------------ | ------------------------------------------ |
+| Sun 9/21 11:59 PM  | Team registration form / team finding form |
+| Thur 9/25 11:59 PM | Team registration form for assigned teams  |
 
 | Resource                                                      | Description                                                |
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
