@@ -103,18 +103,28 @@ The goal of Milestone 1 (20% of your final project grade; 5% of your total grade
 - Transcribe all interviews.
 - Clean and format the transcripts according to the provided guidelines, and submit them.
 
-## Milestone 1
+## Milestone 1 (Due Date: Oct 5, 11:59 pm)
 
 (Worth 20% of final project grade, 5% of total grade)
 
-### Goals
+| Due date          | Task / Objective             |
+| ----------------- | ---------------------------- |
+| Sun 10/5 11:59 PM | All Milestone 1 deliverables |
 
-- Conduct interviews (6%)
-- Interpretation notes (6%)
-- Affinity Diagram (6%)
-- Written report (2%)
-  - Link to Milestone on Canvas
-  - Due Date: Sunday, October 5, 11:59 PM
+| Resource                                                                                                                                 | Description                                                                |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [Example Interview Transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN?usp=sharing)                    | Exemplar interview transcripts from previous semesters                     |
+| [Example Interview Background and Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) | Exemplar interview background and design documents from previous semesters |
+
+### Deliverables
+
+Submit the following **as one zip file on Canvas**.
+
+1. A folder with clean transcripts following the format of [the example transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN?usp=sharing). There should be two transcripts per team member.
+2. A spreadsheet with 70+ interpretation / white notes.
+3. A pdf/image file of the affinity diagram. You can do this on paper + whiteboard (we recommend printing out the notes on paper rather than writing), or on a digital platform like Mural or Miro. Make sure all texts are legible. You need to have at least 70+ white notes, 18-24 blue notes, 6-12 pink notes, and 3-4 green notes.
+4. Interview Background and Design Document: A document with background information about the interview (including procedure, goals, and context), interview questions, and a demographic table of participants.
+5. Written Report: An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx.
 
 ### Overview: User Need & Break Point Discovery
 
@@ -131,7 +141,7 @@ For each theme's first interview transcript (P1), the teaching staff has annotat
 
 ### Interview Requirements
 
-You must conduct interviews with a minimum of 4 participants (each team member conducts at least 1 interview), with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission.
+Each team member should conduct at least 2 interviews, with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission.
 
 ### Analysis Process
 
@@ -144,20 +154,9 @@ Based on your transcripts, identify **_up to two_** user needs and two break poi
 
 You'll also create a spreadsheet with interpretation notes and a final affinity diagram for this submission. The format and content should follow the examples from lecture 8 and discussion 4. We've provided student submissions from previous semesters for each of the 5 projects listed above in the folder: [\[SHARED\] Example Transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN). Each example includes instructor comments highlighting areas for improvement.
 
-Additionally, prepare a document with (1) background information, (2) how you conducted interviews, (3) your interview questions, and (4) a participant demographic table. Refer to this document [Background Information of the Interview Data](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
+Additionally, prepare a document with (1) background information, (2) how you conducted interviews, (3) your interview questions, and (4) a participant demographic table. Refer to this document [Example Interview Background and Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
 
-### Deliverables
-
-Submit the following **as one zip file on Canvas**.
-
-1. A folder with clean transcripts following the format of [the example transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN?usp=sharing).
-2. A written report with background information about the interview, brief descriptions of how you conducted interviews, your interview questions, and a demographic table.
-3. A spreadsheet with the interpretation notes (e.g., the base layer notes (white notes)).
-4. A pdf/image file of the affinity diagram. You can do this on paper+whiteboard (we recommend printing out the notes on paper rather than writing), or on a digital platform like Mural or Miro. Make sure all texts are legible.
-   - You need to have at least 70+ white notes, 18-24 blue notes, 6-12 pink notes, and 3-4 green notes
-5. An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx.
-
-Grading Rubric
+### Grading Rubric
 
 - **6 points:** Interview data (background, protocol, transcripts)
 - **6 points:** Interpretation notes
