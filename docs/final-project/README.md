@@ -51,7 +51,7 @@ Your team will come up with your own project theme, with the only restriction be
 
 # Milestones
 
-## Milestone 0: Team Formation (Due 9/21)
+## Milestone 0: Team Formation
 
 | Due date           | Task / Objective                           |
 | ------------------ | ------------------------------------------ |
@@ -95,15 +95,7 @@ Teams should ideally consist of **4** members.
 - Propose your project theme in the Team Registration form.
 - The only requirement: your stakeholder group must be accessible to you (e.g., other undergraduate students).
 
-### Milestone 1 Preview
-
-The goal of Milestone 1 (20% of your final project grade; 5% of your total grade) is to identify users’ needs that will guide and motivate your product design. As part of your Milestone 1 deliverables, you will:
-
-- Conduct interviews with at least 4 participants total (each team member must conduct at least one interview), lasting 20–30 minutes each.
-- Transcribe all interviews.
-- Clean and format the transcripts according to the provided guidelines, and submit them.
-
-## Milestone 1 (Due Date: Oct 5, 11:59 pm)
+## Milestone 1
 
 (Worth 20% of final project grade, 5% of total grade)
 
