@@ -150,10 +150,14 @@ Additionally, prepare a document with (1) background information, (2) how you co
 
 ### Grading Rubric
 
-- **6 points:** Interview data (background, protocol, transcripts)
-- **6 points:** Interpretation notes
-- **6 points:** Affinity diagram
-- **2 points:** Written report identifying user needs and break points
+You will be graded on:
+
+- 70 Interpretation notes well distributed among participants (3 pts)
+- Quality of interpretation notes (3 pts)
+- Quantity of blue, pink, and green notes (3 pts)
+- Quality of blue, pink, and green notes (3 pts)
+- Written Report (2 pts)
+- Interview Design Document (6 pts)
 
 ### Looking Ahead: Milestone 2
 
