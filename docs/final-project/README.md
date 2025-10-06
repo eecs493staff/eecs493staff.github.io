@@ -175,6 +175,7 @@ Once you've identified user needs and break points, you'll move into the ideatio
 
 - [In-Class Project Showcase Signup Form](https://docs.google.com/spreadsheets/d/1Djt5nAKSAfBFfW5EQYDlsJSsvILPZvdeMrE6nxSLl0M/edit?usp=sharing)
 - [Team Information and Staff Contacts](https://docs.google.com/spreadsheets/d/1vlR6NFx0BtoyG4j1o6L60EnJh1Eq198TExkuvydATtI/edit?usp=sharing)
+- [Detailed Rubric for Milestone 2 Grading](https://docs.google.com/document/d/1P2bNh_mWM7Ag2nv6Sg8Usz7BpfygXbB-_5Bt4WV5Pq4/edit?usp=sharing)
 
 ### Goals
 
