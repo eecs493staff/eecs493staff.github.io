@@ -8,7 +8,7 @@ EECS 493 Assignment 4: Figma Prototype Development
 
 | Total     | Released | Due                         |
 | --------- | -------- | --------------------------- |
-| 100 points| 2/18    |  **3/16 at 11:59 PM ET**  |
+| 100 points| 10/8    |  **10/26 at 11:59 PM ET**  |
 
 ## Submission Instructions
 
