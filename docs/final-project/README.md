@@ -168,8 +168,8 @@ Once you've identified user needs and break points, you'll move into the ideatio
 | Due date                  | Task / Objective                      |
 | ------------------------- | ------------------------------------- |
 | Thursday 10/16 Noon       | In-Class Project Showcase Signup Form |
-| Friday 10/17 Before Class | Storyboards and Speed Dating          |
-| Sunday 10/19 11:59 PM     | Zip file of all deliverables          |
+| Friday 10/17 Before Class | Storyboards                           |
+| Sunday 10/26 11:59 PM     | Zip file of all deliverables          |
 
 ### Links and Resources
 
