@@ -195,8 +195,6 @@ Once you've identified user needs and break points, you'll move into the ideatio
     - Validate the user need
     - Get feedback on the proposed solutions
     - Figure out the final design you want to implement in the next step
-  - Link to Assignment: Canvas Assignment Link
-  - Due Date: Fri 10/17, before class.
 
 - Deliverables: You need to submit the following as one zip file on Canvas.
   - A PDF of a list of at least 80 ideas your team came up with using the IDEO ideation method, and also a subset of 8-10 ideas your team picked for storyboarding.
