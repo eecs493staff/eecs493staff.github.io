@@ -20,7 +20,7 @@ Your team will come up with your own project theme, with the only restriction be
 | [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                    | Sun 9/21 11:59 PM                 | - Team membership                                                          |
 | [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**               | Sun 10/5 11:59 PM                 | - User need<br>- Break point                                               |
 | [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Fri 10/17 10:30 AM (before class) | - In-class storyboard showcase                                             |
-|                                                                                                                       | Sun 10/19 11:59 PM                | - Storyboards<br>- Speed dating with 4 users<br>- Written report           |
+|                                                                                                                       | Fri 10/24 11:59 PM                | - Storyboards<br>- Speed dating with 4 users<br>- Written report           |
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 11/9 11:59 PM                 | - High-fi Figma prototype                                                  |
 |                                                                                                                       | Sun 11/9 11:59 PM                 | - First user evaluation using think-aloud with 2 users<br>- Written report |
 | [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation** | Wed 11/19 10:30 AM (before class) | - User need<br>- Break point                                               |
@@ -168,8 +168,8 @@ Once you've identified user needs and break points, you'll move into the ideatio
 | Due date                  | Task / Objective                      |
 | ------------------------- | ------------------------------------- |
 | Thursday 10/16 Noon       | In-Class Project Showcase Signup Form |
-| Friday 10/17 Before Class | Storyboards and Speed Dating          |
-| Sunday 10/19 11:59 PM     | Zip file of all deliverables          |
+| Friday 10/17 Before Class | Storyboards                           |
+| Friday 10/24 11:59 PM     | Zip file of all deliverables          |
 
 ### Links and Resources
 
@@ -195,8 +195,6 @@ Once you've identified user needs and break points, you'll move into the ideatio
     - Validate the user need
     - Get feedback on the proposed solutions
     - Figure out the final design you want to implement in the next step
-  - Link to Assignment: Canvas Assignment Link
-  - Due Date: Fri 10/17, before class.
 
 - Deliverables: You need to submit the following as one zip file on Canvas.
   - A PDF of a list of at least 80 ideas your team came up with using the IDEO ideation method, and also a subset of 8-10 ideas your team picked for storyboarding.
