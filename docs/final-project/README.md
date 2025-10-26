@@ -394,11 +394,11 @@ Link to usability findings template: [Usability-Finding-Template](https://docs.g
 
 Example 1:
 
-[IMAGE: Screenshot showing "#8 Lack of information on location on event page" with severity rating of 6/7. Shows an "Individual Event Page" with a map interface for "Café Culture" and includes Findings and Recommendations sections with detailed bullet points about user confusion regarding event location](figures/m3/example1.png)
+![IMAGE: Screenshot showing "#8 Lack of information on location on event page" with severity rating of 6/7. Shows an "Individual Event Page" with a map interface for "Café Culture" and includes Findings and Recommendations sections with detailed bullet points about user confusion regarding event location](figures/m3/example1.png)
 
 Example 2:
 
-[IMAGE: Screenshot showing "#6 Undo icon's function is not obvious to user" with severity rating of 2/7. Shows a "Colorfy drawing toolbar once user start drawing" interface and includes Findings and Recommendations sections with detailed bullet points about undo button usability issues](figures/m3/example2.png)
+![IMAGE: Screenshot showing "#6 Undo icon's function is not obvious to user" with severity rating of 2/7. Shows a "Colorfy drawing toolbar once user start drawing" interface and includes Findings and Recommendations sections with detailed bullet points about undo button usability issues](figures/m3/example2.png)
 
 #### Deliverables (please put everything in a zipped folder and submit):
 
