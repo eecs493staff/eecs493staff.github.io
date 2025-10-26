@@ -398,7 +398,7 @@ Example 1:
 
 Example 2:
 
-<img src="figures/m3/example2.png" height="70%" />
+<img src="figures/m3/example2.jpeg" height="70%" />
 
 #### Deliverables (please put everything in a zipped folder and submit):
 
