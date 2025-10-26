@@ -394,11 +394,11 @@ Link to usability findings template: [Usability-Finding-Template](https://docs.g
 
 Example 1:
 
-<img href="figures/m3/example1.png" height="70%" />
+<img src="figures/m3/example1.png" height="70%" />
 
 Example 2:
 
-<img href="figures/m3/example2.png" height="70%" />
+<img src="figures/m3/example2.png" height="70%" />
 
 #### Deliverables (please put everything in a zipped folder and submit):
 
