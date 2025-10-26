@@ -413,7 +413,14 @@ Example 2:
    - Describe what changes you've made during the iterations, and what needs to be
      done next to the prototype in order to improve its usability.
 
-Grading Rubric: [EECS493 F25 Milestone 3 Detailed Grading Rubric](https://docs.google.com/document/d/1XUdlHsfOBadSY8COlJgKYXeu4_HHnkE16ZnvsxsQx1U/edit?usp=sharing)
+### Rubrics for Milestone 3
+
+You will be graded on:
+
+- Basic requirements for the prototype [9 points] (e.g., is the prototype developed using Figma? Does the prototype support at least 2 key tasks? Are tasks relevant to user goals and the team's project themes?)
+- Quality of the prototype (e.g., are think-alouds useful and thorough?) [3 points]
+- Think Alouds and UFTs [5 points]
+- Written Report [7 points]
 
 ## Milestone 4
 
