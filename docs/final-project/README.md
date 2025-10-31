@@ -307,7 +307,7 @@ Please complete the “Storyboard Session Sign-up Form” linked under “Goals�
   - Write a report describing the usability issues discovered from the user test, and
     summarize a list of things to fix.
 - Link to Assignment: Canvas Assignment
-- Due Date: Nov 19, 11:59 PM
+- Due Date: Nov 9, 11:59 PM
 
 ### Prototype
 
