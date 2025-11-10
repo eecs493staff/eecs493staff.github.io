@@ -421,7 +421,114 @@ You will be graded on:
 - Think Alouds and UFTs [5 points]
 - Written Report [7 points]
 
-## Milestone 4
+## Milestone 4: Iterate on the Prototype & Evaluation
+
+(Worth 28% of final project grade, 7% of total grade)
+
+### Goals
+
+- **Iterate on The Prototype (14%)**
+
+  - Improve your prototype by addressing the design and usability issues discovered from Milestone 3.
+  - Link to Project Feedback Form: [Project Feedback Form (template)](https://docs.google.com/document/d/1ESHmK_hDI1SRG_0suQUUuyxveGGQ06BNx8curxahVIQ/edit?usp=sharing) (but check for updates)
+  - Due Date: Nov 19 before the In-class Showcase
+    - You don't need to submit anything before the bake-off. You only need to bring your prototype and the project feedback form sheet to bake-off.
+    - Note: you can and should continue improving your prototype after the bakeoff session.
+
+- **Iterate on The Evaluation (10%)**
+
+  - Perform another user test regarding the prototype & the user need using the think-aloud protocol.
+  - Synthesizing the results using usability findings templates.
+  - Write a report discussing your findings.
+  - Due Date: Sunday, Dec 7, 11:59 PM
+
+- **In-Class Bake Off (4%)**
+  - Date: Wed Nov 19 in class
+  - Signup by Nov 18 noon
+    - Link to signup sheet: [EECS493 F25 Final Project Final Bakeoff Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
+
+### Iterate on the Prototype
+
+In this milestone, you will incorporate the design and usability findings and your proposed changes from milestone 3, prototype bakeoff to improve your Figma prototype.
+
+To start, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1ESHmK_hDI1SRG_0suQUUuyxveGGQ06BNx8curxahVIQ/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the bakeoff session. We will use this template to test your prototype and give suggestions, and you can use these suggestions (along with any feedback you received along the way) to further improve your prototype before conducting user testing sessions.
+
+- Similar to Milestone 3, we are not going to objectively measure the amount of work based on the number of screens, UI elements, etc. Think about it from the perspective of **"tasks", "critical user journeys"** can help. In this milestone, you should have **2 key tasks**. For example, in Assignment 4, you designed a task of favoriting, accepting and completing quests (i.e., engage with and complete a quest). This task contains a series of subtasks, including browsing quests, viewing quest details, favoriting a quest, accepting a quest, completing a quest, receiving rewards, etc, where the user could perform one or multiple interactions to complete the subtasks.
+
+- Note that tasks and prototype requirements in Milestone 3 still apply in Milestone 4, including having an appropriate scope for the task, avoiding implementing widely used existing functionality such as account management, and more. Please see the "Prototype" section in Milestone 3 for more information.
+
+- After the bakeoff session, please incorporate the feedback you received from the teaching staff (specifically from the project feedback form) and other students to further improve the prototype.
+
+- You will submit a list of changes you have made to the prototype, along with screenshots showing the changes. In the list of changes, please also indicate the source of the improvement if applicable, e.g., changes proposed in milestone 3, feedback gathered from the bakeoff session, etc.
+
+You will create a document to record the prototype iteration process, it must contain the following:
+
+- A link to your improved Figma prototype.
+- A list of changes you have made to the prototype.
+  - This should include the proposed future improvements (i.e., next steps) from your Milestone 3 report, feedback the team received from the bakeoff session, and feedback from the milestone 3 grading.
+- For each change, include a screenshot(s) of the prototype that clearly shows the change.
+
+### Iterate on the Evaluation
+
+#### User Test
+
+After improving the prototype, you will have to evaluate it again by performing another user test using think-aloud, but this time the goal is to investigate to what extent your solutions help the users achieve their goals and address their needs. Here are the specific requirements:
+
+- You need to have at least **4 users** for the test. Ideally, they should not be the same people from the first user evaluation (from Milestone 3).
+
+  - NOTE: If you have a team of 3 or 4, you need to have at least 4 users. If you have a team of 5, each team member needs to do at least 1 (i.e., at least 5 in total).
+
+- You should use the tasks you designed in your prototype.
+
+- The rest of the requirements are the same as those of the first user evaluation, including following the think-aloud protocol and synthesizing the results using usability findings templates.
+  - Each team should submit at least **2 UFTs/user × 4 users = 8 in total**. For teams of 5, at least 10 in total.
+
+#### Report
+
+You will write a ~700 word report discussing your findings. Here is an outline of the report:
+
+**Findings regarding the utility of the solution:**
+
+- How did the changes you made after milestone 3 improve the design and usability?
+- Discuss your findings regarding the usefulness of your current solution, using what you get from the user tests with think-alouds, the UFTs you created
+- What are some most serious problems with your prototype and what are some positive experiences you observed?
+
+**Analysis:**
+
+- Based on your findings, answer the following questions:
+  - To what extent the solution is solving the problem and addressing the user need?
+  - What part of the problem can not be solved by the solution? What else is needed, if any?
+- Use relevant quotes, observations, and UFTs to support your analysis.
+
+### Deliverables
+
+Please put everything in a zipped folder and submit:
+
+1. Link to your Figma prototype
+2. Your prototype iteration document
+3. The think-aloud tasks (list the tasks you used in the think-aloud sessions)
+4. At least 8-10 UFTs based on the templates (depending on your team size)
+5. At least 4-5 think-aloud transcripts depending on your team size (only need to submit the transcript, no video is needed)
+6. Your report
+
+**Grading Rubric:** to be provided
+
+### In-Class Showcase
+
+An in-class bakeoff session for the prototype will take place on **Nov 19** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
+
+**To prepare for the Final Project Showcase Day, please complete the following BY NOON Nov 18:**
+
+- Sign up for the showcase: [EECS493 W25 Final Project Final Bakeoff Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
+
+  - It asks for your team name, your uniqnames (separated by commas), and asks you to print and bring a copy of your filled out Project Feedback Form.
+
+- Make a copy of "Project Feedback Form (template)". Fill out your team's basic information and the first column of the table. Print it out, and bring it to class.
+
+**During the bakeoff day:**
+
+- We'll have ~13 stations per round, with a total of 4 rounds
+- A teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to fill in comments based on their experience.
 
 # Awesome Final Projects from Past Semesters
 
