@@ -421,9 +421,17 @@ You will be graded on:
 - Think Alouds and UFTs [5 points]
 - Written Report [7 points]
 
-## Milestone 4: Iterate on the Prototype & Evaluation
+## Milestone 4
 
 (Worth 28% of final project grade, 7% of total grade)
+
+### Overview
+
+| Due date                     | Task / Objective                      |
+| ---------------------------- | ------------------------------------- |
+| Tuesday 11/18 Noon           | In-Class Project Showcase Signup Form |
+| Wednesday 11/19 Before Class | Iterated Prototopes                   |
+| Sunday, 12/7 11:59 PM        | Zip file of all deliverables          |
 
 ### Goals
 
@@ -433,7 +441,7 @@ You will be graded on:
   - Link to Project Feedback Form: [Project Feedback Form (template)](https://docs.google.com/document/d/1ESHmK_hDI1SRG_0suQUUuyxveGGQ06BNx8curxahVIQ/edit?usp=sharing) (but check for updates)
   - Due Date: Nov 19 before the In-class Showcase
     - You don't need to submit anything before the bake-off. You only need to bring your prototype and the project feedback form sheet to bake-off.
-    - Note: you can and should continue improving your prototype after the bakeoff session.
+    - Note: you can and should continue improving your prototype after the showcase session.
 
 - **Iterate on The Evaluation (10%)**
 
@@ -442,30 +450,30 @@ You will be graded on:
   - Write a report discussing your findings.
   - Due Date: Sunday, Dec 7, 11:59 PM
 
-- **In-Class Bake Off (4%)**
+- **In-Class Project Showcase (4%)**
   - Date: Wed Nov 19 in class
   - Signup by Nov 18 noon
-    - Link to signup sheet: [EECS493 F25 Final Project Final Bakeoff Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
+    - Link to signup sheet: [EECS493 F25 Final Project Showcase Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
 
 ### Iterate on the Prototype
 
-In this milestone, you will incorporate the design and usability findings and your proposed changes from milestone 3, prototype bakeoff to improve your Figma prototype.
+In this milestone, you will incorporate the design and usability findings and your proposed changes from milestone 3, prototype showcase to improve your Figma prototype.
 
-To start, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1ESHmK_hDI1SRG_0suQUUuyxveGGQ06BNx8curxahVIQ/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the bakeoff session. We will use this template to test your prototype and give suggestions, and you can use these suggestions (along with any feedback you received along the way) to further improve your prototype before conducting user testing sessions.
+To start, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1ESHmK_hDI1SRG_0suQUUuyxveGGQ06BNx8curxahVIQ/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the showcase session. We will use this template to test your prototype and give suggestions, and you can use these suggestions (along with any feedback you received along the way) to further improve your prototype before conducting user testing sessions.
 
 - Similar to Milestone 3, we are not going to objectively measure the amount of work based on the number of screens, UI elements, etc. Think about it from the perspective of **"tasks", "critical user journeys"** can help. In this milestone, you should have **2 key tasks**. For example, in Assignment 4, you designed a task of favoriting, accepting and completing quests (i.e., engage with and complete a quest). This task contains a series of subtasks, including browsing quests, viewing quest details, favoriting a quest, accepting a quest, completing a quest, receiving rewards, etc, where the user could perform one or multiple interactions to complete the subtasks.
 
 - Note that tasks and prototype requirements in Milestone 3 still apply in Milestone 4, including having an appropriate scope for the task, avoiding implementing widely used existing functionality such as account management, and more. Please see the "Prototype" section in Milestone 3 for more information.
 
-- After the bakeoff session, please incorporate the feedback you received from the teaching staff (specifically from the project feedback form) and other students to further improve the prototype.
+- After the project showcase session, please incorporate the feedback you received from the teaching staff (specifically from the project feedback form) and other students to further improve the prototype.
 
-- You will submit a list of changes you have made to the prototype, along with screenshots showing the changes. In the list of changes, please also indicate the source of the improvement if applicable, e.g., changes proposed in milestone 3, feedback gathered from the bakeoff session, etc.
+- You will submit a list of changes you have made to the prototype, along with screenshots showing the changes. In the list of changes, please also indicate the source of the improvement if applicable, e.g., changes proposed in milestone 3, feedback gathered from the showcase session, etc.
 
 You will create a document to record the prototype iteration process, it must contain the following:
 
 - A link to your improved Figma prototype.
 - A list of changes you have made to the prototype.
-  - This should include the proposed future improvements (i.e., next steps) from your Milestone 3 report, feedback the team received from the bakeoff session, and feedback from the milestone 3 grading.
+  - This should include the proposed future improvements (i.e., next steps) from your Milestone 3 report, feedback the team received from the showcase session, and feedback from the milestone 3 grading.
 - For each change, include a screenshot(s) of the prototype that clearly shows the change.
 
 ### Iterate on the Evaluation
@@ -515,17 +523,17 @@ Please put everything in a zipped folder and submit:
 
 ### In-Class Showcase
 
-An in-class bakeoff session for the prototype will take place on **Nov 19** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
+An in-class showcase session for the prototype will take place on **Nov 19** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
 
 **To prepare for the Final Project Showcase Day, please complete the following BY NOON Nov 18:**
 
-- Sign up for the showcase: [EECS493 W25 Final Project Final Bakeoff Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
+- Sign up for the showcase: [EECS493 F25 Final Project Final Showcase Signup](https://docs.google.com/spreadsheets/d/101HlpHqTgMtFTUFINDao9EomwN9ARUhqEWy1i5JcrQs/edit?usp=sharing)
 
   - It asks for your team name, your uniqnames (separated by commas), and asks you to print and bring a copy of your filled out Project Feedback Form.
 
 - Make a copy of "Project Feedback Form (template)". Fill out your team's basic information and the first column of the table. Print it out, and bring it to class.
 
-**During the bakeoff day:**
+**During the showcase day:**
 
 - We'll have ~13 stations per round, with a total of 4 rounds
 - A teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to fill in comments based on their experience.
