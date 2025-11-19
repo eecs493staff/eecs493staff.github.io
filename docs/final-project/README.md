@@ -538,6 +538,73 @@ An in-class showcase session for the prototype will take place on **Nov 19** dur
 - We'll have ~13 stations per round, with a total of 4 rounds
 - A teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to fill in comments based on their experience.
 
+## Final Presentation Video
+
+(Worth 12% of final project grade, 3% of total grade)
+
+### Goals
+
+- Summarize and present the entire design process in a 5-minute video (hard limit)
+- Due Date: Wednesday 12/3 before class
+
+### Final Project Video
+
+For the final milestone, your team will make a 5-minute (300s) video of your project, summarizing the entire design process. We will devote the classes on 12/3 and 12/5 to this. For each team, we will play your video, then have a brief Q&A.
+
+The video should include content from past milestones:
+
+- User need and break point discovery (~40s)
+- Ideation, Storyboarding, and the solution (~40s)
+- A walkthrough or demo of your **final** prototype (~150s)
+- Evaluations and iterations: what are the evaluation results for each iteration? What are the key issues you identified? And how did you improve the prototype based on these results? (~60s)
+- Ending screen: your team, name/uniqname/photo of each team member
+
+**Note: this is a video, not a presentation. Be creative, tell a story. Think beyond using slides.**
+
+Please also sign up for the final presentation using the [Final Project Video Sign-up Sheet](https://docs.google.com/spreadsheets/d/19mIGPkto1ggO2GeQu7btcrsy07SV5ZGdABGR0T8xQwk/edit?usp=sharing) by **Wed 12/2 NOON**.
+
+- It asks for your team name, your uniqnames, and a YouTube link to your video.
+- Each lecture section has 13 slots, with 6 minutes for each slot (in order).
+- The video is a maximum of 5 minutes (hard limit), and please make sure to check
+  permission so we can play it in class. Please put it up on YouTube (public or
+  unlisted).
+- During your 6 minutes window, we'll play your video, and your team must be present and
+  come to the front
+  - If some of your team members have approved reasons for not making it in
+    person (need approval, email us of your reason), please join Zoom to join your
+    team.
+- For the other day that you are not presenting, you are required to be present to watch
+  other teams' videos (you can either join in person or via Zoom).
+
+For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
+Canvas as a team (ie, one per project team). You may include the video as an mp4 or as a zip
+file. You may also include any slides (in PDF) used in your video. If you do this, include it in the
+zip file.
+
+Grading rubric:
+
+- 2 points: A clear and understandable video
+- 1 point: The user need and your solution
+- 7 points: Your prototype's capabilities and interactions
+- 2 point: key usability issues you identified and how you have addressed or will address them
+
+See examples in the Appendix 1 below (though the time limit was different). Also refer to ones
+we showed in Lecture 19: HCI Research.
+
+## Mandatory: Project Team Peer Evaluation
+
+Final project team peer evaluation form will be made available soon.
+
+Note: fill this out individually, not in groups.
+
+This form is designed to let us know if certain team members are not contributing their fair
+share. Each person must fill out this form. Note, the idea is that shirkers will get penalized in
+their final project grade; however, you cannot raise your grade by "dinging" someone else.
+
+## You Did It!
+
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!
+
 # Awesome Final Projects from Past Semesters
 
 ## Winter 2025
