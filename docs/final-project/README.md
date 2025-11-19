@@ -544,30 +544,31 @@ An in-class showcase session for the prototype will take place on **Nov 19** dur
 
 ### Goals
 
-- Summarize and present the entire design process in a 2.5-minute video (hard limit)
+- Summarize and present the entire design process in a 5-minute video (hard limit)
 - Due Date: Wednesday 12/3 before class
 
 ### Final Project Video
 
-For the final milestone, your team will make a 2.5-minute video of your project, summarizing the entire design process. We will devote the classes on 12/3 and 12/5 to this. For each team, we will play your video, then have a brief Q&A.
+For the final milestone, your team will make a 5-minute (300s) video of your project, summarizing the entire design process. We will devote the classes on 12/3 and 12/5 to this. For each team, we will play your video, then have a brief Q&A.
 
-The video should include:
+The video should include content from past milestones:
 
-- Very briefly (~15s): The user need and your solution.
-- Focus (~100s): A walkthrough/demo of your prototype.
-- Briefly (~30s): 1 or 2 key issues your prototype had & how did you resolve them.
+- User need and break point discovery (~40s)
+- Ideation, Storyboarding, and the solution (~40s)
+- A walkthrough or demo of your **final** prototype (~150s)
+- Evaluations and iterations: what are the evaluation results for each iteration? What are the key issues you identified? And how did you improve the prototype based on these results? (~60s)
 - Ending screen: your team, name/uniqname/photo of each team member
-- Note: this is a video, not a presentation. Be creative, tell a story. Think beyond
-  using slides.
+
+**Note: this is a video, not a presentation. Be creative, tell a story. Think beyond using slides.**
 
 Please also sign up for the final presentation using the [Final Project Video Sign-up Sheet](https://docs.google.com/spreadsheets/d/19mIGPkto1ggO2GeQu7btcrsy07SV5ZGdABGR0T8xQwk/edit?usp=sharing) by **Wed 12/2 NOON**.
 
 - It asks for your team name, your uniqnames, and a YouTube link to your video.
-- Each lecture section has 26 slots, with 3 minutes for each slot (in order).
-- The video is a maximum of 2.5 minutes (hard limit), and please make sure to check
+- Each lecture section has 13 slots, with 6 minutes for each slot (in order).
+- The video is a maximum of 5 minutes (hard limit), and please make sure to check
   permission so we can play it in class. Please put it up on YouTube (public or
   unlisted).
-- During your 3 minutes window, we'll play your video, and your team must be present and
+- During your 6 minutes window, we'll play your video, and your team must be present and
   come to the front
   - If some of your team members have approved reasons for not making it in
     person (need approval, email us of your reason), please join Zoom to join your
@@ -575,8 +576,8 @@ Please also sign up for the final presentation using the [Final Project Video Si
 - For the other day that you are not presenting, you are required to be present to watch
   other teams' videos (you can either join in person or via Zoom).
 
-For the Canvas submission, you should upload the video as an mp4. You will turn this in on
-Canvas as a team (ie, one per project team). You may include the mp4 as an mp4 or as a zip
+For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
+Canvas as a team (ie, one per project team). You may include the video as an mp4 or as a zip
 file. You may also include any slides (in PDF) used in your video. If you do this, include it in the
 zip file.
 
@@ -600,9 +601,9 @@ This form is designed to let us know if certain team members are not contributin
 share. Each person must fill out this form. Note, the idea is that shirkers will get penalized in
 their final project grade; however, you cannot raise your grade by "dinging" someone else.
 
-Thank you for all the effort you have put into this project! We are excited to see how
-everything comes together. If you have any questions about the project, please feel free
-to let us know or post it on Piazza. Thanks!
+## You Did It!
+
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!
 
 # Awesome Final Projects from Past Semesters
 
