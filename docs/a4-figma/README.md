@@ -51,7 +51,11 @@ This assignment has 2 parts:
 
 Use the following storyboard to design and develop your prototype.
 
-<img src="images/teamGuzzi_storyboard.png" width="100%" />
+<img
+    src="images/teamGuzzi_storyboard.png" 
+    width="100%" 
+    alt="A nine-panel hand-drawn storyboard shows a college student who feels disconnected from campus after having only remote classes. They discover a campus exploration app on their phone. The app gives them a quest to go to the UMMA art museum and take photos of three artworks. The student uses the app’s map to navigate, takes photos inside the museum, and completes the quest through confirmation screens. They receive a reward and then favorite the location in the app. The final panel shows them standing happily in front of the UMMA, feeling accomplished for discovering new places on campus and getting some exercise."
+/>
 
 Credit: Team Guzzi, Fall 2021.
 
@@ -152,7 +156,11 @@ The prototype should have the following 6 top-level frames.
 - The user has to be able to navigate back to either Frame 1 or Frame 2* depending on your design of this frame.
     - *This should technically be an "Alternate Version of Frame 1 or Frame 2" since a quest has just been completed by the user at this point in time. But for simplicity, you do not have to make a different version for Frame 1 or Frame 2.
 
-<img src="images/interactive-component.gif" height="400px" />
+<img 
+    src="images/interactive-component.gif" 
+    height="400px" 
+    alt="An animated GIF showing an interactive heart icon in Figma. When the user clicks the heart, it fills with red to indicate it is liked. Clicking it again removes the fill, returning the heart to an outlined state."
+/>
 
 #### Suggested
 
@@ -169,7 +177,11 @@ This section describes the specific requirements of the report, which has 2 main
 
 At the very beginning of the report, include a link to your Figma prototype with access type "can view".
 
-<img src="images/share.gif" width="40%" />
+<img 
+    src="images/share.gif" 
+    width="40%" 
+    alt="Screenshot of Figma’s sharing window showing a prompt to move the file out of drafts, link-sharing options, and the owner listed as Jerry."
+/>
 
 Please make sure the link is working properly by opening it in an incognito/private window, and that clicking on the "Present" button will present your prototype which the user can interact with by clicking on certain elements on each frame.
 
