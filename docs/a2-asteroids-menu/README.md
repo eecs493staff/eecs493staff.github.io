@@ -90,15 +90,27 @@ Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
 
 ### Landing Page
 
-<img src="images/landing.png" width="100%" />
+<img 
+    src="images/landing.png" 
+    width="100%" 
+    alt="Main menu screen for the Asteroids web game with a starry purple space background, a large header labeled “Asteroids,” and two centered buttons labeled “Play game!” and “Settings.”" 
+/>
 
 ### Settings Panel
 
-<img src="images/settings.png" width="100%" />
+<img 
+    src="images/settings.png" 
+    width="100%"
+    alt="Settings panel with a volume slider set to 50 and three difficulty buttons—Easy, Normal, and Hard—with Normal highlighted, plus a Close button beneath them." 
+/>
 
 ### Tutorial Page
 
-<img src="images/tutorial.png" width="100%" />
+<img 
+    src="images/tutorial.png" 
+    width="100%" 
+    alt="Tutorial screen showing instructions to avoid asteroids, collect shields, use portals to advance levels, and gain points, with corresponding icons and a Start button at the bottom."
+/>
 
 ## Requirements
 
