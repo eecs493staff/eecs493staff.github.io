@@ -147,27 +147,51 @@ Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE
 
 ### "Get Ready" Splash Screen
 
-<img src="images/get-ready.png" width="100%" />
+<img 
+    src="images/get-ready.png" 
+    width="100%" 
+    alt="Minimal white start screen showing “Get Ready!” in bold pixel text above four arrow-key icons arranged like a directional pad. Below, the text reads “Use arrow keys to move.” A small scoreboard on the right displays “SCORE 0,” “DANGER 20,” and “LEVEL 1.”"
+/>
 
 ### Gameplay & Scoreboard
 
-<img src="images/gameplay.png" width="100%" />
+<img 
+    src="images/gameplay.png" 
+    width="100%"
+    alt="Gameplay screen showing a small rocket on a white background surrounded by several asteroid icons and a swirling black hole in the center. A shield icon sits near the bottom. On the right side, a scoreboard displays “SCORE 1560,” “DANGER 20,” and “LEVEL 1,” with a pause button in the top corner." 
+/>
 
 ### Game Over Page
 
-<img src="images/gameover.png" width="100%" />
+<img 
+    src="images/gameover.png" 
+    width="100%" 
+    alt="Game over screen for a space-themed Asteroids game, showing a purple dialog box centered on a starry galaxy background. The box displays “GAME OVER! YOU HAVE TO FIX YOUR SPACESHIP!” followed by the score “1720” and a “Start Over” button. The top banner reads “Asteroids” with simple asteroid icons on each side."
+/>
 
 ### Pause Screen
 
-<img src="images/pause.png" width="100%" />
+<img 
+    src="images/pause.png" 
+    width="100%" 
+    alt="Dimmed gameplay view with a centered pause menu showing “Game Paused,” a rocket image, and buttons for Resume, Restart, and Exit."
+/>
 
 ### Restart Confirmation
 
-<img src="images/restart-confirmation.png" width="100%" />
+<img 
+    src="images/restart-confirmation.png" 
+    width="100%" 
+    alt="Dimmed game screen with scattered cartoon asteroids and a small rocket on the right. A centered light-gray dialog box asks, “Are you sure you want to restart?” Below it are two buttons labeled “Yes” and “No.” The right-side HUD still shows SCORE 520, DANGER 20, LEVEL 1, with a pause icon in the top corner."
+/>
 
 ### Restarting
 
-<img src="images/restarting.png" width="100%" />
+<img 
+    src="images/restarting.png" 
+    width="100%" 
+    alt="Dimmed gameplay screen with scattered hand-drawn asteroids. In the center, small white text reads “Restarting…” The right HUD still shows SCORE 520, DANGER 20, and LEVEL 1, along with a small pause icon."
+/>
 
 The remaining pages are the same as Assignment 2.
 
