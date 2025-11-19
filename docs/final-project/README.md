@@ -24,8 +24,8 @@ Your team will come up with your own project theme, with the only restriction be
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 11/9 11:59 PM                 | - High-fi Figma prototype                                                  |
 |                                                                                                                       | Sun 11/9 11:59 PM                 | - First user evaluation using think-aloud with 2 users<br>- Written report |
 | [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation** | Wed 11/19 10:30 AM (before class) | - User need<br>- Break point                                               |
-| [**Final Presentation Video**]()                                                                                      | Wed 12/3 10:30 AM (before class)  | - Final Video                                                              |
-| [**Evaluation Report**]()                                                                                             | Wed 12/7 11:59 PM                 | - Evaluation Report                                                        |
+| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                | Wed 12/3 10:30 AM (before class)  | - Final Video                                                              |
+| [**Evaluation Report**](https://eecs493staff.github.io/final-project/#milestone-4)                                    | Wed 12/7 11:59 PM                 | - Evaluation Report                                                        |
 
 <!-- TODO: To release milestone add link to corresponding document -->
 <!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
@@ -544,19 +544,19 @@ An in-class showcase session for the prototype will take place on **Nov 19** dur
 
 ### Goals
 
-- Summarize and present the entire design process in a 5-minute video (hard limit)
+- Summarize and present the entire design process in a 4-minute video (hard limit)
 - Due Date: Wednesday 12/3 before class
 
 ### Final Project Video
 
-For the final milestone, your team will make a 5-minute (300s) video of your project, summarizing the entire design process. We will devote the classes on 12/3 and 12/5 to this. For each team, we will play your video, then have a brief Q&A.
+For the final milestone, your team will make a 4-minute (240s) video of your project, summarizing the entire design process. We will devote the classes on 12/3 and 12/5 to this. For each team, we will play your video, then have a brief Q&A.
 
 The video should include content from past milestones:
 
-- User need and break point discovery (~40s)
+- User need and break point discovery (~30s)
 - Ideation, Storyboarding, and the solution (~40s)
-- A walkthrough or demo of your **final** prototype (~150s)
-- Evaluations and iterations: what are the evaluation results for each iteration? What are the key issues you identified? And how did you improve the prototype based on these results? (~60s)
+- A walkthrough or demo of your **final** prototype (~120s)
+- Evaluations and iterations: what are the evaluation results for each iteration? What are the key issues you identified? And how did you improve the prototype based on these results? (~50s)
 - Ending screen: your team, name/uniqname/photo of each team member
 
 **Note: this is a video, not a presentation. Be creative, tell a story. Think beyond using slides.**
@@ -565,7 +565,7 @@ Please also sign up for the final presentation using the [Final Project Video Si
 
 - It asks for your team name, your uniqnames, and a YouTube link to your video.
 - Each lecture section has 13 slots, with 6 minutes for each slot (in order).
-- The video is a maximum of 5 minutes (hard limit), and please make sure to check
+- The video is a maximum of 4 minutes (hard limit), and please make sure to check
   permission so we can play it in class. Please put it up on YouTube (public or
   unlisted).
 - During your 6 minutes window, we'll play your video, and your team must be present and
@@ -591,15 +591,11 @@ Grading rubric:
 See examples in the Appendix 1 below (though the time limit was different). Also refer to ones
 we showed in Lecture 19: HCI Research.
 
-## Mandatory: Project Team Peer Evaluation
+## (Optional) Project Team Peer Evaluation
 
-Final project team peer evaluation form will be made available soon.
+This is optional, you can fill out this [final project team peer evaluation form](https://docs.google.com/forms/d/e/1FAIpQLSeu9Aq80nCR-zUd9Za4MFlhaRbUZKDxQpBKp1nuzE3uRc02yg/viewform?usp=dialog). This form is designed to let us know if certain team members are not contributing their fair share. Note, the idea is that shirkers will get penalized in their final project grade; however, you cannot raise your grade by "dinging" someone else.
 
 Note: fill this out individually, not in groups.
-
-This form is designed to let us know if certain team members are not contributing their fair
-share. Each person must fill out this form. Note, the idea is that shirkers will get penalized in
-their final project grade; however, you cannot raise your grade by "dinging" someone else.
 
 ## You Did It!
 
