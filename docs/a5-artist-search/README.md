@@ -153,63 +153,115 @@ Note: This is not the only way to achieve this behavior, but it is in my opinion
 
 ### Landing Page
 
-<img src="images/search-bar.png" width="100%" />
+<img 
+    src="images/search-bar.png" 
+    width="100%" 
+    alt="Music search interface with an empty search bar and no results displayed in the center of the screen."
+/>
 
 ### Search for an Artist
 
-<img src="images/search-result.png" width="100%" />
+<img 
+    src="images/search-result.png" 
+    width="100%" 
+    alt="Music search interface showing results for the artist 'Ayokay.' Fifty tracks found, with several tracks displayed at a time."
+/>
 
 ### "Track Info" Tab (for the left two results)
 
-<img src="images/track-info.png" width="100%" />
+<img 
+    src="images/track-info.png" 
+    width="100%" 
+    alt="Music search interface displaying results for the artist 'Ayokay.' Several tracks are visible. The first track’s info tab is selected, showing its track ID and the country of origin."
+/>
 
 ### Sort
 
 #### Menu
 
-<img src="images/sort-menu.png" width="100%" />
+<img 
+    src="images/sort-menu.png" 
+    width="100%" 
+    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. Selecting the dropdown filter opens options such as sort list results by: Reset to original, collection, and price"
+/>
 
 #### Sort by "Collection Name"
 
-<img src="images/sorted-collection.png" width="100%" />
+<img 
+    src="images/sorted-collection.png" 
+    width="100%" 
+    alt="An interface displaying music track results. The results are sorted by collection."
+/>
 
 #### Sort by "Price"
 
-<img src="images/sorted-price.png" width="100%" />
+<img 
+    src="images/sorted-price.png" 
+    width="100%"
+    alt="An interface displaying music track results. The results are sorted by price."
+/>
 
 ### Select the "Dance" and "Pop" Genres
 
 Remark: Sort is reset to original in this screenshot.
 
-<img src="images/select-genre.png" width="100%" />
+<img 
+    src="images/select-genre.png" 
+    width="100%" 
+    alt="An interface displaying music track results. In this screenshot the user has selected to filter by 'Dance' and 'Pop'."
+/>
 
 ### Search History
 
 #### Dropdown
 
-<img src="images/search-history.png" width="100%" />
+<img 
+    src="images/search-history.png" 
+    width="100%" 
+    alt="An interface displaying music track results. The search bar displays a list of past search results."
+/>
 
 #### After searching for "John Williams"
 
-<img src="images/search-history-add.png" width="100%" />
+<img 
+    src="images/search-history-add.png" 
+    width="100%" 
+    alt="An interface displaying music track results. The search bar displays a list of past search results. The user has just searched for artist 'John Williams' which has been added to the list of past search results."
+/>
 
 #### After deleting "ayokay"
 
-<img src="images/search-history-remove.png" width="100%" />
+<img 
+    src="images/search-history-remove.png" 
+    width="100%" 
+    alt="An interface displaying music track results. The search bar displays a list of past search results. The search result 'Ayokay' has been removed from the result history."
+/>
 
 ### Favorites
 
 #### Left Panel
 
-<img src="images/favorites.png" width="100%" />
+<img 
+    src="images/favorites.png" 
+    width="100%" 
+    alt="An interface displaying music track results, each with additional options and information, including a star icon; selecting the star marks the track as a favorite and adds it to the “Favorites” folder in the side panel."
+/>
 
 #### After adding "Hedwig's Theme"
 
-<img src="images/favorites-add.png" width="100%" />
+<img 
+    src="images/favorites-add.png" 
+    width="100%"
+    alt="An interface displaying music track results, each with additional options and information, including a star icon; selecting the star marks the track as a favorite and adds it to the “Favorites” folder in the side panel." 
+/>
 
 ### Play
 
-<img src="images/play.png" width="100%" />
+<img 
+    src="images/play.png" 
+    width="100%" 
+    alt="An interface displaying music track results, each with additional options and information, including a play button. Selecting the play button opens a now-playing display at the top of the screen showing the current track and a progress bar."
+/>
 
 ## Requirements
 
@@ -317,17 +369,29 @@ Here is another example of what the sort menu should look like and how it works.
 
 In the dropdown menu, initially, it should be set as the "Reset to original"  indicated below by blue background.
 
-<img src="images/sort-eg2-initial.png" width="100%" />
+<img 
+    src="images/sort-eg2-initial.png" 
+    width="100%" 
+    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre."
+/>
 
 When selecting a different option, it should be changed to that selection, for example, selecting "Collection Name", indicated by the blue background.
 
-<img src="images/sort-eg2-collection.png" width="100%" />
+<img 
+    src="images/sort-eg2-collection.png" 
+    width="100%" 
+    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. Selecting the dropdown filter opens options such as sort list results by: Reset to original, collection, and price."
+/>
 
 After an artist search and sorting by "Collection Name", then selecting different genres should still update the list by "Collection Name".
 
 In other words, if the user sorts by Collection Name, it should update the list sorted by collection name; after that, if the user picks a genre, e.g. Anime, it should update the Anime list sorted by collection name too.
 
-<img src="images/sort-eg2-genre.png" width="100%" />
+<img 
+    src="images/sort-eg2-genre.png" 
+    width="100%" 
+    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. In this screenshot the user has selected to filter by the Soundtrack genre."
+/>
 
 This should work when selecting any of the three sort options.
 
