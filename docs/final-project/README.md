@@ -586,7 +586,7 @@ Grading rubric:
 - 2 points: A clear and understandable video
 - 1 point: The user need and your solution
 - 7 points: Your prototype's capabilities and interactions
-- 2 point: key issues and how you have addressed or will address them
+- 2 point: key usability issues you identified and how you have addressed or will address them
 
 See examples in the Appendix 1 below (though the time limit was different). Also refer to ones
 we showed in Lecture 19: HCI Research.
