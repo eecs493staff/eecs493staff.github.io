@@ -569,12 +569,9 @@ Please also sign up for the final presentation using the [Final Project Video Si
   permission so we can play it in class. Please put it up on YouTube (public or
   unlisted).
 - During your 6 minutes window, we'll play your video, and your team must be present and
-  come to the front
-  - If some of your team members have approved reasons for not making it in
-    person (need approval, email us of your reason), please join Zoom to join your
-    team.
+  come to the front.
 - For the other day that you are not presenting, you are required to be present to watch
-  other teams' videos (you can either join in person or via Zoom).
+  other teams' videos.
 
 For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
 Canvas as a team (ie, one per project team). You may include the video as an mp4 or as a zip
