@@ -519,7 +519,19 @@ Please put everything in a zipped folder and submit:
 5. At least 4-5 think-aloud transcripts depending on your team size (only need to submit the transcript, no video is needed)
 6. Your report
 
-**Grading Rubric:** to be provided
+### Grading Rubric
+
+Your Milestone 4 submission will be graded on:
+
+- Prototype Iterations (14 points)
+  - Documented iterations of prototypes based on project showcase and Milestone 3 findings (e.g.., usability issues identified) and feedback.
+  - Basic requirements for your prototype and supported tasks (similar to the Milestone 3 grading on prototypes)
+  - Quality of your prototype (e.g., are improvements well motivated by findings from Milestone 3? Did the improvements address the issues? Are user interactions well designed? Are tasks clearly defined? Is the scope appropriate?)
+- Evaluation and Report (10 points)
+  - Basic requirements from the spec (e.g., number of think-aloud sessions, UFT requirements, documented list of think-aloud tasks, did the report discuss findings from UFTs, etc.).
+  - Quality of the evaluations and report.
+- In-Class Project Showcase (4 points)
+  - This will be based on your participation of the showcase session.
 
 ### In-Class Showcase
 
