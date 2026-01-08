@@ -60,15 +60,15 @@ Your team will come up with your own project theme, with the only restriction be
 
 | Resource                                                      | Description                                                |
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Team Registration Form](https://forms.gle/x9itCsb9UCqgsbfk8) | Register your teams here                                   |
-| [Team Finding Form](https://forms.gle/5G7CpkLgL7JjW1rR6)      | Fill this out, if you would like us to form a team for you |
+| [Team Registration Form](https://forms.gle/UdgmhfNepDNRbPD3A) | Register your teams here                                   |
+| [Team Finding Form](https://forms.gle/ZzL7G2zDP199a5k26)      | Fill this out, if you would like us to form a team for you |
 | [Project Team Spreadsheet (Te be released)]()                 | A detailed list of all project teams for this semester     |
 
 ### Goals
 
 - Form a team of 4 members (either self-selected or assigned by the course staff).
-  - If you formed your own team, fill out this [Team Registration form](https://forms.gle/x9itCsb9UCqgsbfk8).
-  - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/5G7CpkLgL7JjW1rR6). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
+  - If you formed your own team, fill out this [Team Registration form](https://forms.gle/UdgmhfNepDNRbPD3A).
+  - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/ZzL7G2zDP199a5k26). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
   <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing). -->
 
 ### Team Membership
