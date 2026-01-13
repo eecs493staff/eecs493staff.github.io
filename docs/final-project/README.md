@@ -76,10 +76,10 @@ Your team will come up with your own project theme, with the only restriction be
 Teams should ideally consist of **4** members.
 
 - If you select your own team:
-  - You need to submit a list of team members via the [Team Registration form](https://forms.gle/x9itCsb9UCqgsbfk8).
+  - You need to submit a list of team members via the [Team Registration form](https://forms.gle/UdgmhfNepDNRbPD3A).
   - _Please only submit 1 form per team._
 - If you choose to have us assign you to a team.
-  - You have to fill out a [Team Finding form](https://forms.gle/5G7CpkLgL7JjW1rR6) describing yourself, e.g. strengths, time available to work, etc.
+  - You have to fill out a [Team Finding form](https://forms.gle/ZzL7G2zDP199a5k26) describing yourself, e.g. strengths, time available to work, etc.
   - Please note that if you choose this option, you will be assigned to a team _after the due date_, and your team will have **2 days** to submit the Team Registration form, i.e. slightly behind on the project.
 
 ### Additional Notes for Team Formations
