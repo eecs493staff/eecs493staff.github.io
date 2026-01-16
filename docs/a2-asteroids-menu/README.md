@@ -3,12 +3,11 @@ layout: spec
 title: a2-asteroids-menu
 ---
 
-EECS 493 Assignment 2: Asteroids Main Menu
-======================================
+# EECS 493 Assignment 2: Asteroids Main Menu
 
-| Total     | Released | Due                         |
-| --------- | -------- | --------------------------- |
-| 65 points | 9/2   | 9/14 11:59 PM    |
+| Total     | Released | Due           |
+| --------- | -------- | ------------- |
+| 65 points | 1/16     | 1/25 11:59 PM |
 
 ## Submission Instructions
 
@@ -16,7 +15,7 @@ EECS 493 Assignment 2: Asteroids Main Menu
 
 Please submit your work to Canvas as a zip file, named `a2_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a2_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
 
-This zip file should have a *single directory* containing *all files and directories* provided in the starter code. In other words, the zip file should have the following structure.
+This zip file should have a _single directory_ containing _all files and directories_ provided in the starter code. In other words, the zip file should have the following structure.
 
 ```console
 a2_uniqname
@@ -47,9 +46,9 @@ Watch this video for an overview of both Assignment 2 and 3: [https://youtu.be/F
 
 This assignment has 3 main components (denominator of 65 points):
 
-1. A landing page - *25 points*
-2. A settings panel - *25 points*
-3. A tutorials page - *15 points*
+1. A landing page - _25 points_
+2. A settings panel - _25 points_
+3. A tutorials page - _15 points_
 
 ## Starter Code
 
@@ -118,13 +117,13 @@ We outline the requirements for each of the components below. **Everything liste
 
 ### General
 
-- Only use one HTML file, `index.html`. *-10 points off if not followed.*
-- Do all styling/layout in a separate CSS file, `index.css`. *-10 points off if not followed.*
-    - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
-    - Moderate use of `<br>` tags are ok.
-- Do all JavaScript code in a separate JS file, `page.js`. *-10 points off if not followed.*
-    - Registering event listeners for an HTML element inline is ok.
-- Use relative paths for images. *-10 points off if not followed.*
+- Only use one HTML file, `index.html`. _-10 points off if not followed._
+- Do all styling/layout in a separate CSS file, `index.css`. _-10 points off if not followed._
+  - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
+  - Moderate use of `<br>` tags are ok.
+- Do all JavaScript code in a separate JS file, `page.js`. _-10 points off if not followed._
+  - Registering event listeners for an HTML element inline is ok.
+- Use relative paths for images. _-10 points off if not followed._
 
 ### Landing Page (25 points)
 
@@ -133,8 +132,8 @@ We outline the requirements for each of the components below. **Everything liste
 - a background image
 - an "Asteroids" header
 - two buttons, "Play game!" and "Settings", that transition to the correct corresponding screen when clicked (Need JavaScript)
-    - "Play game!" transitions to Tutorials Page
-    - "Settings" transitions to the Settings Panel
+  - "Play game!" transitions to Tutorials Page
+  - "Settings" transitions to the Settings Panel
 
 #### Required
 
@@ -143,7 +142,7 @@ We outline the requirements for each of the components below. **Everything liste
 - Header should be at the top and span the entire width of the game window
 - The text "Asteroids" should be horizontally centered
 - Asteroid gifs should appear on the left and right side of the header; they should also have the same height as the header while retaining their original width/height ratio
-    - Hint: [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) ([Flexbox Froggy](https://flexboxfroggy.com) is a great website to learn about Flexbox)
+  - Hint: [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) ([Flexbox Froggy](https://flexboxfroggy.com) is a great website to learn about Flexbox)
 - Both buttons must appear within the game’s border and be horizontally centered and aligned
 - Text in the buttons should be horizontally and vertically centered
 - There should be some space between the first button and the bottom of the header, and some space between the two buttons
@@ -161,6 +160,7 @@ color: white;
 ```
 
 Button:
+
 ```css
 width: 200px;
 height: 100px;
@@ -174,27 +174,27 @@ color: white;
 
 - 3 headings ("Settings", "Volume:", "Difficulty")
 - a slider under the "Volume:" heading to adjust the volume of the game
-    - default: 50
+  - default: 50
 - 3 buttons under the "Difficulty" heading to select the difficulty level
-    - default: Normal
+  - default: Normal
 - a close button that transitions back to the landing page (Need JavaScript)
 - Settings should remain the same after closing the panel
-    - Note: When the page is reloaded/refreshed, settings do *not* have to remain the same.
+  - Note: When the page is reloaded/refreshed, settings do _not_ have to remain the same.
 
 #### Required
 
 - The Settings Panel
-    - should have `width: 600px; height: 690px;`
-    - should be displayed within the game's border
-    - should be centered both vertically and horizontally
+  - should have `width: 600px; height: 690px;`
+  - should be displayed within the game's border
+  - should be centered both vertically and horizontally
 - All 3 headings should be bolded and horizontally centered
-    - Remark: The volume number, e.g. 50, is NOT bolded
+  - Remark: The volume number, e.g. 50, is NOT bolded
 - The slider has a range of 1 to 100 (inclusive); as the user drags the slider left and right, the current volume number based on the positioning of the slider should be updated next to the "Volume:" label.
-    - Hint: [How To Create Range Sliders](https://www.w3schools.com/howto/howto_js_rangeslider.asp) (Need JavaScript)
+  - Hint: [How To Create Range Sliders](https://www.w3schools.com/howto/howto_js_rangeslider.asp) (Need JavaScript)
 - The three difficulty buttons
-    - have the same size (height/width)
-    - are labeled "Easy","Normal", and "Hard" respectively
-    - are vertically aligned and evenly spaced horizontally
+  - have the same size (height/width)
+  - are labeled "Easy","Normal", and "Hard" respectively
+  - are vertically aligned and evenly spaced horizontally
 - There is a distinct border around the difficulty that is currently selected
 - When clicking a Difficulty button, the border should change indicating that it has been selected (Need JavaScript)
 - The close button should be horizontally aligned with the middle difficulty button (i.e. the "Normal" button)
@@ -209,7 +209,7 @@ height: 25px;
 background: #d3d3d3;
 outline: none;
 opacity: 0.7;
-transition: opacity .2s;
+transition: opacity 0.2s;
 ```
 
 Button:
@@ -305,7 +305,8 @@ Yes.
 Yes.
 
 ## Acknowledgments
+
 Original spec written by Zirui Zhao <zhaojer@umich.edu>.
 Updated by the EECS 493 team.
 
-This document is licensed under a [Creative Commons Attribution-NonCommercial 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). You're free to copy and share this document, but not to sell it.  You may not share source code provided with this document.
+This document is licensed under a [Creative Commons Attribution-NonCommercial 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/). You're free to copy and share this document, but not to sell it. You may not share source code provided with this document.
