@@ -133,7 +133,7 @@ For each theme's first interview transcript (P1), the teaching staff has annotat
 
 ### Interview Requirements
 
-Each team member should conduct at least 2 interviews, with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission.
+Each team member should conduct at least 2 interviews, with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission. That means 8 interviews for teams of 3 or 4, and 10 interviews for teams of 5.
 
 ### Analysis Process
 
@@ -159,6 +159,148 @@ You will be graded on:
 - Quality of blue, pink, and green notes (3 pts)
 - Written Report (2 pts)
 - Interview Design Document (6 pts)
+
+## Milestone 2
+
+(Worth 20% of final project grade, 5% of total grade)
+
+| Due date                 | Task / Objective                      |
+| ------------------------ | ------------------------------------- |
+| Wednesday 2/25 Noon      | In-Class Project Showcase Signup Form |
+| Friday 2/26 Before Class | Storyboards                           |
+| Friday 3/8 11:59 PM      | Zip file of all deliverables          |
+
+### Links and Resources
+
+- In-Class Project Showcase Signup Form (To Be Released)
+- [Team Information and Staff Contacts](https://docs.google.com/spreadsheets/d/1otnocdmyNSOz1Vt3zkfmc9kJVmVdDkYSZUPWbDvXsrE/edit?usp=sharing)
+
+### Goals
+
+- Ideation (8%)
+  - Brainstorm as many solutions as you can using the IDEO Ideation method taught in class among your team.
+  - Based on these ideas, group and filter them down to a subset of 8-10 ideas that will be used for creating your storyboards.
+
+- In-class Project Showcase (4%)
+  - In your class on Friday 2/26, we will host an in-class storyboard session to help you ideate better. We will organize the class to facilitate in-class feedback for your ideas.
+  - Please complete the “In-Class Project Showcase Sign-up Form” by NOON, 2/25 (Wednesday).
+
+- Speed dating (8%)
+  - Speed date the storyboards with at least 4 potential users **(5 for teams of five)** in order to
+    - Validate the user need
+    - Get feedback on the proposed solutions
+    - Figure out the final design you want to implement in the next step
+
+- Deliverables: You need to submit the following as one zip file on Canvas.
+  - A PDF of a list of at least 80 ideas your team came up with using the IDEO ideation method, and also a subset of 8-10 ideas your team picked for storyboarding.
+  - A PDF including all of your storyboards.
+  - A PDF/image of the post-it notes you collected during in-class project showcase.
+  - Transcripts or notes for at least 4 or 5 speed dating sessions (please do not submit the original recordings).
+  - A written report of your method, findings, and final design idea (~700 words, not strict)
+
+### Ideation
+
+In the ideation step, you need to first brainstorm at least 80 ideas/solutions to the
+user need(s) you identified in Milestone 1. And then, you need to pick 8-10 ideas to
+be ferreted out using the storyboards. These ideas can cover one of the identified
+user needs or both. This is to say, you can probe storyboards for two different
+user needs as a way to validate which one is more relatable to target users. These storyboards
+should help you present your ideas visually, without any specific UI designs/implementations.
+
+Here is a rough template (please see lecture for more examples):
+
+- Scenario with a persona (illustrate the user need): 1 panel
+- Solution (illustrate how the user need is resolved): 1-2 panels
+- Outcome (illustrate the result of the resolution): 1 panel
+- For each storyboard, you also need to write two leading questions which show what question you will ask during the speed dating session. (see lecture for examples)
+
+You will present these storyboards for speed dating and in the in-class project showcase. For Canvas submission, take a screenshot/picture of your storyboards and put them into one document.
+
+### Speed Dating
+
+Then, you need to make sure that the user need you have identified is real and narrow down your solutions. You will perform speed dating with at least 4 or 5 potential users, analyze the results, and write a brief report.
+
+Assuming you have 8-10 storyboards, each speed dating session should take less than 30 minutes, during which you should present all of your 8-10 storyboards. We encourage each team member to perform one speed dating session and you will then come together to synthesize the results.
+
+#### Speed Dating Procedure
+
+- Speed date with at least 4 potential users using the storyboards you have created.
+  - You are responsible for finding your participants. They should belong to your target user group(s).
+  - Each team member needs to perform at least one speed dating session.
+  - The speed dating session can be done in person or over Zoom (where you can share your screen).
+- You will present each storyboard, explain what’s happening.
+- Here are some suggestions of questions that you can ask the participants:
+  - **Need validation**
+    - Have you been in a similar situation before?
+    - Does the scenario reflect an authentic situation you’ve been in before?
+  - **Attitudes towards solution**
+    - Can you share your thoughts on the solution proposed?
+    - What aspects of the technology/solution do you find compelling?
+    - What are your concerns about the solution proposed?
+    - Would you use this technology in your own [specific context, e.g., business, work, project]?
+    - How can this technology/solution be made more suitable for your context?
+    - Include your solution-specific questions.
+- Please note that the above are suggestions. You can use your own questions. In the
+  final report, you need to include at least one question for need validation, and at least
+  one question to gather thoughts on the solution. Feel free to re-use the options above.
+- If the participant consents, recording the session is encouraged. Please then use
+  transcription services such as Zoom Cloud Recording to get the transcript, and modify it
+  when necessary.
+- If the participant does not consent to be recorded, please take deliberate notes throughout the session.
+- You should clean up the transcripts before submitting to us. Please follow the format as
+  the previous transcripts we've provided in A2 and Milestone 1. Please do not upload the
+  recordings themselves.
+
+#### Analyzing Data from Speed Dating and Presenting your Findings
+
+- Summarize your findings from the 4 or 5 speed dating sessions.
+- You can use a method of your choice, such as affinity diagramming.
+- Specifically, your goal is to answer the questions including:
+  - Is the user need real?
+  - Why is this an important problem to solve?
+  - What challenges do people face in similar situations?
+  - What design solution do you converge on for the next step based on the speed dating findings?
+
+### In-Class Project Showcase
+
+The class on 2/26 will be devoted to live critiques, and in short rounds (e.g. ~20 minutes for each round), several teams at a time will post their storyboards on the wall or lay them out on tables around the room. We assume many teams haven’t started running the speed dating sessions yet. Please use this as an opportunity to get feedback to improve your storyboards.
+
+**Make sure to bring your printed storyboards for this showcase!**
+
+Please complete the “Storyboard Session Sign-up Form” linked under “Goals” heading BY NOON ON 2/25.
+
+#### Here's what will happen at the in-class storyboard session:
+
+- There will be a list of team assignments for each round.
+- For each round:
+  - **If you are presenting your team's storyboard in that round:**
+    - Post all pages of your storyboard at the station.
+    - You must have one additional blank page available for post-its.
+    - Stand at your station to explain your storyboard and take comments.
+    - One person gets the job of notetaker to write down all the great ideas you're given.
+    - At the end of the session, take a picture of the post-it notes page(s) your team gathered and submit to Canvas as part of your Milestone 2 submission.
+  - **If you are not presenting:**
+    - Your job is to go make other group's projects better.
+    - Go see the other team's storyboards.
+    - Ask questions that help you to understand it (not to critique it).
+    - Make suggestions on how to make it better.
+    - You are also encouraged to learn from the other teams' great ideas!
+    - Leave your suggestions on post-it notes on the extra page with the team.
+
+### Rubric
+
+Your Milestone 2 submissions will be graded on:
+
+- Ideas (E.g., Are there 80 ideas in total?)
+- Storyboards
+  - Basic requirements: amount of storyboards, amount of panels per storyboard, presence of captions, personas, etc.
+  - Quality: including but not limited to: coverage of user needs/breakpoints identified in Milestone 1, diversity and scope of solutions, etc.
+- Speed dating protocol and transcripts
+  - Basic requirements: amount of users & transcripts, presence of need validation and attitudes toward solutions, etc.
+  - Quality: including but not limited to: the representation of target user groups, quality of questions, coverage of questions for eliciting user needs.
+- Report
+  - Basic requirements
+  - Quality: e.g., is the report clear and well-written? Are findings and conclusions well supported? Are findings insightful and relevant to the problem?
 
 # Awesome Final Projects from Past Semesters
 
