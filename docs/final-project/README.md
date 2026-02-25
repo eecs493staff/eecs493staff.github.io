@@ -20,7 +20,7 @@ Your team will come up with your own project theme, with the only restriction be
 | [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                    | Sun 2/1 11:59 PM                 | - Team Formation                                                           |
 | [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**               | Sun 2/15 11:59 PM                | - User need<br>- Break point                                               |
 | [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Thur 2/27 3:00 PM (before class) | - In-class storyboard showcase                                             |
-|                                                                                                                       | Sun 3/8 11:59 PM                 | - Storyboards<br>- Speed dating with users<br>- Written report             |
+|                                                                                                                       | Sun 3/13 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 3/29 11:59 PM                | - High-fi Figma prototype                                                  |
 |                                                                                                                       | Sun 3/29 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
 | [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation** | Tue 4/7 3:00 PM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
@@ -168,11 +168,11 @@ You will be graded on:
 | ------------------------ | ------------------------------------- |
 | Wednesday 2/25 Noon      | In-Class Project Showcase Signup Form |
 | Friday 2/26 Before Class | Storyboards                           |
-| Friday 3/8 11:59 PM      | Zip file of all deliverables          |
+| Friday 3/13 11:59 PM     | Zip file of all deliverables          |
 
 ### Links and Resources
 
-- In-Class Project Showcase Signup Form (To Be Released)
+- [In-Class Project Showcase Assignment Form](https://docs.google.com/spreadsheets/d/15vsvyPq_XePA7gUfyYpDngnypu55ioOWW_5ZPPZqSqo/edit?usp=sharing)
 - [Team Information and Staff Contacts](https://docs.google.com/spreadsheets/d/1otnocdmyNSOz1Vt3zkfmc9kJVmVdDkYSZUPWbDvXsrE/edit?usp=sharing)
 
 ### Goals
@@ -183,7 +183,6 @@ You will be graded on:
 
 - In-class Project Showcase (4%)
   - In your class on Friday 2/26, we will host an in-class storyboard session to help you ideate better. We will organize the class to facilitate in-class feedback for your ideas.
-  - Please complete the “In-Class Project Showcase Sign-up Form” by NOON, 2/25 (Wednesday).
 
 - Speed dating (8%)
   - Speed date the storyboards with at least 4 potential users **(5 for teams of five)** in order to
