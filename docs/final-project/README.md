@@ -15,17 +15,17 @@ Your team will come up with your own project theme, with the only restriction be
 
 ## Detailed Timeline
 
-| Milestone                                                                                                             | Due date                         | Task / Objective                                                           |
-| --------------------------------------------------------------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------- |
-| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                    | Sun 2/1 11:59 PM                 | - Team Formation                                                           |
-| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**               | Sun 2/15 11:59 PM                | - User need<br>- Break point                                               |
-| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**           | Thur 2/27 3:00 PM (before class) | - In-class storyboard showcase                                             |
-|                                                                                                                       | Sun 3/13 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
-| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**            | Sun 3/29 11:59 PM                | - High-fi Figma prototype                                                  |
-|                                                                                                                       | Sun 3/29 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
-| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation** | Tue 4/7 3:00 PM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
-| [**Final Presentation Poster**](https://eecs493staff.github.io/final-project/#final-presentation-video)               | Wed 4/21 3:00 PM (before class)  | - Final Presentation Poster Ready                                          |
-| [**Milestone 4 Deliverables**](https://eecs493staff.github.io/final-project/#milestone-4)                             | Sun 4/26 11:59 PM                | - Evaluation Report                                                        |
+| Milestone                                                                                                                                  | Due date                         | Task / Objective                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------------------- |
+| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                                         | Sun 2/1 11:59 PM                 | - Team Formation                                                           |
+| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**                                    | Sun 2/15 11:59 PM                | - User need<br>- Break point                                               |
+| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**                                | Thur 2/27 3:00 PM (before class) | - In-class storyboard showcase                                             |
+|                                                                                                                                            | Sun 3/13 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
+| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**                                 | Sun 3/29 11:59 PM                | - High-fi Figma prototype                                                  |
+|                                                                                                                                            | Sun 3/29 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
+| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation**                      | Tue 4/7 3:00 PM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
+| [**Final Presentation Poster**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                    | Tue 4/21 3:00 PM (before class)  | - Final Presentation Poster Ready                                          |
+| [**Milestone 4 Deliverables**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Deliverables and Final Presentation Video** | Sun 4/26 11:59 PM                | - Evaluation Report<br>-Final Presentation Video                           |
 
 <!-- TODO: To release milestone add link to corresponding document -->
 <!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
@@ -300,6 +300,130 @@ Your Milestone 2 submissions will be graded on:
 - Report
   - Basic requirements
   - Quality: e.g., is the report clear and well-written? Are findings and conclusions well supported? Are findings insightful and relevant to the problem?
+
+## Milestone 3
+
+(Worth 20% of final project grade, 5% of total grade)
+
+### Goals
+
+- Prototype (12%)
+  - Design & implement a high-fi prototype using Figma
+- Evaluation (8%)
+  - Perform at least two user tests regarding the usability of your prototype using the
+    think-aloud protocol.
+  - Synthesizing the results using usability findings templates.
+  - Write a report describing the usability issues discovered from the user test, and
+    summarize a list of things to fix.
+- Link to Assignment: Canvas Assignment
+- Due Date: Nov 9, 11:59 PM
+
+### Prototype
+
+For the prototype step, your team will design and build a high-fidelity prototype using Figma.
+
+- The prototype should be built using Figma, instead of web/app technologies (e.g., HTML,
+  CSS, Javascript, Swift, etc.).
+- The prototype should have a significant amount of work or details. **Compared to
+  Assignment 4, your prototype should have at least 4 times the amount of work or details for a team of 3 or 4 and 5 times the amount for a team of 5.** This includes but not limited to the number of frames, features, functions, supported interactions, and more.
+  - We will primarily evaluate this from the perspective of "tasks"/"critical user
+    journeys", i.e., a sequence of user interactions your prototype supports for users
+    to accomplish one of their primary goals. For example, in Assignment 4, you
+    designed a task of favoriting, accepting and completing quests (i.e., engage with
+    and complete a quest). This task contains a series of subtasks, including
+    browsing quests, viewing quest details, favoriting a quest, accepting a quest,
+    completing a quest, receiving rewards, etc, where the user could perform one or
+    multiple interactions to complete the subtasks.
+  - For this milestone, your prototype should support **2 key tasks**, with at least 8
+    subtasks per task. Subtasks need to be part of the task rather than just a
+    combination of different features.
+  - Both tasks need to support the same goal (e.g., "improve resume") and the goal
+    should not be too general (e.g., "find a job", since there will be many directions
+    you can go under this goal). If your task has less than 8 subtasks, it may indicate
+    the task is too specific (e.g., "favorite the quest", "accept the quest").
+  - The task should be key goals users need to accomplish using your prototype,
+    such as 1) sign up for a career fair event, find it on your calendar, and cancel it,
+    or 2) carry out a consultation session with an AI agent to do a mock interview and
+    provide feedback (with many conversation turns to concretely achieve
+    something). In the context of Gmail, a task would be to compose and send an
+    email, or create a folder and sort emails into it, where each of them would include
+    a series of steps and interactions.
+  - Unless highly relevant and really needed, we want to discourage you from prototyping tasks or designs that are commonly seen or not adding values to your users, such as managing accounts, signing-in, etc. (but can be a part of your system-specific tasks).
+- You can use and build on external templates, but please document them clearly of what
+  is from others, what is from you, when making the submission on Canvas.
+- A link to your Figma prototype should be submitted on Canvas by the due date.
+- Please describe your tasks, subtasks in the report as a separate section.
+- Please consider attending staff office hours to discuss your prototypes to get timely feedback. Also feel free to email us with your prototype for qiuck feedback or prototype-related questions.
+
+### Evaluation
+
+#### User Test
+
+After building the prototype, your team will have to evaluate it by performing a user test with at least 2 target users, who will attempt to use your prototype without much prompting, while
+thinking-aloud. Here are the specific requirements:
+
+- You need to have at least 2 users. You are responsible for finding your participants. You could have more than 1 team member to run the user test so that everyone on your team will have the opportunity to directly observe users.
+- After each user testing session, please iteratively improve your prototype. The changes
+  after each iteration should be discussed in your final report.
+- You should use the key tasks your prototype supports for the users, but keep the
+  instruction on a high level without specifying each subtask step the user needs to take.
+  - The goal of this evaluation is to test your prototype's usability, so you should give
+    users the high-level task and let them figure out how to navigate the UI elements.
+    You want to cover all functionalities of the prototype and progressively getting
+    more difficult.
+  - Example: Sign up for a career fair event, then cancel it from the calendar (easy); Carry out a consultation session with an AI agent to do a mock interview and provide feedback (hard).
+  - Note that these tasks shouldn't be too granular such as
+    "accepting request" or "completing request" as separate tasks.
+- Ask the users to do think-alouds as they try to use the prototype to perform the tasks.
+  - Please follow the think-aloud protocol from lecture and check the lecture slides if
+    unsure.
+  - Test your prototype on the platform it's designed for. If you are designing a mobile
+    app, then run it on a mobile phone (try open in Figma mobile app). If you are
+    designing a desktop website, then run it on a desktop browser. Consider context.
+- Remember to screen record the user tests, so that you can analyze the audio and
+  screen recordings afterwards to detect usability issues.
+- If you find it difficult to do in-person testings, here are some alternatives:
+  - You can share your prototype with them using Figma's share feature, then you
+    can ask the user to use it while sharing their screen in Zoom (or any other video
+    conferencing system).
+  - You can use Zoom screen sharing and give your participants remote control
+    access, so they can interact with the prototype directly in Zoom.
+  - If you used Zoom to record, please enable audio transcription in order to save the
+    transcripts.
+- Write up usability findings based on the usability findings template (UFT). Each team
+  should submit at least 6 UFTs for this milestone. (namely 3 UFTs per think-aloud)
+
+Link to usability findings template: [Usability-Finding-Template](https://docs.google.com/presentation/d/1JSe47wi4CQ8hsiYn-m9dZGBkaqEHIlS4oxM3grqjz1w/edit?usp=sharing)
+
+Example 1:
+
+<img src="figures/m3/example1.png" height="70%" />
+
+Example 2:
+
+<img src="figures/m3/example2.jpeg" height="70%" />
+
+#### Deliverables (please put everything in a zipped folder and submit):
+
+1. Link to the Figma prototype (check permission so anyone can view)
+2. The think-aloud tasks (list the tasks you used in the think-aloud sessions)
+3. UFTs based on the templates
+4. Cleaned think-aloud transcripts, one per session (transcript only, no video)
+5. A 1-page report (~700 words) describing your findings in .docx:
+   - Connect the findings from the UFTs, what are some most serious problems with
+     your prototype and what are some positive experiences you observed during the
+     think-aloud tests.
+   - Describe what changes you've made during the iterations, and what needs to be
+     done next to the prototype in order to improve its usability.
+
+### Rubrics for Milestone 3
+
+You will be graded on:
+
+- Basic requirements for the prototype [9 points] (e.g., is the prototype developed using Figma? Does the prototype support at least 2 key tasks? Are tasks relevant to user goals and the team's project themes?)
+- Quality of the prototype (e.g., are think-alouds useful and thorough?) [3 points]
+- Think Alouds and UFTs [5 points]
+- Written Report [7 points]
 
 # Awesome Final Projects from Past Semesters
 
