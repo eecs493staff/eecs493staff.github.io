@@ -316,7 +316,7 @@ Your Milestone 2 submissions will be graded on:
   - Write a report describing the usability issues discovered from the user test, and
     summarize a list of things to fix.
 - Link to Assignment: Canvas Assignment
-- Due Date: Nov 9, 11:59 PM
+- Due Date: Sunday, March 29, 11:59 PM
 
 ### Prototype
 
