@@ -97,6 +97,7 @@ Remarks
 
 - Constructing Search: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1>
   - Hint: Most useful parameters are _term_, _media_, and _attribute_.
+  - **IMPORTANT UPDATE:** The archived Apple documentation above no longer lists the _attribute_ parameter. **Please also refer to this documentation, which includes a more comprehensive list of parameters used in this assignment: <https://performance-partners.apple.com/search-api>.**
 - Search Examples: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1>
 - Understanding Search Results: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1>
 
