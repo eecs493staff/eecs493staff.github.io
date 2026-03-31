@@ -425,6 +425,122 @@ You will be graded on:
 - Think Alouds and UFTs [5 points]
 - Written Report [7 points]
 
+## Milestone 4
+
+(Worth 28% of final project grade, 7% of total grade)
+
+### Overview
+
+| Due date                  | Task / Objective                       |
+| ------------------------- | -------------------------------------- |
+| Tuesday 4/7 Before Class  | In-Class Project Showcase              |
+| Tuesday 4/21 Before Class | Iterated Prototypes and Project Poster |
+| Sunday, 4/26 11:59 PM     | Zip file of all deliverables           |
+
+### Goals
+
+- **Iterate on The Prototype (14%)**
+  - Improve your prototype by addressing the design and usability issues discovered from Milestone 3.
+  - Link to Project Feedback Form to bring to showcase: [Project Feedback Form (template)](https://docs.google.com/document/d/1_Y8BJO0oTvTMq-cJETwcqxna981pI5ijlwsRcGYfLDQ/edit?usp=sharing) (check for updates)
+  - Due Date: April 7 before the In-class Showcase
+    - You don't need to submit anything before the project showcase. You only need to bring your prototype and the project feedback form sheet to the class.
+    - Note: you should continue improving your prototype after the showcase session based on the feedback you receive. Your final prototype for evaluation and your final submission should reflect all these improvements.
+
+- **In-Class Project Showcase (4%)**
+  - Date: Tuesday April 7 in class
+
+-**Final Evaluation (10%)**
+
+- Perform another user testing using the think-aloud protocol. This round you should also include a post-task usability survey to gather quantitative data.
+- Synthesizing the think-aloud data using usability findings templates. Calculate and report the scores from the usability survey.
+- Write a report discussing your findings.
+- Due Date: Sunday, April 26, 11:59 PM
+
+### Iterate on the Prototype
+
+In this milestone, you will incorporate findings and feedback from milestone 3 and prototype showcase (April 7) to improve your Figma prototype.
+
+For the showcase, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1_Y8BJO0oTvTMq-cJETwcqxna981pI5ijlwsRcGYfLDQ/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the showcase session. Bring it to the showcase. We will use what you filled out to test your prototype and give suggestions, and you can use these suggestions (along with any feedback received from classmates) to further improve your prototype before conducting final user testing.
+
+- Similar to Milestone 3, we are not going to objectively measure the amount of work based on the number of screens, UI elements, etc. Think about it from the perspective of **"tasks", "critical user journeys"** can help. In this milestone, you should have **2 key tasks**. For example, in Assignment 4, you designed a task of favoriting, accepting and completing quests (i.e., engage with and complete a quest). This task contains a series of subtasks, including browsing quests, viewing quest details, favoriting a quest, accepting a quest, completing a quest, receiving rewards, etc, where the user could perform one or multiple interactions to complete the subtasks.
+
+- Note that tasks and prototype requirements in Milestone 3 still apply in Milestone 4, including having an appropriate scope for the task, avoiding implementing widely used existing functionality such as account management, and more. Please see the "Prototype" section in Milestone 3 for more information.
+
+- After the project showcase session, please incorporate the feedback you received from the teaching staff and other students to further improve the prototype.
+
+In the final deliverables, you are required to submit a document documenting the prototype iteration process, it must contain the following:
+
+- A link to your improved Figma prototype.
+- A list of changes you have made to the prototype, along with screenshots showing the changes. In the list of changes, please also indicate the source of the improvement, if applicable, e.g., changes proposed in milestone 3, feedback gathered from the showcase session, feedback from milestone 3 grading (if received) etc.
+
+#### Final Evaluation
+
+After improving the prototype, you will perform a final round of evaluation using think-aloud and a usability survey. This time the goal is to investigate to what extent your solutions help the users achieve their goals and address their needs. Here are the specific requirements:
+
+- You need to have at least **4 users** for the test. Ideally, they should not be the same people from the first user evaluation (from Milestone 3).
+  - NOTE: If you have a team of 3 or 4, you need to have at least 4 users. If you have a team of 5, each team member needs to do at least 1 (i.e., at least 5 in total).
+
+- You should test with the tasks you designed in your prototype. Give high-level requirements or instruction without guiding the users how to do it with your system.
+
+- After the user completes the task, they should fill out a usability survey rating their experience with your prototype. You can use one of the standard usability scales covered in Lecture 20. You can administer the survey using Google Form or a paper format. Your report should describe what scale you used, report the score from each user you tested and a mean/average score. Optionally, you can also report per-item rating if you observe a noticeable trend that may help you interpret the results (e.g., one aspect of the usability is particularly good or bad).
+
+- The rest of the requirements are the same as those of the first user evaluation, including following the think-aloud protocol and synthesizing the results using usability findings templates.
+
+- Each team should submit at least **2 UFTs/user × 4 users = 8 in total**. For teams of 5, at least 10 in total.
+
+#### Report
+
+You will write a ~700 word report discussing your findings. Here is an outline of the report:
+
+**Findings regarding the utility of the solution:**
+
+- How did the changes you made after milestone 3 improve the design and usability?
+- Discuss your findings regarding the usefulness of your current solution, using what you get from the user tests, the UFTs you created, and users' usability ratings.
+- What are some most serious problems with your prototype and what are some positive experiences you observed?
+
+**Analysis:**
+
+- Based on your findings, answer the following questions:
+  - To what extent the solution is solving the problem and addressing the user need?
+  - What part of the problem can not be solved by the solution? What else is needed, if any?
+- Use relevant quotes, observations, and UFTs to support your analysis.
+
+### Deliverables of Milestone 4
+
+Please put everything in a zipped folder and submit:
+
+1. Link to your Figma prototype
+2. Your prototype iteration document
+3. The think-aloud tasks (list the tasks you used in the think-aloud sessions)
+4. At least 8-10 UFTs based on the templates (depending on your team size)
+5. At least 4-5 think-aloud transcripts depending on your team size (only need to submit the transcript, no video is needed)
+6. Your collected post-task survey data. If users answered this on papers you can take photos of them.
+7. Your report
+
+### Grading Rubric
+
+Your Milestone 4 submission will be graded on:
+
+- Prototype Iterations (14 points)
+  - Documented iterations of prototypes based on project showcase and Milestone 3 findings and showcase feedback.
+  - Basic requirements for your prototype and supported tasks (similar to the Milestone 3 grading on prototypes)
+  - Quality of your prototype (e.g., are improvements well motivated by findings from Milestone 3? Did the improvements address the issues? Are user interactions well designed? Are tasks clearly defined? Is the scope appropriate?)
+- Evaluation and Report (10 points)
+  - Basic requirements from the spec (e.g., number of think-aloud sessions, UFT requirements, documented list of think-aloud tasks, post-task survey, did the report discuss findings from UFTs, etc.).
+  - Quality of the evaluations and report.
+- In-Class Project Showcase (4 points)
+  - This will be based on your participation of the showcase session.
+
+### More Details on In-Class Prototype Showcase
+
+An in-class showcase session for the prototype will take place on **April 7** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
+
+- Similar to storyboard showcase, we'll have ~12 stations per round, with a total of 3 rounds for ~25 minutes. Teaching staff will assign your team to one of the rounds and station.
+
+- Fill out and bring the "Project Feedback Form" mentioned above. Fill out your team's basic information and the first column of the table.
+
+- During the showcase, a teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to provide comments.
+
 # Awesome Final Projects from Past Semesters
 
 ## Winter 2025
