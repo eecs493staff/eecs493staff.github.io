@@ -422,8 +422,8 @@ You will be graded on:
 
 - Basic requirements for the prototype [9 points] (e.g., is the prototype developed using Figma? Does the prototype support at least 2 key tasks? Are tasks relevant to user goals and the team's project themes?)
 - Quality of the prototype (e.g., are think-alouds useful and thorough?) [3 points]
-- Think Alouds and UFTs [5 points]
-- Written Report [7 points]
+- Think Alouds and UFTs [3 points]
+- Written Report [5 points]
 
 ## Milestone 4
 
