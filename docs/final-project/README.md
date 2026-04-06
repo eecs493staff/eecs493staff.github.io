@@ -533,7 +533,7 @@ Your Milestone 4 submission will be graded on:
 
 ### More Details on In-Class Prototype Showcase
 
-An in-class showcase session for the prototype will take place on **April 7** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
+An in-class showcase session for the prototype will take place on **April 7** during the class time (3 - 4:30 pm), during which our teaching staff will provide feedback to your prototype.
 
 - Similar to storyboard showcase, we'll have ~12 stations per round, with a total of 3 rounds for ~25 minutes. Teaching staff will assign your team to one of the rounds and station.
 
