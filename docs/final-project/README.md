@@ -533,13 +533,55 @@ Your Milestone 4 submission will be graded on:
 
 ### More Details on In-Class Prototype Showcase
 
-An in-class showcase session for the prototype will take place on **April 7** during the class time (3 - 4:30 pm), during which our teaching staff will provide feedback to your prototype.
+An in-class showcase session for the prototype will take place on **April 7** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
 
 - Similar to storyboard showcase, we'll have ~12 stations per round, with a total of 3 rounds for ~25 minutes. Teaching staff will assign your team to one of the rounds and station.
 
 - Fill out and bring the "Project Feedback Form" mentioned above. Fill out your team's basic information and the first column of the table.
 
 - During the showcase, a teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to provide comments.
+
+## Final Poster Presentation with a Video Submission
+
+(Worth 12% of final project grade, 3% of total grade)
+
+### Poster Presentation (4%)
+
+- Present your design with a summary of the entire design process in a poster
+- Present the poster to your classmates and other audience to celebrate what you have achieved in this semester
+- You may bring your laptop to live-demo your design. But do not expect to have power outlets available
+- Due Date: Tuesday 4/21 Before Class before class
+
+### Final Project Video (8%)
+
+You are also required to submit a video to Canvas by Sun 4/26 (same deadline with Milestone 4. There will be a separate submission link on Canvas from M4 deliverables), up to 5-minutes, to summarize your design and design process. See example videos from past years at the bottom of this page (though the time limit was different). You can use your poster to record the video, create seperate slides for it, or be creative and think beyond using slides.
+The video should include content from past milestones:
+
+- Identifed user needs (~30s)
+- Explore solutions in storyboarding and design iterations (~60s)
+- Evaluations and iterations: What are the key issues you identified? And how did you improve the design based on these results? (~60s)
+- A walkthrough or demo of your **final** prototype (~120s)
+- Ending screen: your team, name/uniqname/photo of each team member
+
+For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
+Canvas as a team (ie, one per project team).
+
+Grading rubric of final presentation:
+
+- 3 points: submitted a clear and understandable video
+- 1 point: presented user needs in the video
+- 1 point: prsented explored solutions and iterations in the video
+- 3 points: presented your final prototype's capabilities and interactions in the video
+
+## (Optional) Project Team Peer Evaluation
+
+This is optional, you can fill out this [final project team peer evaluation form](https://forms.gle/UkQp2VLW9DMBWW7dA). This form is designed to let us know if certain team members are not contributing their fair share. Note, the idea is that shirkers will get penalized in their final project grade; however, you cannot raise your grade by "dinging" someone else.
+
+Note: fill this out individually, not in groups.
+
+## You Did It!
+
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!
 
 # Awesome Final Projects from Past Semesters
 
