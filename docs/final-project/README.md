@@ -24,7 +24,7 @@ Your team will come up with your own project theme, with the only restriction be
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**                                 | Sun 11/15 11:59 PM                | - High-fi Figma prototype                                                  |
 |                                                                                                                                            | Sun 11/15 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
 | [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation**                      | Wed 12/2 10:30 AM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
-| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                   | Wed 12/7 10:30 AM (before class)  | - Final Presentation Poster Ready                                          |
+| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                   | Wed 12/9 10:30 AM (before class)  | - Final Presentation Poster Ready                                          |
 | [**Evaluation Report**](https://eecs493staff.github.io/final-project/#milestone-4) <br>**Deliverables and Final Presentation Video** | Sun 12/13 11:59 PM                | - Evaluation Report<br>-Final Presentation Video                           |
 
 <!-- TODO: To release milestone add link to corresponding document -->
