@@ -17,15 +17,15 @@ Your team will come up with your own project theme, with the only restriction be
 
 | Milestone                                                                                                                                  | Due date                         | Task / Objective                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------------------- |
-| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                                         | Sun 2/1 11:59 PM                 | - Team Formation                                                           |
-| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**                                    | Sun 2/15 11:59 PM                | - User need<br>- Break point                                               |
-| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**                                | Thur 2/27 3:00 PM (before class) | - In-class storyboard showcase                                             |
-|                                                                                                                                            | Sun 3/13 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
-| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**                                 | Sun 3/29 11:59 PM                | - High-fi Figma prototype                                                  |
-|                                                                                                                                            | Sun 3/29 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
-| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation**                      | Tue 4/7 3:00 PM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
-| [**Final Presentation Poster**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                    | Tue 4/21 3:00 PM (before class)  | - Final Presentation Poster Ready                                          |
-| [**Milestone 4 Deliverables**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Deliverables and Final Presentation Video** | Sun 4/26 11:59 PM                | - Evaluation Report<br>-Final Presentation Video                           |
+| [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                                         | Sun 9/27 11:59 PM                 | - Team Formation                                                           |
+| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**                                    | Sun 10/11 11:59 PM                | - User need<br>- Break point                                               |
+| [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**                                | Wed 10/28 10:30 AM (before class) | - In-class storyboard showcase                                             |
+|                                                                                                                                            | Sun 11/1 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
+| [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**                                 | Sun 11/15 11:59 PM                | - High-fi Figma prototype                                                  |
+|                                                                                                                                            | Sun 11/15 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
+| [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation**                      | Wed 12/2 10:30 AM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
+| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                   | Wed 12/7 10:30 AM (before class)  | - Final Presentation Poster Ready                                          |
+| [**Evaluation Report**](https://eecs493staff.github.io/final-project/#milestone-4) <br>**Deliverables and Final Presentation Video** | Sun 12/13 11:59 PM                | - Evaluation Report<br>-Final Presentation Video                           |
 
 <!-- TODO: To release milestone add link to corresponding document -->
 <!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
@@ -50,13 +50,14 @@ Your team will come up with your own project theme, with the only restriction be
 | Wed 12/7 11:59 PM                                                            | Evaluation Report                                                     | -->
 
 # Milestones
+Milestone detials coming soon!
 
-## Milestone 0: Team Formation
+<!-- ## Milestone 0: Team Formation
 
 | Due date         | Task / Objective                           |
 | ---------------- | ------------------------------------------ |
-| Sun 2/1 11:59 PM | Team registration form / team finding form |
-| Wed 2/4 11:59 PM | Team registration form for assigned teams  |
+| Sun 9/27 11:59 PM | Team registration form / team finding form |
+| Wed 9/30 11:59 PM | Team registration form for assigned teams  |
 
 | Resource                                                      | Description                                                |
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -69,7 +70,7 @@ Your team will come up with your own project theme, with the only restriction be
 - Form a team of 4 members (either self-selected or assigned by the course staff).
   - If you formed your own team, fill out this [Team Registration form](https://forms.gle/UdgmhfNepDNRbPD3A).
   - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/ZzL7G2zDP199a5k26). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
-  <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing). -->
+  <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing). 
 
 ### Team Membership
 
@@ -581,7 +582,7 @@ Note: fill this out individually, not in groups.
 
 ## You Did It!
 
-Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks! -->
 
 # Awesome Final Projects from Past Semesters
 
