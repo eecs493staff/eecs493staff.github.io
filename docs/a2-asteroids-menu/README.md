@@ -97,7 +97,7 @@ Your menu has to work at whatever size the browser window happens to be, not onl
 - At any window width down to 375px, the page must not scroll sideways, and every control must stay visible and usable.
 - Text has to stay readable at every size. Nothing may be clipped or overlap something else.
 
-This has to hold at **every** width in that range, not just at a few particular sizes. Drag the edge of your window slowly from full width down to the narrowest and watch for the point where something first breaks — that is what your graders will do.
+This has to hold at **every** width in that range, not just at a few particular sizes. Drag the edge of your window slowly from full width down to the narrowest and watch for the point where something first breaks. That is what your graders will do.
 
 They will also spot-check these three sizes in Chrome DevTools' device toolbar, as a desktop, a tablet, and a phone:
 
@@ -105,7 +105,7 @@ They will also spot-check these three sizes in Chrome DevTools' device toolbar, 
 - **768×1024**
 - **375×667**
 
-Passing those three is not enough on its own. A layout can look fine at all three and still break at, say, 900px wide.
+But note that passing those three is not enough on its own. A layout can look fine at all three and still break at, say, 900px wide.
 
 ### Semantic HTML
 
@@ -113,6 +113,7 @@ Choose elements for what they _mean_, not for how they happen to look. A `<div>`
 
 - Every `<img>` needs an `alt` attribute. Use `alt=""` for images that are purely decorative.
 - Every form control needs a `<label>` associated with it.
+- You need to designate the regions of the page with the elements that describe them.
 
 ### Landing Page (25 points)
 
@@ -138,7 +139,7 @@ Choose elements for what they _mean_, not for how they happen to look. A `<div>`
 
 #### Suggested Style
 
-The "Asteroids" title is much larger than the browser default — see the [demo video](#objective).
+The "Asteroids" title is much larger than the browser default. See the [demo video](#objective).
 
 Header:
 
@@ -185,7 +186,7 @@ color: white;
 
 #### Hints
 
-There is more than one way to build the difficulty options. A radio group (`<input type="radio">`) is one of them! And in fact, it needs minimal no JavaScript.
+There is more than one way to build the difficulty options. A radio group (`<input type="radio">`) is one of them! And in fact, it needs no JavaScript.
 
 The starter code gives you a `<dialog>` for the panel. A `<dialog>` opened with `showModal()` centers itself and can be closed by a `<form method="dialog">` without any JavaScript. Note that a `<dialog>` is `display: none` until it is opened, so write its layout against `#settings[open]` rather than `#settings`.
 

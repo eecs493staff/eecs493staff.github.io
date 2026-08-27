@@ -99,7 +99,7 @@ Here's a brief description of each of the starter files.
   <tr>
     <td><code>scripts/page.js</code></td>
     <td>Here is a list of things provided:
-    <ol><li>Section headings to organise your code</li><li>Some constants for the timings the spec asks for</li><li>Code that measures the game board, which everything else sizes itself against</li><li>An Asteroid class (asteroids that are randomly generated and travel linearly across the game board)</li><li>Event handlers for arrow key presses</li><li>Additional helper functions (e.g. determining collision)</li></ol>
+    <ol><li>Section headings to organize your code</li><li>Some constants for the timings the spec asks for</li><li>Code that measures the game board, which everything else sizes itself against</li><li>An Asteroid class (asteroids that are randomly generated and travel linearly across the game board)</li><li>Event handlers for arrow key presses</li><li>Additional helper functions (e.g. determining collision)</li></ol>
     write your JS code here
     </td>
   </tr>
@@ -148,6 +148,7 @@ As in Assignment 2, choose elements for what they _mean_, not for how they happe
 
 - Every `<img>` needs an `alt` attribute. Use `alt=""` for images that are purely decorative.
 - Anything the player clicks needs to be a `<button>`, so that it can also be reached with the keyboard.
+- You need to designate the regions of the page with the elements that describe them.
 
 ### Overall Functionality (10 points)
 
@@ -189,7 +190,7 @@ As in Assignment 2, choose elements for what they _mean_, not for how they happe
 
 #### Suggested Style
 
-"Get Ready" is noticeably larger than the text beneath it, and both are larger than the browser default — see the [demo video](#objective). Font colour is black.
+"Get Ready" is noticeably larger than the text beneath it, and both are larger than the browser default. See the [demo video](#objective). Font colour is black.
 
 ### Asteroids (25 points)
 
@@ -422,7 +423,7 @@ Up to you! The simplest solution is to do nothing.
 
 ### How can I make the rocket move "smoothly"?
 
-I recommend using a `setInterval()` which constantly checks (e.g. every 20 ms) which arrow keys are currently held down, and moves the rocket accordingly. The starter code already keeps track of that for you in the `held` object, updated by the arrow key event handlers.
+We recommend using a `setInterval()` which constantly checks (e.g. every 20 ms) which arrow keys are currently held down, and moves the rocket accordingly. The starter code already keeps track of that for you in the `held` object, updated by the arrow key event handlers.
 
 Moving the rocket directly inside the keydown handler instead will not work well: the key would have to be pressed repeatedly rather than held, and two keys at once could not move the rocket diagonally.
 
