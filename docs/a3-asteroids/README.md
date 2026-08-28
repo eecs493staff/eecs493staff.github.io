@@ -123,6 +123,8 @@ We outline the requirements for each of the components below. **Everything liste
 
 ### General
 
+You are expected to follow the practices we discussed in class, whether or not they are spelled out below. The clearest of these is **separation of concerns**. This applies to the Assignment 2 code you bring across as much as to the new code you write. _Up to -10 points if not followed._
+
 - Only use one HTML file, `index.html`. _-10 points off if not followed._
 - Do all styling/layout in a separate CSS file, `index.css`. _-10 points off if not followed._
   - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
