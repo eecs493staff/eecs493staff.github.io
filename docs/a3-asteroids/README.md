@@ -21,7 +21,6 @@ This zip file should have a _single directory_ containing _all files and directo
 a3_uniqname
 ├── index.html
 ├── scripts
-│   ├── jquery.min.js
 │   └── page.js
 ├── src
 │   ├── arrowkeys.png
@@ -54,13 +53,13 @@ Not following the upload instruction will result in a penalty.
 
 ## Objective
 
-The objective of this assignment is for you to gain practical experience in building an interactive single-page web application with HTML, CSS, and JavaScript/jQuery. Specifically, you will be creating a game called "Asteroids" as outlined in this spec. No external library, other than jQuery, is allowed.
+The objective of this assignment is for you to gain practical experience in building an interactive single-page web application with HTML, CSS, and JavaScript. Specifically, you will be creating a game called "Asteroids" as outlined in this spec. No external libraries or frameworks are allowed.
 
-Watch this video for an overview: [https://youtu.be/FeEbwuNbsiI](https://youtu.be/FeEbwuNbsiI)
+Watch this video for an overview: [https://youtu.be/LGWTy7ActIY](https://youtu.be/LGWTy7ActIY)
 
 ## Grading Breakdown
 
-This assignment has 8 main components (denominator of 125 points):
+This assignment has 12 main components (denominator of 125 points):
 
 1. Overall Functionality - _10 points_
 2. "Get Ready" Splash Screen - _5 points_
@@ -91,22 +90,18 @@ Here's a brief description of each of the starter files.
  <table>
   <tr>
     <td><code>index.html</code></td>
-    <td>Some containers (divs) for the game window and the game board are defined; write your HTML code here</td>
+    <td>The document skeleton, an empty gameplay screen, and the game board; write your HTML code here</td>
   </tr>
   <tr>
     <td><code>style/index.css</code></td>
-    <td>Some stylings for the game window, game board, and images are defined; write your CSS code here</td>
+    <td>A few base styles for the page, the game board, and the asteroids are defined; write your CSS code here</td>
   </tr>
   <tr>
     <td><code>scripts/page.js</code></td>
     <td>Here is a list of things provided:
-    <ol><li>Some comments describing the structure of the code</li><li>Some global variables for storing game states/data</li><li>An Asteroids class is defined (Asteroids that are randomly generated and travels linearly across the gameboard)</li><li>Event handler for arrow key presses</li><li>Additional helper functions (e.g. determining collision);</li></ol>
+    <ol><li>Section headings to organize your code</li><li>Some constants for the timings the spec asks for</li><li>Code that measures the game board, which everything else sizes itself against</li><li>An Asteroid class (asteroids that are randomly generated and travel linearly across the game board)</li><li>Event handlers for arrow key presses</li><li>Additional helper functions (e.g. determining collision)</li></ol>
     write your JS code here
     </td>
-  </tr>
-  <tr>
-    <td><code>scripts/jquery.min.js</code></td>
-    <td>jQuery library source code; do NOT modify</td>
   </tr>
   <tr>
     <td><code>src/</code></td>
@@ -122,91 +117,40 @@ Remarks:
 - Please check Piazza for any modifications and clarifications.
 - Make sure that your application behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
 
-## Helpful Resources
-
-Before starting with this assignment, we recommend that you check out the following 2 resources that will make your progress in this assignment much easier.
-
-### Group OH
-
-This is a recording of a group office hour session from Fall 2022, which contains an overview of both Assignment 2 and Assignment 3, how to start, and some challenging aspects students had questions about.
-
-The video is 2 hours long: Everything, except the portion from 29:30 to 1:07:30, is relevant for this assignment. Timestamp is provided in the video description.
-
-Recording link: [https://youtu.be/hXilQo1lMjE](https://youtu.be/hXilQo1lMjE)
-
-### Blaster Game Demo
-
-This demo is on creating a simple game with JS from many semesters ago. It goes over some common JS functions for manipulating the DOM, which are important for this current assignment too. The demo is about 45 minutes.
-
-Blaster Game Video: (Consider downloading for better quality! Captions have been added also.) https://drive.google.com/file/d/1ttQV8_Wzm37cXrbEYuBXPAixG_UzQNFZ/view?usp=sharing
-
-Blaster Game Starter Code: https://drive.google.com/file/d/1r5YC7vx_9l5GBzTYRpGE-5ewFbGN12Lk/view?usp=sharing
-
-## Screenshots
-
-### "Get Ready" Splash Screen
-
-<img 
-    src="images/get-ready.png" 
-    width="100%" 
-    alt="Minimal white start screen showing “Get Ready!” in bold pixel text above four arrow-key icons arranged like a directional pad. Below, the text reads “Use arrow keys to move.” A small scoreboard on the right displays “SCORE 0,” “DANGER 20,” and “LEVEL 1.”"
-/>
-
-### Gameplay & Scoreboard
-
-<img 
-    src="images/gameplay.png" 
-    width="100%"
-    alt="Gameplay screen showing a small rocket on a white background surrounded by several asteroid icons and a swirling black hole in the center. A shield icon sits near the bottom. On the right side, a scoreboard displays “SCORE 1560,” “DANGER 20,” and “LEVEL 1,” with a pause button in the top corner." 
-/>
-
-### Game Over Page
-
-<img 
-    src="images/gameover.png" 
-    width="100%" 
-    alt="Game over screen for a space-themed Asteroids game, showing a purple dialog box centered on a starry galaxy background. The box displays “GAME OVER! YOU HAVE TO FIX YOUR SPACESHIP!” followed by the score “1720” and a “Start Over” button. The top banner reads “Asteroids” with simple asteroid icons on each side."
-/>
-
-### Pause Screen
-
-<img 
-    src="images/pause.png" 
-    width="100%" 
-    alt="Dimmed gameplay view with a centered pause menu showing “Game Paused,” a rocket image, and buttons for Resume, Restart, and Exit."
-/>
-
-### Restart Confirmation
-
-<img 
-    src="images/restart-confirmation.png" 
-    width="100%" 
-    alt="Dimmed game screen with scattered cartoon asteroids and a small rocket on the right. A centered light-gray dialog box asks, “Are you sure you want to restart?” Below it are two buttons labeled “Yes” and “No.” The right-side HUD still shows SCORE 520, DANGER 20, LEVEL 1, with a pause icon in the top corner."
-/>
-
-### Restarting
-
-<img 
-    src="images/restarting.png" 
-    width="100%" 
-    alt="Dimmed gameplay screen with scattered hand-drawn asteroids. In the center, small white text reads “Restarting…” The right HUD still shows SCORE 520, DANGER 20, and LEVEL 1, along with a small pause icon."
-/>
-
-The remaining pages are the same as Assignment 2.
-
 ## Requirements
 
-We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as "Suggested", is required.** The demo video & screenshots may be helpful in understanding the game; however, your game does NOT need to look exactly like them.
+We outline the requirements for each of the components below. **Everything listed in this section, unless labeled as "Suggested", is required.** The demo video may be helpful in understanding the game; however, your game does NOT need to look exactly like it.
 
 ### General
+
+You are expected to follow the practices we discussed in class, whether or not they are spelled out below. The clearest of these is **separation of concerns**. This applies to the Assignment 2 code you bring across as much as to the new code you write. _Up to -10 points if not followed._
 
 - Only use one HTML file, `index.html`. _-10 points off if not followed._
 - Do all styling/layout in a separate CSS file, `index.css`. _-10 points off if not followed._
   - Remark: `<b>` and `<i>` tags count as inline styling. Do not use them.
   - Moderate use of `<br>` tags are ok.
 - Do all JavaScript code in a separate JS file, `page.js`. _-10 points off if not followed._
-  - Registering event listeners for an HTML element inline is ok.
+  - Register your event listeners with `addEventListener` inside `page.js`. Do not put `onclick` (or similar) attributes in your HTML.
+- Do not use any external library or framework. _-10 points off if not followed._
 - Use relative paths for images. _-10 points off if not followed._
+
+### Responsive Layout
+
+As in Assignment 2, your game has to work at whatever size the browser window happens to be, not only at the size you developed it at. _Up to -10 points if not followed._
+
+- Do not give layout elements a fixed pixel width or height. Size things with relative units (e.g., `rem`, `em`, `%`) and leverage Flexbox or Grid for arranging the layout.
+  - `px` is still fine for things that are not layout, such as border widths.
+- At any window width down to 375px, the page must not scroll sideways, and every control must stay visible and usable.
+
+The game board is the one place where pixels are unavoidable, since the rocket and the asteroids have to be positioned somewhere exactly. Measure the board at run time and work out those positions from the size you measure, rather than assuming the board is any particular size. The starter code shows you how.
+
+### Semantic HTML
+
+As in Assignment 2, choose elements for what they _mean_, not for how they happen to look.
+
+- Every `<img>` needs an `alt` attribute. Use `alt=""` for images that are purely decorative.
+- Anything the player clicks needs to be a `<button>`, so that it can also be reached with the keyboard.
+- You need to designate the regions of the page with the elements that describe them.
 
 ### Overall Functionality (10 points)
 
@@ -237,7 +181,7 @@ We outline the requirements for each of the components below. **Everything liste
 
 #### Main Components
 
-- All items and texts as shown in [the screenshot](#get-ready-splash-screen)
+- All items and texts as shown in the [demo video](#objective)
 - A scoreboard visible on the top right corner with the correct values
 
 #### Required
@@ -248,10 +192,7 @@ We outline the requirements for each of the components below. **Everything liste
 
 #### Suggested Style
 
-- "Get Ready" font size: 75px
-- text font size: 50px
-- font color: black
-- img size: original size
+"Get Ready" is noticeably larger than the text beneath it, and both are larger than the browser default. See the [demo video](#objective). Font colour is black.
 
 ### Asteroids (25 points)
 
@@ -261,7 +202,7 @@ We outline the requirements for each of the components below. **Everything liste
   - Easy:
     - Spawn rate: every 1000 milliseconds
     - Speed: 1x
-  - Medium:
+  - Normal:
     - Spawn rate: every 800 milliseconds
     - Speed: 3x
   - Hard:
@@ -269,12 +210,12 @@ We outline the requirements for each of the components below. **Everything liste
     - Speed: 5x
 - The exact speed for each difficulty is up to you.
 - At the beginning of the game, the asteroid's speed for medium should be 3 times faster than the asteroid's speed for easy, and the asteroid's speed for hard should be 5 times faster than the asteroid's speed for easy.
-- Every time the level increases (i.e. when the player goes through a portal, see next section), the asteroid's speed increases by a certain constant multiple.
+- Every time the level increases (i.e. when the player goes through a portal, see next section), the asteroid's speed increases by a fixed amount.
   - You may choose whether the speed of the already-existing asteroids increases or not. But the speed of the newly-created asteroids (i.e. asteroids that are about to appear) has to increase.
 - You can implement the asteroids to have the same speed, or have them so that they all reach their destination in the same amount of time. Either is fine.
 - The asteroids can overlap each other on the board.
 - To save you time, the majority of the requirements here are already implemented for you, and the remainder can be easily implemented using methods of the Asteroid class.
-- Asteroid Suggested Style: height: 62px; width: 62px;
+- Asteroid Suggested Style: the starter code sizes the asteroids for you. Whatever size you settle on, keep the asteroids, portals, shields and rocket roughly the same as each other.
 
 ### Shields and Portals (15 points)
 
@@ -304,13 +245,13 @@ We outline the requirements for each of the components below. **Everything liste
   - Play the "collect" audio.
 - When the rocket comes into contact with a portal:
   - The level increases by 1.
-  - The asteroid's speed increases by 0.5 (i.e. current speed \*= 1.5).
+  - The asteroid's speed increases by 0.2.
   - The danger increases by 2.
   - Play the "collect" audio.
 - When the player holds down an arrow key, the rocket should keep moving in that direction until the player stops holding down the key.
 - The rocket should be able to move in two directions at the same time, such as moving left and down from pressing the left and down arrow keys. Basically, you should be able to move in diagonal directions.
   - You do not need to worry about what happens when the player presses 2 keys with opposite directions or more than 2 keys simultaneously.
-- The rocket should be moving "smoothly" (see [overview video](#objective)).
+- The rocket should be moving "smoothly", i.e. gliding steadily while a key is held rather than jumping in steps.
 - When the rocket is moving in a particular direction:
   - The blinking light of the rocket should be pointing in that direction.
     - This can be done by using different player gifs for each of the directions.
@@ -328,7 +269,7 @@ We outline the requirements for each of the components below. **Everything liste
 - A "Danger" label:
   - It should start at a different number depending on the difficulty:
     - Easy: 10
-    - Medium: 20
+    - Normal: 20
     - Hard: 30
   - Everytime the player travels through a portal, "Danger" increases by 2
 - A "Level" label with that count, which starts at 1 and increases by 1 every time the player travels through a portal
@@ -363,7 +304,7 @@ We outline the requirements for each of the components below. **Everything liste
 ### Pause (15 points)
 
 - A pause button should appear on the top right corner in the game window (next to the scoreboard) after the game starts (i.e. after "Get Ready")
-- When the game is running (i.e. not paused), clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [screenshot](#pause-screen))
+- When the game is running (i.e. not paused), clicking the pause button or pressing the "esc" key should pause the game and display a "pause menu" (as shown in the [demo video](#objective))
 - When the game is paused, nothing in the game window should change
   - This means:
     - the player cannot move
@@ -383,7 +324,7 @@ We outline the requirements for each of the components below. **Everything liste
 - Required Style:
   - The pause menu should be both vertically and horizontally centered (w.r.t. the game window)
   - All components in the pause menu should be horizontally centered
-  - The "Game Paused" title should have a large font size (e.g. 60px)
+  - The "Game Paused" title should have a large font size
   - The "Restart" and "Exit" buttons should be next to each other horizontally, and below the "Resume" button vertically
   - The "Resume" button's width should be equal to the other two buttons' combined width
 
@@ -409,54 +350,50 @@ We outline the requirements for each of the components below. **Everything liste
 
 ### Restart (7 points)
 
-- When the game is paused, clicking the "restart" button first displays a popup asking the user to confirm whether they actually want to restart (see [screenshot](#restart-confirmation))
+- When the game is paused, clicking the "restart" button first displays a popup asking the user to confirm whether they actually want to restart (see [demo video](#objective))
 - The popup should have:
   - Title asking the user "Are you sure you want to restart?"
   - "Yes" button
   - "No" button
 - The popup should be both horizontally and vertically centered (w.r.t. the game window)
 - If the user clicks "No", then they are returned back to the pause menu (i.e. hide the confirmation popup and show the pause menu)
-- If the user clicks "Yes", then the popup disappears and the word "Restarting..." appears in the center of the screen; after 3 seconds, the game restarts from the "Get Ready" state (see [overview video](#objective))
+- If the user clicks "Yes", then the popup disappears and the word "Restarting..." appears in the center of the screen; after 3 seconds, the game restarts from the "Get Ready" state
 
 ## Hints
 
 ### Changing Item Size
 
-If you are trying to set the width and height for asteroid elements but it's not working, double check what element you're actually setting the width and height for. If you are setting the width and height on the "div" containing the image, this doesn't actually affect the image size; it's simply a container for the image. You likely will need to set the width and height for the image element itself.
+Each game object is a `<div>` with an `<img>` inside it. Sizing the `<div>` does not resize the image, and sizing the image does not resize the `<div>` — they are two separate boxes, so check which one your rule is actually selecting.
+
+The distinction matters for more than sizing: collisions are measured against the `<div>`, not against the picture the player sees. If the image is drawn larger than its `<div>`, the rocket has to overlap an asteroid properly before it counts as a hit. If the two are the same size, a hit registers the moment the pictures touch. The starter code does the former.
 
 ### Event Listeners
 
-If you think your event listeners aren't being triggered, one common error occurs when event listeners are created (and attached) before relevant DOM objects exist.
+If your event listeners aren't firing, a common cause is attaching one to an element that does not exist yet. You cannot attach a listener to something your own code has not created.
 
-A way around this is to create event listeners that are attached to the body, or another element that exists immediately on the page, and then filter events for a given selector. For example, if I have a UI where I expect items to get added to the page dynamically, and I want to have a "delete" button next to each dynamically added element, I might create the event listener this way:
+Everything in your `index.html` already exists by the time `page.js` runs, because the script is loaded with `defer`. So this only bites for elements you build in JavaScript.
+
+For those, attach the listener to something that is always there and then work out what was clicked. `event.target` is the element the click landed on, and `closest()` searches upwards from it:
 
 ```js
-$("body").on("click", ".deleteX", function(event){
- …
+document.body.addEventListener("click", (event) => {
+  if (event.target.closest(".deleteX")) {
+    …
+  }
 });
 ```
 
-Here, the "body" is listening for all click events, and is essentially only passing them to the callback if the item clicked actually had the "deleteX" class. See the "selector" arg here: [https://api.jquery.com/on/](https://api.jquery.com/on/)
+The body hears every click and the `if` only lets through the ones inside an element with that class. This is called event delegation. `closest()` rather than a check on `event.target` itself matters when the thing you clicked has children — clicking a `<button>` that contains an `<img>` reports the image as the target, not the button.
 
 ### `setInterval` and Collision Detection
 
-All programming projects from the core EECS classes are considered "serial" (or "synchronous"), where the code is executed sequentially. For instance, in the example code below where both functions are serial/synchronous, `loadPage()` will only begin execution _after_ `getData()` has finished. This is also known as `getData()` "blocking" the program from executing `loadPage()`. If `getData()` takes one minute to finish, then `loadPage()` has to wait one minute to begin execution. Imagine sitting in front of your computer and waiting one whole minute for a page to load; that's not the desired scenario.
+JavaScript runs one piece of code at a time. There is no second thread quietly moving your asteroids while the rest of your program carries on, and nothing in this assignment ever runs literally at the same moment as anything else.
 
-```js
-getData();
-loadPage();
-```
+What `setInterval(fn, ms)` does is ask the browser to call `fn` again about every `ms` milliseconds. It returns straight away; the calls happen later. In between them the browser is free to do other work — including running the functions scheduled by every other `setInterval` you have started.
 
-JavaScript has "Asynchronous Function", which is a function that can be exeucted _without_ blocking the program from running other code/functions. Using the same example but suppose `getData()` is asynchronous, then `loadPage()` can start executing _before_ `getData()` has finished, thus allowing programs to start long-running tasks (like `getData()`) and continue working on other tasks (like `loadPage()`).
+That is why each asteroid can have its own interval moving it, and why they all appear to travel together: their calls are interleaved a few milliseconds apart, far too quickly for you to see. It isn't simultaneous, it only looks that way.
 
-When completing the [Asteroids section](#asteroids-25-points) of this assignment, you will use `setInterval`, which is an asynchronous function, to
-
-1. repeatedly spawn asteroids, and
-2. move each asteroid across the screen.
-
-So how exactly is asynchronous function useful here? Without going too detailed (but feel free to really think about this more), the usage of `setInterval` here allows multiple asteroids on the screen to move "at the same time" (not _exactly_ the case but it is a good intuition).
-
-In other words, each asteroid has its own spawn function that is moving it. For collision detection, instead of having one `for` loop that checks the collision between the rocket and every asteroid on the screen, use a simple `if` condition within the `setInterval` (`move`) function that is moving each asteroid, and have that check the collision between this asteroid and the rocket. As such, you are exploiting the asynchronous nature of JavaScript.
+This has a useful consequence for collision detection. Rather than one loop that walks every asteroid on the screen and checks each against the rocket, put a single `if` inside the interval that is already moving one asteroid, and let it check just that asteroid. Every asteroid then looks after itself, and you never have to keep a list of them anywhere.
 
 ## FAQ
 
@@ -470,7 +407,17 @@ If "style" refers to coding style, then no. However, make sure you are following
 
 ### Can I use \<some JS/CSS functions\> to achieve \<some behavior\>?
 
-Yes, as long as it does not involve any external libraries (other than jQuery).
+Yes, as long as it does not involve any external libraries.
+
+### Can I use jQuery, Bootstrap, or another library?
+
+No. Everything in this assignment can be done with plain HTML, CSS, and JavaScript, and doing it that way is the point of the assignment.
+
+### Where should I look things up?
+
+[MDN Web Docs](https://developer.mozilla.org/) is the reference we recommend, and the one to reach for first. Every HTML element, CSS property, and JavaScript method has a page there describing what it is for, what values it accepts, and how it behaves. It is written and maintained alongside the browsers themselves, so unlike most tutorial sites it stays accurate and current.
+
+When this spec names a method or a property without explaining it, that is your cue to look it up.
 
 ### What happens when a rocket carrying a shield comes into contact with another shield spawning on the game board?
 
@@ -478,7 +425,9 @@ Up to you! The simplest solution is to do nothing.
 
 ### How can I make the rocket move "smoothly"?
 
-I recommend using a `setInterval()` which constantly checks (e.g. every 20 ms) whether `UP`, `DOWN`, `LEFT`, `RIGHT` variables (set by the keypress event handlers) are `true`, and moves the rocket accordingly if so.
+We recommend using a `setInterval()` which constantly checks (e.g. every 20 ms) which arrow keys are currently held down, and moves the rocket accordingly. The starter code already keeps track of that for you in the `held` object, updated by the arrow key event handlers.
+
+Moving the rocket directly inside the keydown handler instead will not work well: the key would have to be pressed repeatedly rather than held, and two keys at once could not move the rocket diagonally.
 
 ### Is it OK if the shielded rocket images appear smaller/larger than the non-shielded images?
 
