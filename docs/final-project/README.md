@@ -50,9 +50,9 @@ Your team will come up with your own project theme, with the only restriction be
 | Wed 12/7 11:59 PM                                                            | Evaluation Report                                                     | -->
 
 # Milestones
-Milestone detials coming soon!
+<!-- Milestone detials coming soon! -->
 
-<!-- ## Milestone 0: Team Formation
+## Milestone 0: Team Formation
 
 | Due date         | Task / Objective                           |
 | ---------------- | ------------------------------------------ |
@@ -61,15 +61,15 @@ Milestone detials coming soon!
 
 | Resource                                                      | Description                                                |
 | ------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Team Registration Form](https://forms.gle/UdgmhfNepDNRbPD3A) | Register your teams here                                   |
-| [Team Finding Form](https://forms.gle/ZzL7G2zDP199a5k26)      | Fill this out, if you would like us to form a team for you |
+| [Team Registration Form](https://forms.gle/r7Je4d5bPEwSCFyF8) | Register your teams here                                   |
+| [Team Finding Form](https://forms.gle/Eu6bnp8rgeDE3E5KA)      | Fill this out, if you would like us to form a team for you |
 | [Project Team Spreadsheet (Te be released)]()                 | A detailed list of all project teams for this semester     |
 
 ### Goals
 
 - Form a team of 4 members (either self-selected or assigned by the course staff).
-  - If you formed your own team, fill out this [Team Registration form](https://forms.gle/UdgmhfNepDNRbPD3A).
-  - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/ZzL7G2zDP199a5k26). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
+  - If you formed your own team, fill out this [Team Registration form](https://forms.gle/r7Je4d5bPEwSCFyF8).
+  - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/Eu6bnp8rgeDE3E5KA). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
   <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing). 
 
 ### Team Membership
@@ -77,16 +77,17 @@ Milestone detials coming soon!
 Teams should ideally consist of **4** members.
 
 - If you select your own team:
-  - Please submit a list of team members via the [Team Registration Form](https://forms.gle/S2jAXgQcD9GXUNTA6).
+  - Please submit a list of team members via the [Team Registration Form](https://forms.gle/r7Je4d5bPEwSCFyF8).
     - Note: Please only submit one form per team.
 - If you choose to have us assign you to a team:
-  - Please fill out the [Team Finding Form](https://forms.gle/SorRXNExPraent9e7), where you will describe your skillsets and background, e.g., strengths, time available to work, etc.
+  - Please fill out the [Team Finding Form](https://forms.gle/Eu6bnp8rgeDE3E5KA), where you will describe your skillsets and background, e.g., strengths, time available to work, etc.
   - Please note that if you choose this option, you will be assigned to a team _after the due date_, and your team will have **2 days** to submit the Team Registration form, i.e. slightly behind on the project.
 
 ### Additional Notes for Team Formations
 
 - _You are welcome to use Piazza’s search for teammates feature, or try to meet new people in class or discussion\!_
-- You should aim for a team of **4**. A team of 3 will be expected to do the _same_ amount of work as a team of 4\. A team of 5 will be expected to take on _additional work_\.
+- You should aim for a team of **3 or 4**. A team of 3 will be expected to do the _same_ amount of work as a team of 4\. 
+<!-- A team of 5 will be expected to take on _additional work_\. -->
 - Aim for diverse skills (e.g., design/drawing, interviewing, Figma).
 - **_All members must be present for the Storyboard Showcase, Prototype Showcase, and Final Presentation._** Absent member(s) will receive a 4% deduction from the final project grade for each absence.
 - If conflicts with team members arise, notify the staff promptly. Grading will be based on deliverables as a group.
@@ -96,7 +97,7 @@ Teams should ideally consist of **4** members.
 - Propose your project theme in the Team Registration form.
 - The only requirement: your stakeholder group must be accessible to you (e.g., other undergraduate students).
 
-## Milestone 1
+<!-- ## Milestone 1
 
 (Worth 20% of final project grade, 5% of total grade)
 
