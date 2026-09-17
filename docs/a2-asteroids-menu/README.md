@@ -7,7 +7,7 @@ title: a2-asteroids-menu
 
 | Total     | Released | Due           |
 | --------- | -------- | ------------- |
-| 65 points | 9/12     | 9/20 11:59 PM |
+| 65 points | 9/12     | <del>9/20</del> **9/22 11:59 PM ET** |
 
 ## Submission Instructions
 

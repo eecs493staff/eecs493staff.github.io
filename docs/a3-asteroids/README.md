@@ -7,7 +7,7 @@ title: a3-asteroids
 
 | Total      | Released | Due                    |
 | ---------- | -------- | ---------------------- |
-| 125 points | 1/23     | **2/8 at 11:59 PM ET** |
+| 125 points | 9/16     |<del>10/4</del>  **10/11 at 11:59 PM ET** |
 
 ## Submission Instructions
 
