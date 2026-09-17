@@ -587,6 +587,13 @@ Thank you for all the effort you have put into this project! We are excited to s
 
 # Awesome Final Projects from Past Semesters
 
+## Fall 2025:
+- Team UI-Ing: <https://youtu.be/oWi0rceA3iM>
+- Tangerine: <https://youtu.be/YXcLqH7viy8>
+- Infinite Loopers: <https://www.youtube.com/watch?v=_MfRe4QNUBA>
+- Pixel Dust: <https://www.youtube.com/watch?v=oDaL4ZmgHY4>
+- Protobros: <https://youtu.be/wkAltX8zSkk>
+
 ## Winter 2025
 
 - StudyScout: <https://youtu.be/h8W3WvK1x8s>
