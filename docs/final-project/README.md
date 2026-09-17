@@ -67,14 +67,14 @@ Your team will come up with your own project theme, with the only restriction be
 
 ### Goals
 
-- Form a team of 4 members (either self-selected or assigned by the course staff).
+- Form a team of 3 or 4 members (either self-selected or assigned by the course staff).
   - If you formed your own team, fill out this [Team Registration form](https://forms.gle/r7Je4d5bPEwSCFyF8).
   - If you would like us to form a team for you, fill out this [Team Finding form](https://forms.gle/Eu6bnp8rgeDE3E5KA). - We will form teams for you _after_ the due date; after you are assigned to a team, your team will have 2 days to submit the Team Registration form.
-  <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing). 
+  <!-- - [Link to Project Team Spreadsheet](https://docs.google.com/spreadsheets/d/1CiBZJ0HrOh0kTuRdP52OXtMO5anVlp9M1FgPJECg9Ho/edit?usp=sharing).  -->
 
 ### Team Membership
 
-Teams should ideally consist of **4** members.
+Teams should ideally consist of **3 or 4** members.
 
 - If you select your own team:
   - Please submit a list of team members via the [Team Registration Form](https://forms.gle/r7Je4d5bPEwSCFyF8).
