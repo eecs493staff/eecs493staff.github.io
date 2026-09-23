@@ -97,7 +97,7 @@ Teams should ideally consist of **3 or 4** members.
 - Propose your project theme in the Team Registration form.
 - The only requirement: your stakeholder group must be accessible to you (e.g., other undergraduate students).
 
-## Milestone 1
+<!-- ## Milestone 1
 
 (Worth 20% of final project grade, 5% of total grade)
 
@@ -174,7 +174,7 @@ You will be graded on:
 - Written Report (2 pts)
 - Interview Design Document (4 pts)
 
-<!-- ## Milestone 2
+ ## Milestone 2
 
 (Worth 20% of final project grade, 5% of total grade)
 
