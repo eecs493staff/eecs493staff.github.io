@@ -18,14 +18,14 @@ Your team will come up with your own project theme, with the only restriction be
 | Milestone                                                                                                                                  | Due date                         | Task / Objective                                                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | -------------------------------------------------------------------------- |
 | [**Milestone 0**](https://eecs493staff.github.io/final-project/#milestone-0)<br>**Team Formation**                                         | Sun 9/27 11:59 PM                 | - Team Formation                                                           |
-| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**                                    | Sun 10/11 11:59 PM                | - User need<br>- Break point                                               |
+| [**Milestone 1**](https://eecs493staff.github.io/final-project/#milestone-1)<br>**Need Identification**                                    | Sun 10/18 11:59 PM                | - User need<br>- Break point                                               |
 | [**Milestone 2**](https://eecs493staff.github.io/final-project/#milestone-2)<br>**Ideation & Speed Dating**                                | Wed 10/28 10:30 AM (before class) | - In-class storyboard showcase                                             |
 |                                                                                                                                            | Sun 11/1 11:59 PM                | - Storyboards<br>- Speed dating with users<br>- Written report             |
 | [**Milestone 3**](https://eecs493staff.github.io/final-project/#milestone-3)<br>**Prototype & Evaluation**                                 | Sun 11/15 11:59 PM                | - High-fi Figma prototype                                                  |
 |                                                                                                                                            | Sun 11/15 11:59 PM                | - First user evaluation using think-aloud with 2 users<br>- Written report |
 | [**Milestone 4**](https://eecs493staff.github.io/final-project/#milestone-4)<br>**Iterate on Prototype & Evaluation**                      | Wed 12/2 10:30 AM (before class)   | - User need<br>- Break point<br> -Prototype iteration                      |
-| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                   | Wed 12/9 10:30 AM (before class)  | - Final Presentation Poster Ready                                          |
-| [**Evaluation Report**](https://eecs493staff.github.io/final-project/#milestone-4) <br>**Deliverables and Final Presentation Video** | Sun 12/13 11:59 PM                | - Evaluation Report<br>-Final Presentation Video                           |
+| [**Final Presentation Video**](https://eecs493staff.github.io/final-project/#final-presentation-video)                                   | Wed 12/9 10:30 AM (before class)  | - Final Presentation Video                                         |
+| [**Evaluation Report**](https://eecs493staff.github.io/final-project/#milestone-4) | Sun 12/13 11:59 PM                | - Evaluation Report                     |
 
 <!-- TODO: To release milestone add link to corresponding document -->
 <!-- For example, [**Milestone 0**](https://eecs493staff.github.io/m0-team-formation/) -->
@@ -97,7 +97,7 @@ Teams should ideally consist of **3 or 4** members.
 - Propose your project theme in the Team Registration form.
 - The only requirement: your stakeholder group must be accessible to you (e.g., other undergraduate students).
 
-<!-- ## Milestone 1
+## Milestone 1
 
 (Worth 20% of final project grade, 5% of total grade)
 
@@ -114,16 +114,17 @@ Teams should ideally consist of **3 or 4** members.
 
 Submit the following **as one zip file on Canvas**.
 
-#### Part 1: Learning from AI
+#### Part 1: Background Research
 
-1. Background Summary: An up to 500 word document summarizing the learned background **before the interviews** using AI to explore the problem space, including relevant concepts, common practices, existing solutions and potential needs or challenges. Identify the questions that remain for your interviews to explore.
+1. Background Summary: An up to 500 word document summarizing what background your team learned about the problem space **before the interviews**, e.g. the overall scenario, common practices, existing knowledge about challenges and solutions, etc. Identify the questions that remain for your interviews to explore. You are encouraged to use online search and AI to form a thorough understanding, which helps form probing and helpful interview questions. 
+
 
 #### Part 2: Learning from Interviews
 1. A folder with clean transcripts following the format of [the example transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN?usp=sharing). There should be two transcripts per team member.
 2. A spreadsheet with 70+ interpretation / white notes.
 3. A pdf/image file of the affinity diagram. You can do this on paper + whiteboard (we recommend printing out the notes on paper rather than writing), or on a digital platform like Mural or Miro. Make sure all texts are legible. You need to have at least 70+ white notes, 18-24 blue notes, 6-12 pink notes, and 3-4 green notes.
-4. Interview Background and Design Document: A document with background information about the interview (including procedure, goals, and context), interview questions, and a demographic table of participants.
-5. Written Report: An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx. Your report should explain what your team learned from the interviews that extended, refined, or challenged the background, and highlighting similarities and differences across interviewees’ experiences and perspectives.
+4. Interview Design Document: A document with the design of the interview (including procedure, goals, and context), interview questions, and a demographic table of participants.
+5. Written Report: An up to 700-word written report of up to two user needs and two break points your team have identified in a .docx. Your report should explain what your team learned from the interviews that extended, refined, or challenged the background knowledge you have before the interview, and highlighting similarities and differences across interviewees’ experiences and perspectives.
 
 ### Overview: User Need & Break Point Discovery
 
@@ -140,18 +141,17 @@ For additional guidance, we've provided four more sets of interview questions fr
 
 For each theme's first interview transcript (P1), the teaching staff has annotated strengths and weaknesses in the question design, which should help you craft your own interview questions.
 
-### AI-Assisted Background Research Requirements
-
  
 
 ### Interview Requirements
 
-Each team member should conduct at least 2 interviews, with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission. That means 8 interviews for teams of 3 or 4, and 10 interviews for teams of 5.
+Each team member should conduct at least 2 interviews, with each session lasting 20-30 minutes. After conducting interviews, transcribe and clean your transcripts for submission. That means 8 interviews for teams of 3 or 4. 
+
+You are encouraged to recruit a diverse pool of participants, covering different stakeholders relevant to the problem. Comparing interviews with participants from different backgrounds and stakeholder groups will help you understand where their needs and priorities align or differ. 
 
 ### Analysis Process
 
-Based on your transcripts, identify **_up to two_** user needs and two break points, using the techniques for synthesizing qualitative data from lectures (e.g. affinity diagram). Your team should come together and analyze all your interview transcripts. Comparing across interviewees will help you identify shared needs and differing priorities, refine your initial assumptions, and refine the problem you want to solve.
-To generate robust insights for your final project, aim to create as many notes as possible from the transcripts. The minimum requirements are:
+Based on your transcripts, identify **_up to two_** user needs and two break points, using the techniques for synthesizing qualitative data from lectures (e.g. affinity diagram). Your team should come together to analyze all your interview transcripts, and identify where the interviewees' experiences and perspectives agree or diverge. To generate robust insights for your final project, aim to create as many notes as possible from the transcripts. The minimum requirements are:
 
 - 70+ white notes
 - 18-24 blue notes
@@ -160,13 +160,13 @@ To generate robust insights for your final project, aim to create as many notes 
 
 You'll also create a spreadsheet with interpretation notes and a final affinity diagram for this submission. The format and content should follow the examples from lecture 8 and discussion 4. We've provided student submissions from previous semesters for each of the 5 projects listed above in the folder: [\[SHARED\] Example Transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN). Each example includes instructor comments highlighting areas for improvement.
 
-Additionally, prepare a document with (1) background information, (2) how you conducted interviews, (3) your interview questions, and (4) a participant demographic table. Refer to this document [Example Interview Background and Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
+Additionally, prepare a document with (1) how you conducted interviews, (2) your interview questions, and (3) a participant demographic table. Refer to this document [Example Interview Background and Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
 
 
 ### Grading Rubric
 
 You will be graded on:
-- AI Background Learning Summary about the problem space (2 pts)
+- Background summary about the problem space (2 pts)
 - 70 Interpretation notes well distributed among participants (3 pts)
 - Quality of interpretation notes (3 pts)
 - Quantity of blue, pink, and green notes (3 pts)
@@ -174,7 +174,7 @@ You will be graded on:
 - Written Report (2 pts)
 - Interview Design Document (4 pts)
 
-## Milestone 2
+<!-- ## Milestone 2
 
 (Worth 20% of final project grade, 5% of total grade)
 
