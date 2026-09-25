@@ -160,7 +160,7 @@ Based on your transcripts, identify **_up to two_** user needs and two break poi
 
 You'll also create a spreadsheet with interpretation notes and a final affinity diagram for this submission. The format and content should follow the examples from lecture 8 and discussion 4. We've provided student submissions from previous semesters for each of the 5 projects listed above in the folder: [\[SHARED\] Example Transcripts](https://drive.google.com/drive/folders/1-AsWH_iViz05R_HTR-6t6ROWJ6OVaDhN). Each example includes instructor comments highlighting areas for improvement.
 
-Additionally, prepare a document with (1) how you conducted interviews, (2) your interview questions, and (3) a participant demographic table. Refer to this document [Example Background and Interview Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
+Additionally, prepare a document with (1) how you conducted interviews, (2) your interview questions, and (3) a participant demographic table. Refer to this document [Example Interview Design Document](https://docs.google.com/document/d/1pZtlWHEsu2YXwLK51_aheKRxTHcse4lA2AVYnUC3Ew0/edit) for an example.
 
 
 ### Grading Rubric
