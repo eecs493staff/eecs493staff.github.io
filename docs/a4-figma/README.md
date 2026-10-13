@@ -7,7 +7,7 @@ title: a4-figma
 
 | Total      | Released | Due                     |
 | ---------- | -------- | ----------------------- |
-| 100 points | 2/8      | **3/15 at 11:59 PM ET** |
+| 100 points | 10/13      | **10/25 at 11:59 PM ET** |
 
 ## Submission Instructions
 
