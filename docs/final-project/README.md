@@ -174,15 +174,15 @@ You will be graded on:
 - Written Report (2 pts)
 - Interview Design (4 pts)
 
-<!-- ## Milestone 2
+## Milestone 2
 
 (Worth 20% of final project grade, 5% of total grade)
 
 | Due date                 | Task / Objective                      |
 | ------------------------ | ------------------------------------- |
-| Monday 10/26 Noon      | In-Class Project Showcase Signup Form |
+| Tuesday 10/27 Noon      | In-Class Project Showcase Signup Form |
 | Wednesday 10/28 Before Class | Storyboards                           |
-| Wednesday 10/28 11:59 PM     | Zip file of all deliverables          |
+| Sunday 11/1 11:59 PM     | Zip file of all deliverables          |
 
 ### Links and Resources
 
@@ -280,7 +280,7 @@ The class on 10/28 will be devoted to live critiques, and in short rounds (e.g. 
 
 **Make sure to bring your printed storyboards for this showcase!**
 
-Please complete the “Storyboard Session Sign-up Form” linked under “Goals” heading BY NOON ON 10/26.
+Please complete the “Storyboard Session Sign-up Form” linked under “Goals” heading BY NOON ON 10/27.
 
 #### Here's what will happen at the in-class storyboard session:
 
@@ -315,7 +315,7 @@ Your Milestone 2 submissions will be graded on:
   - Basic requirements
   - Quality: e.g., is the report clear and well-written? Are findings and conclusions well supported? Are findings insightful and relevant to the problem?
 
-## Milestone 3
+<!-- ## Milestone 3
 
 (Worth 20% of final project grade, 5% of total grade)
 
