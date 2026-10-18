@@ -11,7 +11,7 @@ title: a5-artist-search
 
 ## Submission Instructions
 
-**Before submitting, please ensure your website loads correctly in Google Chrome by simply clicking and opening the `index.html`, _without_ the need to host a server (e.g. VS Code Live Server, `python3 -m http.server`), install any packages (e.g. `npm install`), or build your code (e.g. `npm run build`).**
+**Unlike Assignments 2 and 3, this assignment must be opened through a local web server. See [Running the Assignment](#running-the-assignment). It will not work if you open `index.html` directly from your file system. Before submitting, please make sure your website loads correctly in Google Chrome this way. You should not need to install any packages (e.g. `npm install`) or build your code (e.g. `npm run build`).**
 
 Please submit your work to Canvas as a zip file, named `a5_<uniqname>.zip`. Replace `<uniqname>` with your uniqname: e.g. `a5_zhaojer.zip`, note that the angle brackets should NOT be included in your filename. Renaming (e.g., "-1") done by Canvas is fine.
 
@@ -44,9 +44,11 @@ Not following the upload instruction will result in a penalty.
 
 ## Assignment Objective
 
-The objective of this assignment is for you to gain practical experience with the MVC pattern using Vue.js, a web application development framework, and Bootstrap, a CSS framework for responsive design. Specifically, you will create a website that searches for artists using the iTunes API.
+The objective of this assignment is for you to gain practical experience with the MVC pattern using Vue.js, a web application development framework, and with fetching data from a web API. Specifically, you will create a website that searches for artists using the iTunes API.
 
 Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN9M](https://youtu.be/C4ekC9MYN9M)
+
+_Remark: the video was recorded for an earlier version of this assignment that used the Bootstrap CSS framework. **Ignore anything it says about Bootstrap.** This version uses no CSS framework, and Vue is the only library involved. Watch it for what the finished site does._
 
 _Remark: The search results from the video may not be what you get. To determine whether your results are correct, please see the [FAQ](#should-our-search-results-match-exactly-the-ones-in-the-spec) section._
 
@@ -78,76 +80,81 @@ $ tar -xvzf starter_code.tar.gz
 Here's a brief description for each of the starter files.
 
 | `index.html` | HTML page **\[Write your HTML code in this file\]** |
-| `script.js` | Placeholder for one Vue.js instance **\[Write your JS code in this file\]** |
-| `index.css` | Additional customized style \[Do NOT modify this file\] |
+| `script.js` | Imports Vue and creates one Vue instance for you **\[Write your JS code in this file\]** |
+| `index.css` | All the styling for the finished page, including how it responds to window size \[Do NOT modify this file\] |
 | `assets/` | A directory containing icons that you may use in your code |
 | `img/` | A directory containing 2 image placeholders \[Your final code won't need them\] |
 
 Remarks
 
 - You aren't required to use any of the starter code, but it's there to help you.
-- Unless you know what you are doing, please do NOT modify anything inside the `<head>` tag in `index.html`.
 - Please refer to Piazza for any modifications and clarifications.
 - Make sure that your application (webpage) behaves properly on the latest version of Google Chrome. Your graders will use Chrome.
 - To make sure your code runs correctly, it might be helpful to test it on a different computer.
+
+## Running the Assignment
+
+This assignment has to be opened through a web server. Double-clicking `index.html` will not work, for the reason explained under [CORS and the iTunes API](#cors-and-the-itunes-api). The short version is that the API will not answer a page that was opened straight off your disk.
+
+You do not need to install anything. Open a terminal, move into the folder that contains your `index.html`, and run:
+
+```console
+$ python3 -m http.server 8000
+```
+
+Then open <http://localhost:8000> in Chrome. Leave the terminal running while you work; press Ctrl+C when you are finished.
+
+VS Code's Live Server extension works too, if you prefer it. What matters is that the address bar says `localhost`, not a path beginning with `file://`.
+
+Serving the page is also what lets this assignment use `<script type="module">`, the way we did in class. Assignments 2 and 3 had to use `defer` instead, because module scripts cannot load over `file://`.
 
 ## Helpful Resources
 
 ### iTunes API
 
-- Constructing Search: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1>
+- [Constructing Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
   - Hint: Most useful parameters are _term_, _media_, and _attribute_.
-  - **IMPORTANT UPDATE:** The archived Apple documentation above no longer lists the _attribute_ parameter. **Please also refer to this documentation, which includes a more comprehensive list of parameters used in this assignment: <https://performance-partners.apple.com/search-api>.**
-- Search Examples: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1>
-- Understanding Search Results: <https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1>
+  - **IMPORTANT UPDATE:** The archived Apple documentation above no longer lists the _attribute_ parameter. **Please also refer to [this documentation](https://performance-partners.apple.com/search-api), which includes a more comprehensive list of parameters used in this assignment.**
+- [Search Examples](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1)
+- [Understanding Search Results](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1)
 
 ### Vue
 
-- Get Started using createApp: <https://vuejs.org/guide/quick-start.html#without-build-tools>
-- Vue Cheat Sheet w/examples: <https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf>
-- Template: <https://vuejs.org/guide/essentials/template-syntax.html>
+- [Get Started using createApp](https://vuejs.org/guide/quick-start.html#without-build-tools)
+- [Vue Cheat Sheet w/examples](https://www.vuemastery.com/pdf/Vue-Essentials-Cheat-Sheet.pdf)
+- [Template](https://vuejs.org/guide/essentials/template-syntax.html)
   - Dynamically update HTML text using <code>&#123;&#123; &#125;&#125;</code>
   - Dynamically update HTML attributes using `v-bind`
   - Single JavaScript expressions can be used in <code>&#123;&#123; &#125;&#125;</code> for text and `" "` for attributes
-- Binding Classes (`v-bind`): <https://vuejs.org/guide/essentials/class-and-style.html>
+- [Binding Classes (`v-bind`)](https://vuejs.org/guide/essentials/class-and-style.html)
   - Dynamically toggle a class depending on certain conditions
-- Conditional Rendering (`v-show`, `v-if`): <https://vuejs.org/guide/essentials/conditional.html>
+- [Conditional Rendering (`v-show`, `v-if`)](https://vuejs.org/guide/essentials/conditional.html)
   - Dynamically render a block (e.g. `<div>`) under certain conditions
-- List Rendering (`v-for`): <https://vuejs.org/guide/essentials/list.html>
-- Events (`v-on`): <https://v2.vuejs.org/v2/guide/events.html>
+- [List Rendering (`v-for`)](https://vuejs.org/guide/essentials/list.html)
+- [Events (`v-on`)](https://vuejs.org/guide/essentials/event-handling.html)
   - Listener
   - Method Handler
   - Modifier (prevent page from reloading)
   - Keyboard events (listening for specific keys)
-- For making api calls, we can use the following. Both are supported in Vue 3.
-  - `fetch`: <https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch>
-  - `Axios`: <https://axios-http.com/docs/example>
+- For making API calls, use `fetch`, which is built into the browser:
+  - [Using Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [Response.json()](https://developer.mozilla.org/en-US/docs/Web/API/Response/json)
 
 ### JavaScript
 
-- Object.keys(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys>
-- Object.entries(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries>
-- Array.prototype.sort(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort>
-- Array.prototype.forEach(): <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach>
-- Arrow functions: <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions>
-
-### Bootstrap
-
-- Intro: <https://getbootstrap.com/docs/5.3/getting-started/introduction/>
-- Button (btn): <https://getbootstrap.com/docs/5.3/components/buttons/>
-- Dropdown: <https://getbootstrap.com/docs/5.3/components/dropdowns/>
-- Navigation tabs: <https://getbootstrap.com/docs/5.3/components/navs-tabs/>
-- Grid System: <https://getbootstrap.com/docs/5.3/layout/grid/>
+- [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+- [Object.entries()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+- [Array.prototype.sort()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+- [Array.prototype.forEach()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+- [Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 ### Other
 
-When trying to toggle the 'Description' and 'Track info.' tabs, take a look at [this tutorial](https://www.w3schools.com/bootstrap/bootstrap_ref_js_tab.asp) and play around with the code. Note how this can be achieved simply using Bootstrap and HTML.
+The 'Description' and 'Track info.' tabs are a good illustration of the MVC pattern. There is no CSS framework doing the switching for you, so which tab is showing is simply part of your data, and the template renders whichever one your data says is open.
 
-Specifically, quoting directly from it: 'Add `data-toggle="tab"` to each tab, and add a `.tab-pane` class with a unique ID for every tab and wrap them in a `.tab-content` class.'
+The thing to work out is that every track has its own pair of tabs, so a single "which tab is open" value is not enough. A common symptom of getting this wrong is that clicking one track's 'Track info.' tab switches all of them at once, or only ever switches the first one. Think about how to keep one value per result, not one value for the whole page.
 
-If you have trouble (e.g. clicking on 1 Description tab changes all Description tabs, or no matter which Description tab is clicked, only 1 Description tab changes), make sure the stuff bolded is implemented correctly. Put into context of our assignment, each 'Description' and 'Track info.' tab must have its own unique ID (i.e. `<div id='[something unique]'> </div>`). In other words, suppose there are 50 songs returned by the API call, then there will be 50 'Description' and 'Track info.' tabs, so we need 50 unique IDs for 'Description' and 50 unique IDs for 'Track info.'
-
-Note: This is not the only way to achieve this behavior, but it is in my opinion the easiest way to do so.
+The same idea covers the search history panel, the Favorites list, and the sort menu. Each of them is either open or closed, that is a piece of data, and the template shows or hides from it.
 
 ## Screenshots
 
@@ -263,6 +270,23 @@ Remark: Sort is reset to original in this screenshot.
     alt="An interface displaying music track results, each with additional options and information, including a play button. Selecting the play button opens a now-playing display at the top of the screen showing the current track and a progress bar."
 />
 
+### Narrower Windows
+
+The screenshots above were all taken in a full width window. The page rearranges itself as the window gets narrower, and the two screenshots below show the same search at two smaller widths. The styling in `index.css` handles this for you, so you get it for free as long as you build your markup out of the classes it provides.
+
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start;">
+  <img
+    src="images/responsive-two-columns.png"
+    style="width: 48%; min-width: 15rem;"
+    alt="The search page in a fairly narrow window. The Favorites sidebar sits above the results, the genre filter buttons wrap onto three rows, and the track results are laid out in two columns."
+  />
+  <img
+    src="images/responsive-one-column.png"
+    style="width: 48%; min-width: 15rem;"
+    alt="The same search in an even narrower window. The track results have dropped from two columns to one, and the genre filter buttons have rewrapped onto five rows."
+  />
+</div>
+
 ## Requirements
 
 We outline the requirements for each of the components below. Everything listed in this section, unless labeled as "Suggested", is required. Please be sure to examine the overview video and screenshots to understand the expected behavior. Again, remember that your website does not have to look exactly like the one in the video/screenshots.
@@ -273,21 +297,24 @@ We outline the requirements for each of the components below. Everything listed 
 
 Ground rules - _max 50 points off if not followed_
 
-1. The primary point of the assignment is to use MVC pattern in developing the application using Vue.js. Therefore, reference and direct modification of HTML elements (such as `$(".class")`, `append()`, `document`) in JavaScript and jQuery are NOT allowed.
-   - For example, using jQuery or JavaScript code that access HTML elements is NOT allowed (will result in significant deductions).
+1. The primary point of the assignment is to use MVC pattern in developing the application using Vue.js. Therefore, reference and direct modification of HTML elements (such as `document.querySelector()`, `append()`, `document`) in JavaScript are NOT allowed.
+   - Everything the page displays should follow from your Vue data. You change the data; Vue updates the page. _Reaching into the page yourself will result in significant deductions._
 2. We've given you some starter code, and you'll only need to write JS code inside Vue instance(s) (in the JS file) and Vue directives in the HTML file.
    - We already created one Vue instance for you. You may add other instances if you prefer, but NO extra JS code should be written outside of Vue instances.
-3. Every style-related element of the assignment MUST be done via Bootstrap.
-   - You are NOT allowed to define/use any custom CSS class/id other than the ones we provided in `index.css`.
+3. All the styling you need is already written for you in `index.css`, which defines a class for every part of the finished page.
+   - Build your markup out of those classes. You are NOT allowed to define your own CSS classes or ids, and you should not need to.
      - i.e. Do NOT modify `index.css`.
    - You are NOT allowed to use inline styling (e.g. `style=''`). The _only_ exception to this rule is when implementing the [progress bar](#play-25-points), which you may use _exactly one_ instance of inline styling (`style=''`) to dynamically update its width.
-4. The provided `index.html` file includes (links to) jQuery, Bootstrap, Vue.js, and Axios.
-   - In order for index.html to work properly, make sure you
+   - This is deliberate: Assignment 2 was where you wrote the CSS. Here the point is the data and how the page follows from it, so the CSS is handled for you.
+4. Vue.js is imported at the top of the provided `script.js`. No other library or framework is permitted.
+   - In order for the page to work properly, make sure you
      - Have internet connection,
+     - Leave the `import` line at the top of `script.js` as it is,
      - Do NOT modify anything inside the `<head>` tag in `index.html`.
+   - Because `index.html` loads `script.js` with `type="module"`, the page has to be served over http. See [Running the Assignment](#running-the-assignment).
    - Note that `index.html` has some hard-coded data. This is just to show you an example, but the hard-coded data should eventually be replaced.
 5. Follow the submission instructions at the beginning of the spec.
-6. After unzipping your submission, the index.html file should work by directly opening it in Google Chrome, as long as there is an internet connection.
+6. After unzipping your submission, the assignment should work when served from a local web server and opened in Google Chrome, as long as there is an internet connection. See [Running the Assignment](#running-the-assignment).
 7. This assignment uses the iTunes API, which again requires internet access. Plan ahead if you will be in a situation that has no internet access. It is your responsibility to read the documentation and figure out the data structure of the JSON object.
 8. This assignment requires online search and reading the documentation of Vue.js and iTunes API that we use. The assignment may include materials that are not covered in class. We believe that, in today's programming practice, searching and mining information from online materials is a significant part of a programmer's expertise.
 9. Check out Piazza frequently for any changes or additional information.
@@ -296,13 +323,13 @@ Ground rules - _max 50 points off if not followed_
 
 - There is an input text box at the top left of the screen (already provided for you in the starter HTML file).
 - When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to the iTunes API, searching for _music_ tracks made by the artist(s) whose name contains (or is close to) this keyword.
-  - Hint: Use `v-on:keyup` to check if the key was "enter (keycode:13)" or not.
-  - Use either `Axios()` or `fetch()` for the AJAX call.
-- The URL for the AJAX request and the returned JSON data are specified in the iTunes API documentation: <https://goo.gl/UXwDce>
+  - Hint: Use `v-on:keyup` to check whether the key pressed was Enter.
+  - Use `fetch()` for the AJAX call.
+- The URL for the AJAX request and the returned JSON data are specified in the [iTunes API documentation](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
   - Check out the [iTunes API section](#itunes-api) for a hint on which URL parameters you will need to get the correct results.
   - When constructing the request, only _music_ media types should be included.
   - Do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
-- Print out the returned json object (i.e. `response.data`) in the console, using JS console.log(), when making requests for the APIs.
+- Print out the returned JSON object in the console, using JS console.log(), when making requests for the APIs.
   - This should be the _only_ thing that is printed in the console.
   - We will take off points if the above requirements are not met.
 - When there are no artists returned from iTunes, alert the user, using JS alert(), that no artist was found with the keyword.
@@ -312,15 +339,15 @@ Ground rules - _max 50 points off if not followed_
 
 - The returned tracks of the artist should be displayed in two columns, where each result grid displays an image and related information of the track right next to each other (when the browser is in full size).
   - One exception will be the last row which may have less than two artist grids when the number of results is odd.
-- Please use the Bootstrap Grid system to accomplish the above requirements. Make sure you understand how it works because it is a great way to realize layouts we learned from the class.
-- When correctly implemented with Bootstrap, the layout will naturally be responsive (e.g. resizing the browser will automatically resize the images and the nav-tabs, and shift them to the next row).
+- Use the `track-grid` and `track` classes from `index.css` for this. The grid works out how many columns fit on its own, so you do not need to count them or decide when to wrap.
+- Because of that, the layout is responsive once your markup is right: the number of columns changes as the window is resized, and drops to one on a narrow screen. Check this by dragging your window narrower, and compare against the [screenshots](#narrower-windows).
 - Typically, iTunes will provide an image URL for each track returned. Use the first available URL in the properties.
-- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video), your web page should look pretty much the same as the one in the screenshot.
+- Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video).
 
 ### Navigation Tabs (5 points)
 
 - The returned artists should also have their information displayed next to them in the navigation tabs.
-- Please use Bootstrap's nav-tabs (and other related classes) for this and next section. Note that we already provided some example nav-tab code in the starter file. For more info, check out the Hints & Resources section.
+- Use the `tabs`, `tab`, `tab-active`, and `tab-panel` classes from `index.css` for this and the next section. The starter file shows the markup for one set of tabs. Which tab is showing is up to your Vue data: see the [Helpful Resources](#other) section.
 - The 'Description' tab should contain: artist name, track name, collection name, and collection price. These properties can be found in the response JSON object.
   - If the price is not provided, set the price to 0.
   - If one of the returned values is an empty string, display "No information provided".
@@ -342,7 +369,7 @@ Ground rules - _max 50 points off if not followed_
   - You can select and deselect genres.
   - The genres selected should be indicated by the change in the background color.
 - Once you select other genres besides ALL, the ALL button should be deselected, indicated by a change in its background color.
-- Please use Bootstrap's btn (and related classes) for this part. Note that different button colors can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- Use the `chip` class from `index.css` for the genre buttons, and add `chip-selected` to the ones currently selected. Binding that second class to your data is what makes the colour change: see [Binding Classes](#vue) in Helpful Resources.
 - The genre selection works like a set union: The more genres that are selected the more results should be displayed.
 - If ALL is selected, the other genres are deselected, and the results return back to the original list but maintaining the current sort selection. (see Sort Menu)
 - The genre selected should automatically reset to ALL when you search for a new artist.
@@ -360,7 +387,7 @@ Ground rules - _max 50 points off if not followed_
 - For "Price", sort results by increasing price.
 - For API results that did not return a Collection Name or Price, they should be sorted as if their Collection Name was "No information provided" and Price was 0.
 - The selected option should be indicated by a distinct background color.
-- Please use Bootstrap's dropdown (and related classes) for this part. Note that different background colors of the options can and should also be achieved using Bootstrap. For more info, check out the Hints & Resources section.
+- Use the `sort`, `sort-toggle`, `sort-menu`, and `sort-option` classes from `index.css` for this, adding `sort-option-active` to the option currently selected. Whether the menu is open and which option is selected are both your Vue data.
 - When multiple genres are selected, the list of results should still be updated by the current sort selection (e.g., collection name or price).
   - In other words, when you select a genre, the sort option should not reset.
 - The sort should automatically reset when you search for a new artist.
@@ -477,19 +504,19 @@ This should work when selecting any of the three sort options.
 - Clicking on the "repeat" button again stops playing the song on repeat (i.e. finish the current play iteration and stop) and changes the icon appearance back to the original.
 - Adjusting the volume slider should update the currently playing track's volume.
 
-## CORS Header
+## CORS and the iTunes API
 
-When doing this assignment, you might run into your search results being rejected with a "CORS" message. This error is largely server-side, so there is no simple solution. The success of the request will change depending on what browser you are using, if you are hosting the page on the server, and the configuration of the iTunes server the artist you are requesting is stored on.
+A browser will not let a page read a response from another website unless that website says it is allowed to, by sending back a header called `Access-Control-Allow-Origin`. When the header is missing, the request itself succeeds but the browser throws away the response and reports a **CORS error**.
 
-One solution that often works is adding `&origin=*` to the end of your search query. This will often resolve the error if you are running your code directly from a file.
+The iTunes API sends that header only when the request comes from a real web address. A page opened directly from your disk has no such address. The browser reports its origin as `null`, and the API will not answer that. This is why the assignment has to be [served from a local web server](#running-the-assignment).
 
-There are other ways that might help if you still encounter this issues:
+So if you see a CORS error, check the address bar first. It should read `http://localhost:8000`, not a path starting with `file://`.
 
-- Test with an artist that isn't the one shown in the example video. We suspect that iTunes has changed the way it processes requests coming from the UMich wireless network for the example artist, since there are suddenly several hundred identical requests every minute in the exact same format from the exact same location. Suggesting a different artist to search would be self-defeating, but you should be testing your implementation with a variety of artists anyway.
-- Ordering matters in the iTunes API call, so you can play around with the ordering of your added keys to the query.
-- Do not open the file as a local server (`localhost:XXXX/<file path>`). Some IDEs may automatically open HTML files in a server rather than opening the raw file in a browser (`<filepath>`); opening it as a raw file may stop it.
+It is also worth searching for a variety of artists while you work, and not defaulting to the same obvious name as everybody else, whether that is the artist from the demo video or just whoever is most famous at the moment. iTunes appears to throttle requests when hundreds of identical ones arrive from the same network, which is exactly what happens when a whole class tests with the same name on campus wifi.
 
-Again, many of these errors are configuration dependent. If you continue to have issues, please come speak to us in office hours or post on Piazza.
+So if one particular search starts failing while others still work, that is probably what you have hit, and not a bug in your code. Try a different artist before you go looking for one.
+
+If you continue to have issues, please come speak to us in office hours or post on Piazza.
 
 ## FAQ
 
