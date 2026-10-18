@@ -180,14 +180,14 @@ You will be graded on:
 
 | Due date                 | Task / Objective                      |
 | ------------------------ | ------------------------------------- |
-| Wednesday 2/25 Noon      | In-Class Project Showcase Signup Form |
-| Friday 2/26 Before Class | Storyboards                           |
-| Friday 3/13 11:59 PM     | Zip file of all deliverables          |
+| Monday 10/26 Noon      | In-Class Project Showcase Signup Form |
+| Wednesday 10/28 Before Class | Storyboards                           |
+| Wednesday 10/28 11:59 PM     | Zip file of all deliverables          |
 
 ### Links and Resources
 
-- [In-Class Project Showcase Assignment Form](https://docs.google.com/spreadsheets/d/15vsvyPq_XePA7gUfyYpDngnypu55ioOWW_5ZPPZqSqo/edit?usp=sharing)
-- [Team Information and Staff Contacts](https://docs.google.com/spreadsheets/d/1otnocdmyNSOz1Vt3zkfmc9kJVmVdDkYSZUPWbDvXsrE/edit?usp=sharing)
+- [In-Class Project Showcase Assignment Form](https://docs.google.com/spreadsheets/d/1e9VWfJTl6OO89seFgPwsxHuSpSQBDDzdpLp2r8b1A_A/edit?gid=0#gid=0)
+- [Team Information](https://docs.google.com/spreadsheets/d/1bT76swE9BenwdEu1RPyW6du91YT1RFL7_lzJiogFvO8/edit?gid=0#gid=0)
 
 ### Goals
 
@@ -196,7 +196,7 @@ You will be graded on:
   - Based on these ideas, group and filter them down to a subset of 8-10 ideas that will be used for creating your storyboards.
 
 - In-class Project Showcase (4%)
-  - In your class on Friday 2/26, we will host an in-class storyboard session to help you ideate better. We will organize the class to facilitate in-class feedback for your ideas.
+  - In your class on Wednesday 10/28, we will host an in-class storyboard session to help you ideate better. We will organize the class to facilitate in-class feedback for your ideas.
 
 - Speed dating (8%)
   - Speed date the storyboards with at least 4 potential users **(5 for teams of five)** in order to
@@ -276,11 +276,11 @@ Assuming you have 8-10 storyboards, each speed dating session should take less t
 
 ### In-Class Project Showcase
 
-The class on 2/26 will be devoted to live critiques, and in short rounds (e.g. ~20 minutes for each round), several teams at a time will post their storyboards on the wall or lay them out on tables around the room. We assume many teams haven’t started running the speed dating sessions yet. Please use this as an opportunity to get feedback to improve your storyboards.
+The class on 10/28 will be devoted to live critiques, and in short rounds (e.g. ~20 minutes for each round), several teams at a time will post their storyboards on the wall or lay them out on tables around the room. We assume many teams haven’t started running the speed dating sessions yet. Please use this as an opportunity to get feedback to improve your storyboards.
 
 **Make sure to bring your printed storyboards for this showcase!**
 
-Please complete the “Storyboard Session Sign-up Form” linked under “Goals” heading BY NOON ON 2/25.
+Please complete the “Storyboard Session Sign-up Form” linked under “Goals” heading BY NOON ON 10/26.
 
 #### Here's what will happen at the in-class storyboard session:
 
