@@ -276,7 +276,7 @@ Assuming you have 8-10 storyboards, each speed dating session should take less t
 
 ### In-Class Project Showcase
 
-The class on 10/28 will be devoted to live critiques, and in short rounds (e.g. ~20 minutes for each round), several teams at a time will post their storyboards on the wall or lay them out on tables around the room. We assume many teams haven’t started running the speed dating sessions yet. Please use this as an opportunity to get feedback to improve your storyboards.
+The class on 10/28 will be devoted to live critiques, and in short rounds (e.g. ~35 minutes for each round, 2 rounds in total), several teams at a time will post their storyboards on the wall or lay them out on tables around the room. We assume many teams haven’t started running the speed dating sessions yet. Please use this as an opportunity to get feedback to improve your storyboards.
 
 **Make sure to bring your printed storyboards for this showcase!**
 
