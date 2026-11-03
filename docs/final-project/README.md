@@ -315,7 +315,7 @@ Your Milestone 2 submissions will be graded on:
   - Basic requirements
   - Quality: e.g., is the report clear and well-written? Are findings and conclusions well supported? Are findings insightful and relevant to the problem?
 
-<!-- ## Milestone 3
+## Milestone 3
 
 (Worth 20% of final project grade, 5% of total grade)
 
@@ -330,7 +330,7 @@ Your Milestone 2 submissions will be graded on:
   - Write a report describing the usability issues discovered from the user test, and
     summarize a list of things to fix.
 - Link to Assignment: Canvas Assignment
-- Due Date: Sunday, March 29, 11:59 PM
+- Due Date: Sunday, Nov. 15, 11:59 PM
 
 ### Prototype
 
@@ -339,7 +339,7 @@ For the prototype step, your team will design and build a high-fidelity prototyp
 - The prototype should be built using Figma, instead of web/app technologies (e.g., HTML,
   CSS, Javascript, Swift, etc.).
 - The prototype should have a significant amount of work or details. **Compared to
-  Assignment 4, your prototype should have at least 4 times the amount of work or details for a team of 3 or 4 and 5 times the amount for a team of 5.** This includes but not limited to the number of frames, features, functions, supported interactions, and more.
+  Assignment 4, your prototype should have at least 4 times the amount of work or details.** This includes but not limited to the number of frames, features, functions, supported interactions, and more.
   - We will primarily evaluate this from the perspective of "tasks"/"critical user
     journeys", i.e., a sequence of user interactions your prototype supports for users
     to accomplish one of their primary goals. For example, in Assignment 4, you
@@ -377,7 +377,7 @@ After building the prototype, your team will have to evaluate it by performing a
 thinking-aloud. Here are the specific requirements:
 
 - You need to have at least 2 users. You are responsible for finding your participants. You could have more than 1 team member to run the user test so that everyone on your team will have the opportunity to directly observe users.
-- After each user testing session, please iteratively improve your prototype. The changes
+- **After each user testing session, please iteratively improve your prototype**. The changes
   after each iteration should be discussed in your final report.
 - You should use the key tasks your prototype supports for the users, but keep the
   instruction on a high level without specifying each subtask step the user needs to take.
@@ -439,7 +439,7 @@ You will be graded on:
 - Think Alouds and UFTs [3 points]
 - Written Report [5 points]
 
-## Milestone 4
+<!-- ## Milestone 4
 
 (Worth 28% of final project grade, 7% of total grade)
 
