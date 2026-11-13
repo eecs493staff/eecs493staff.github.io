@@ -7,7 +7,7 @@ title: a5-artist-search
 
 | Total      | Released | Due                    |
 | ---------- | -------- | ---------------------- |
-| 150 points | 3/14     | **4/5 at 11:59 PM ET** |
+| 150 points | 11/13     | **11/24 at 11:59 PM ET** |
 
 ## Submission Instructions
 
