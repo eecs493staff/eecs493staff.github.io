@@ -7,7 +7,11 @@ title: a5-artist-search
 
 | Total      | Released | Due                    |
 | ---------- | -------- | ---------------------- |
+<<<<<<< Updated upstream
 | 150 points | 11/13     | **11/24 at 11:59 PM ET** |
+=======
+| 150 points | 11/13    | **11/24 at 11:59 PM ET** |
+>>>>>>> Stashed changes
 
 ## Submission Instructions
 
@@ -48,7 +52,7 @@ The objective of this assignment is for you to gain practical experience with th
 
 Watch this video for an overview of this assignment: [https://youtu.be/C4ekC9MYN9M](https://youtu.be/C4ekC9MYN9M)
 
-_Remark: the video was recorded for an earlier version of this assignment that used the Bootstrap CSS framework. **Ignore anything it says about Bootstrap.** This version uses no CSS framework, and Vue is the only library involved. Watch it for what the finished site does._
+_Remark: the video was recorded before this assignment was rewritten, so ignore the couple of places where it refers to Bootstrap. The track and artist names in Favorites also no longer scroll; long names are now cut off with an ellipsis. This version uses no CSS framework, and Vue is the only library involved._
 
 _Remark: The search results from the video may not be what you get. To determine whether your results are correct, please see the [FAQ](#should-our-search-results-match-exactly-the-ones-in-the-spec) section._
 
@@ -171,15 +175,15 @@ The same idea covers the search history panel, the Favorites list, and the sort 
 <img 
     src="images/search-result.png" 
     width="100%" 
-    alt="Music search interface showing results for the artist 'Ayokay.' Fifty tracks found, with several tracks displayed at a time."
+    alt="Music search interface showing results for the search 'shawn'. 57 tracks found, shown four to a row, with genre buttons for Pop, Rock, and Soundtrack."
 />
 
-### "Track Info" Tab (for the left two results)
+### "Track Info" Tab (for three of the results)
 
 <img 
     src="images/track-info.png" 
     width="100%" 
-    alt="Music search interface displaying results for the artist 'Ayokay.' Several tracks are visible. The first track’s info tab is selected, showing its track ID and the country of origin."
+    alt="Music search interface displaying results for 'howard shore'. Three of the results have their Track Info. tab selected, each showing that track's ID and country of origin."
 />
 
 ### Sort
@@ -189,15 +193,15 @@ The same idea covers the search history panel, the Favorites list, and the sort 
 <img 
     src="images/sort-menu.png" 
     width="100%" 
-    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. Selecting the dropdown filter opens options such as sort list results by: Reset to original, collection, and price"
+    alt="Results for 'howard shore' with the sort menu open, listing Reset to original (highlighted, since it is the default), Collection, and Price."
 />
 
-#### Sort by "Collection Name"
+#### Sort by "Collection"
 
 <img 
     src="images/sorted-collection.png" 
     width="100%" 
-    alt="An interface displaying music track results. The results are sorted by collection."
+    alt="Results for 'howard shore' sorted alphabetically by collection name."
 />
 
 #### Sort by "Price"
@@ -205,17 +209,17 @@ The same idea covers the search history panel, the Favorites list, and the sort 
 <img 
     src="images/sorted-price.png" 
     width="100%"
-    alt="An interface displaying music track results. The results are sorted by price."
+    alt="Results for 'howard shore' sorted by increasing price."
 />
 
-### Select the "Dance" and "Pop" Genres
+### Select the "Pop" and "Rock" Genres
 
 Remark: Sort is reset to original in this screenshot.
 
 <img 
     src="images/select-genre.png" 
     width="100%" 
-    alt="An interface displaying music track results. In this screenshot the user has selected to filter by 'Dance' and 'Pop'."
+    alt="Results for 'shawn' filtered to the Pop and Rock genres. Both are highlighted, ALL is no longer selected, and the count has dropped to 56."
 />
 
 ### Search History
@@ -225,23 +229,23 @@ Remark: Sort is reset to original in this screenshot.
 <img 
     src="images/search-history.png" 
     width="100%" 
-    alt="An interface displaying music track results. The search bar displays a list of past search results."
+    alt="The search box is focused, and the search history below it lists 'shawn' and 'howard shore'."
 />
 
-#### After searching for "John Williams"
+#### After searching for "Josh Groban"
 
 <img 
     src="images/search-history-add.png" 
     width="100%" 
-    alt="An interface displaying music track results. The search bar displays a list of past search results. The user has just searched for artist 'John Williams' which has been added to the list of past search results."
+    alt="'josh groban' has just been searched and appears at the top of the search history, above 'john williams', 'shawn', and 'howard shore'."
 />
 
-#### After deleting "ayokay"
+#### After deleting "John Williams"
 
 <img 
     src="images/search-history-remove.png" 
     width="100%" 
-    alt="An interface displaying music track results. The search bar displays a list of past search results. The search result 'Ayokay' has been removed from the result history."
+    alt="'john williams' has been removed from the search history, leaving 'josh groban', 'shawn', and 'howard shore'. The pointer is over 'shawn', so its cross mark is showing."
 />
 
 ### Favorites
@@ -251,7 +255,7 @@ Remark: Sort is reset to original in this screenshot.
 <img 
     src="images/favorites.png" 
     width="100%" 
-    alt="An interface displaying music track results, each with additional options and information, including a star icon; selecting the star marks the track as a favorite and adds it to the “Favorites” folder in the side panel."
+    alt="The Favorites list in the sidebar shows two tracks. The pointer is over the first one, so a play button covers its image and a cross mark appears on its right."
 />
 
 #### After adding "Hedwig's Theme"
@@ -259,7 +263,7 @@ Remark: Sort is reset to original in this screenshot.
 <img 
     src="images/favorites-add.png" 
     width="100%"
-    alt="An interface displaying music track results, each with additional options and information, including a star icon; selecting the star marks the track as a favorite and adds it to the “Favorites” folder in the side panel." 
+    alt="After starring the first result, Hedwig's Theme by John Williams appears in the Favorites list and its star in the description tab is filled." 
 />
 
 ### Play
@@ -267,12 +271,12 @@ Remark: Sort is reset to original in this screenshot.
 <img 
     src="images/play.png" 
     width="100%" 
-    alt="An interface displaying music track results, each with additional options and information, including a play button. Selecting the play button opens a now-playing display at the top of the screen showing the current track and a progress bar."
+    alt="Hedwig's Theme is playing. The top panel shows its artwork, track name, artist, collection, and progress bar, and both the top panel's button and the track's own play button show pause icons."
 />
 
 ### Narrower Windows
 
-The screenshots above were all taken in a full width window. The page rearranges itself as the window gets narrower, and the two screenshots below show the same search at two smaller widths. The styling in `index.css` handles this for you, so you get it for free as long as you build your markup out of the classes it provides.
+The screenshots above were all taken in a full width window. The page rearranges itself as the window gets narrower, and the two below show the same search at two smaller widths. The styling in `index.css` handles this for you, so you get it for free as long as you build your markup out of the classes it provides.
 
 <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: flex-start;">
   <img
@@ -337,9 +341,10 @@ Ground rules - _max 50 points off if not followed_
 
 ### Artists Grid (30 points)
 
-- The returned tracks of the artist should be displayed in two columns, where each result grid displays an image and related information of the track right next to each other (when the browser is in full size).
-  - One exception will be the last row which may have less than two artist grids when the number of results is odd.
+- The returned tracks of the artist should be displayed in a grid, where each result displays an image and related information of the track right next to each other.
 - Use the `track-grid` and `track` classes from `index.css` for this. The grid works out how many columns fit on its own, so you do not need to count them or decide when to wrap.
+  - How many columns you see depends on how wide your window is: for example, two on a 1280-pixel-wide window and three or more on wider ones. Any of these is correct.
+  - The last row may have fewer results than the others.
 - Because of that, the layout is responsive once your markup is right: the number of columns changes as the window is resized, and drops to one on a narrow screen. Check this by dragging your window narrower, and compare against the [screenshots](#narrower-windows).
 - Typically, iTunes will provide an image URL for each track returned. Use the first available URL in the properties.
 - Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video).
@@ -357,9 +362,9 @@ Ground rules - _max 50 points off if not followed_
 
 - When clicking the 'Track Info.' tab, the system should display the Track ID (which is a unique identifier) & Country for that particular search result.
   - You may assume that Track ID and Country are always going to be provided by the API.
-- This means, whenever you click on the 'Track Info.' tab, the unique identifier will be different for each different 'Track Info.' tab you click on. See the [screenshots](#track-info-tab-for-the-left-two-results) section for an example.
+- This means, whenever you click on the 'Track Info.' tab, the unique identifier will be different for each different 'Track Info.' tab you click on. See the [screenshots](#track-info-tab-for-three-of-the-results) section for an example.
 - Hint: The key to getting this section to work is figuring out how to get only that particular div to change when you click on that 'Track Info.' tab. Check out the [Helpful Resources](#helpful-resources) section if you would like a more specific hint.
-- When clicking back to the 'Description' tab, the five types of information should still be there.
+- When clicking back to the 'Description' tab, the four types of information should still be there.
 
 ### Genre Selection (20 points)
 
@@ -379,11 +384,11 @@ Ground rules - _max 50 points off if not followed_
 - A "Sort list of results by: " button that displays a dropdown menu when clicked.
   - There are three options in the menu:
     - Reset to original
-    - Collection Name
+    - Collection
     - Price
 - For "Reset to original", reset the displayed results to the original order.
   - This should be the default selection.
-- For "Collection Name", sort results alphabetically by collection name.
+- For "Collection", sort results alphabetically by collection name.
 - For "Price", sort results by increasing price.
 - For API results that did not return a Collection Name or Price, they should be sorted as if their Collection Name was "No information provided" and Price was 0.
 - The selected option should be indicated by a distinct background color.
@@ -394,31 +399,13 @@ Ground rules - _max 50 points off if not followed_
 
 Here is another example of what the sort menu should look like and how it works.
 
-In the dropdown menu, initially, it should be set as the "Reset to original" indicated below by blue background.
+In the dropdown menu, initially, it should be set as the "Reset to original" indicated by blue background (see the [Menu](#menu) screenshot).
 
-<img 
-    src="images/sort-eg2-initial.png" 
-    width="100%" 
-    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre."
-/>
+When selecting a different option, it should be changed to that selection, for example, selecting "Collection", indicated by the blue background (see the [Sort by "Collection"](#sort-by-collection) screenshot).
 
-When selecting a different option, it should be changed to that selection, for example, selecting "Collection Name", indicated by the blue background.
+After an artist search and sorting by "Collection", then selecting different genres should still update the list by "Collection".
 
-<img 
-    src="images/sort-eg2-collection.png" 
-    width="100%" 
-    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. Selecting the dropdown filter opens options such as sort list results by: Reset to original, collection, and price."
-/>
-
-After an artist search and sorting by "Collection Name", then selecting different genres should still update the list by "Collection Name".
-
-In other words, if the user sorts by Collection Name, it should update the list sorted by collection name; after that, if the user picks a genre, e.g. Anime, it should update the Anime list sorted by collection name too.
-
-<img 
-    src="images/sort-eg2-genre.png" 
-    width="100%" 
-    alt="An interface displaying music track results with controls to sort the results using a dropdown menu and filter them by genre. In this screenshot the user has selected to filter by the Soundtrack genre."
-/>
+In other words, if the user sorts by Collection, it should update the list sorted by collection name; after that, if the user picks a genre, e.g. Anime, it should update the Anime list sorted by collection name too.
 
 This should work when selecting any of the three sort options.
 
@@ -443,19 +430,22 @@ This should work when selecting any of the three sort options.
 
 ### Favorites (15 points)
 
+- The "Favorites" list in the left panel can be collapsed and expanded.
+  - Clicking the "Favorites" heading (the `favorites-toggle` button in the starter HTML) hides the list, and clicking it again shows it.
+  - The list should start expanded.
 - A "star" icon/button should be displayed at the bottom of the "description" tab of each track.
 - Upon clicking the "star" button, add the corresponding track to "Favorites".
 - When a track is added to "Favorites":
-  - This track should appear under the "Favorites" tab/list in the left panel.
+  - This track should appear in the "Favorites" list in the left panel.
     - Each track should display:
       1. an image (same as the one in the search result)
       2. the track name
       3. the artist name
-    - _When_ hovering over a track (in the "Favorites" tab):
+      - Long track and artist names are cut off with an ellipsis (…). The provided `.favorite-track` and `.favorite-artist` classes do this for you.
+    - _When_ hovering over a track (in the "Favorites" list):
       1. a "play" icon/button should appear on top of the track image
          - more on this in the Play section of the spec
-      2. the track and artist names should scroll left (CSS code provided for you)
-      3. a cross mark appears on the right side
+      2. a cross mark appears on the right side
   - The star icon in this track's description tab should show a change in appearance to indicate it has been added to Favorites.
     - e.g. from an outline star symbol (&#9734;) to a filled star symbol (&#9733;)
   - Remark: Favorites should NOT reset between searches.
@@ -463,9 +453,9 @@ This should work when selecting any of the three sort options.
     - i.e. This essentially means that the Favorites can have tracks from different search results.
   - Remark: You cannot add the same track to Favorites twice (more than once).
     - e.g. If I added a track titled "Radioactive" from "Imagine Dragons" search results to Favorites, then searched "John Williams", and then searched "Imagine Dragons" again, "Radioactive" track's Description tab should still have a star icon appearance indicating it is added to Favorites (e.g. &#9733;).
-- Upon clicking the star icon again OR clicking the cross mark (on the right side of the track in the left panel's Favorites tab), remove the corresponding track from Favorites.
+- Upon clicking the star icon again OR clicking the cross mark (on the right side of the track in the left panel's Favorites list), remove the corresponding track from Favorites.
 - When a track is removed from "Favorites":
-  - The track should no longer be displayed in the left panel's Favorites tab.
+  - The track should no longer be displayed in the left panel's Favorites list.
   - The star icon in this track's description tab should change back to its original state (e.g. no longer filled).
 - The Favorites do not have to be displayed in the order they were added.
 - Remark: It's ok if the Favorites reset after refreshing the page.
@@ -475,7 +465,7 @@ This should work when selecting any of the three sort options.
 - There are 3 (possible) locations on the screen where there is a "play" icon/button, which the user can use to play the corresponding track:
   - In the Description tab of a track
   - In the top panel
-    - already implemented for you in starter HTML file
+    - the button is already in the starter HTML file, but you need to make it work
   - On top of a track's image in the left panel's Favorites list
     - only appears when this track is added to Favorites and the user is hovering over this track in the left panel's Favorites list
       see Favorites section of the spec for more details
@@ -492,7 +482,6 @@ This should work when selecting any of the three sort options.
     5. a progress bar
 - While a track is playing:
   - The progress bar (in the top panel) should dynamically update indicating the progress of how much the song has been played.
-  - The track and artist names of the corresponding track in the left panel's Favorites list should keep scrolling (just as if you are hovering over it).
 - Upon clicking on either of the 3 "pause" buttons (i.e. in the top panel, in the corresponding track's description tab, or in the corresponding track in the left panel's Favorites list):
   - The currently playing track pauses.
   - All 3 "pause" icons change to "play" icons.
