@@ -116,11 +116,10 @@ Serving the page is also what lets this assignment use `<script type="module">`,
 
 ### iTunes API
 
-- [Constructing Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
+- [Constructing Search](https://performance-partners.apple.com/search-api#searching)
   - Hint: Most useful parameters are _term_, _media_, and _attribute_.
-  - **IMPORTANT UPDATE:** The archived Apple documentation above no longer lists the _attribute_ parameter. **Please also refer to [this documentation](https://performance-partners.apple.com/search-api), which includes a more comprehensive list of parameters used in this assignment.**
-- [Search Examples](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/SearchExamples.html#//apple_ref/doc/uid/TP40017632-CH6-SW1)
-- [Understanding Search Results](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/UnderstandingSearchResults.html#//apple_ref/doc/uid/TP40017632-CH8-SW1)
+- [Search Examples](https://performance-partners.apple.com/search-api#searchexamples)
+- [Understanding Search Results](https://performance-partners.apple.com/search-api#understand)
 
 ### Vue
 
@@ -329,7 +328,7 @@ Ground rules - _max 50 points off if not followed_
 - When a user types a keyword (i.e., an artist's name) and presses the "enter" key, the entered keyword is used to make an AJAX request to the iTunes API, searching for _music_ tracks made by the artist(s) whose name contains (or is close to) this keyword.
   - Hint: Use `v-on:keyup` to check whether the key pressed was Enter.
   - Use `fetch()` for the AJAX call.
-- The URL for the AJAX request and the returned JSON data are specified in the [iTunes API documentation](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
+- The URL for the AJAX request and the returned JSON data are specified in the [iTunes API documentation](https://performance-partners.apple.com/search-api#searching)
   - Check out the [iTunes API section](#itunes-api) for a hint on which URL parameters you will need to get the correct results.
   - When constructing the request, only _music_ media types should be included.
   - Do not include any additional URL parameters that may change/restrict the results; just leave them as the default.
@@ -337,7 +336,7 @@ Ground rules - _max 50 points off if not followed_
   - This should be the _only_ thing that is printed in the console.
   - We will take off points if the above requirements are not met.
 - When there are no artists returned from iTunes, alert the user, using JS alert(), that no artist was found with the keyword.
-- "Total _N_ found" message should display _N_ = the total number of artists (results) returned by the iTunes API.
+- "Total _N_ found" message should display _N_ = the total number of results (tracks) returned by the iTunes API.
 
 ### Artists Grid (30 points)
 
@@ -346,7 +345,8 @@ Ground rules - _max 50 points off if not followed_
   - How many columns you see depends on how wide your window is: for example, two on a 1280-pixel-wide window and three or more on wider ones. Any of these is correct.
   - The last row may have fewer results than the others.
 - Because of that, the layout is responsive once your markup is right: the number of columns changes as the window is resized, and drops to one on a narrow screen. Check this by dragging your window narrower, and compare against the [screenshots](#narrower-windows).
-- Typically, iTunes will provide an image URL for each track returned. Use the first available URL in the properties.
+- Each track in the response has its artwork at several sizes (`artworkUrl30`, `artworkUrl60`, `artworkUrl100`). Use `artworkUrl100` for the results.
+  - Note that fields ending in `ViewUrl` (e.g. `artistViewUrl`) are links to pages on Apple Music, not images.
 - Note: We provided [screenshots](#screenshots) of the search result when a user searches for an artist. When unsure, please refer to these (and the assignment intro video).
 
 ### Navigation Tabs (5 points)
@@ -354,8 +354,10 @@ Ground rules - _max 50 points off if not followed_
 - The returned artists should also have their information displayed next to them in the navigation tabs.
 - Use the `tabs`, `tab`, `tab-active`, and `tab-panel` classes from `index.css` for this and the next section. The starter file shows the markup for one set of tabs. Which tab is showing is up to your Vue data: see the [Helpful Resources](#other) section.
 - The 'Description' tab should contain: artist name, track name, collection name, and collection price. These properties can be found in the response JSON object.
-  - If the price is not provided, set the price to 0.
-  - If one of the returned values is an empty string, display "No information provided".
+  - The price to show is the collection price (`collectionPrice`), not the track price (`trackPrice`).
+  - If the price is missing from a result, set the price to 0.
+  - If any of the other values is missing from a result, display "No information provided".
+    - The API does not send missing values as empty strings. It leaves the field out of that result entirely, so check for `undefined`.
 - There should also be a "play" button and a "favorites" button under the description tab, but they are discussed later in the spec in their respective sections.
 
 ### Track Information (5 points)
@@ -389,7 +391,7 @@ Ground rules - _max 50 points off if not followed_
 - For "Reset to original", reset the displayed results to the original order.
   - This should be the default selection.
 - For "Collection", sort results alphabetically by collection name.
-- For "Price", sort results by increasing price.
+- For "Price", sort results by increasing collection price (`collectionPrice`, the same price shown in the Description tab).
 - For API results that did not return a Collection Name or Price, they should be sorted as if their Collection Name was "No information provided" and Price was 0.
 - The selected option should be indicated by a distinct background color.
 - Use the `sort`, `sort-toggle`, `sort-menu`, and `sort-option` classes from `index.css` for this, adding `sort-option-active` to the option currently selected. Whether the menu is open and which option is selected are both your Vue data.
@@ -473,6 +475,7 @@ This should work when selecting any of the three sort options.
 - Upon clicking the "play" button in (in any of the 3 locations):
   - The corresponding track plays.
     - Exception: Clicking the play button in the top panel initially when there was no previously playing track would not do anything.
+    - Exception: A few tracks have no audio preview (no `previewUrl` in the result). If the user tries to play one of these, alert the user, using JS alert(), that no audio is available for this track.
   - The 3 "play" icons change to the "pause" icons.
   - The middle part of the top panel displays the information of the currently playing track, including:
     1. track image
