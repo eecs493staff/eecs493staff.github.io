@@ -439,7 +439,7 @@ You will be graded on:
 - Think Alouds and UFTs [3 points]
 - Written Report [5 points]
 
-<!-- ## Milestone 4
+## Milestone 4
 
 (Worth 28% of final project grade, 7% of total grade)
 
@@ -621,7 +621,7 @@ Note: fill this out individually, not in groups.
 
 ## You Did It!
 
-Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!  -->
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks! 
 
 # Awesome Final Projects from Past Semesters
 
