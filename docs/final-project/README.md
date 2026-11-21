@@ -447,34 +447,37 @@ You will be graded on:
 
 | Due date                  | Task / Objective                       |
 | ------------------------- | -------------------------------------- |
-| Tuesday 4/7 Before Class  | In-Class Project Showcase              |
-| Tuesday 4/21 Before Class | Iterated Prototypes and Project Poster |
-| Sunday, 4/26 11:59 PM     | Zip file of all deliverables           |
+| Tuesday 12/1 Noon           | In-Class Project Showcase Signup Form |
+| Wednesday 12/2 Before Class  | In-Class Project Showcase              |
+| Wednesday 12/9 11:59 PM     | Final Presentation Video |
+| Sunday, 12/13 11:59 PM     | Zip file of all deliverables           |
 
 ### Goals
 
 - **Iterate on The Prototype (14%)**
-  - Improve your prototype by addressing the design and usability issues discovered from Milestone 3.
-  - Link to Project Feedback Form to bring to showcase: [Project Feedback Form (template)](https://docs.google.com/document/d/1_Y8BJO0oTvTMq-cJETwcqxna981pI5ijlwsRcGYfLDQ/edit?usp=sharing) (check for updates)
-  - Due Date: April 7 before the In-class Showcase
+  - Improve your prototype by addressing the design and usability issues discovered from Milestone 3. You can use gen AI coding agents (e.g. Figma AI, Claude Code, etc.) to create highly interactive prototypes. You may also continue using Figma. Regardless of the tools you choose, the goal is to create a prototype that effectively supports your users' core needs and tasks, while considering practical design and implementation constraints.
+  - Link to Project Feedback Form to bring to showcase: [Project Feedback Form (template)](https://docs.google.com/document/d/1LOZFofO-gg8LOzYS9Q5ZxOUm0KWFuOi1vnp8W6wp1lg/edit?usp=sharing) (check for updates)
+  - Due Date: December 2 before the In-class Showcase
     - You don't need to submit anything before the project showcase. You only need to bring your prototype and the project feedback form sheet to the class.
     - Note: you should continue improving your prototype after the showcase session based on the feedback you receive. Your final prototype for evaluation and your final submission should reflect all these improvements.
 
 - **In-Class Project Showcase (4%)**
-  - Date: Tuesday April 7 in class
+  - Date: Tuesday December 2 in class
+  - Signup by December 1 noon
+    - Link to signup sheet: [EECS493 F26 Final Project Showcase Signup](https://docs.google.com/spreadsheets/d/1L9Zy-qUetYp71pU3SJTA5Z4YHiti9fk_Y62Diysi5JU/edit?usp=sharing)
 
 -**Final Evaluation (10%)**
 
 - Perform another user testing using the think-aloud protocol. This round you should also include a post-task usability survey to gather quantitative data.
 - Synthesizing the think-aloud data using usability findings templates. Calculate and report the scores from the usability survey.
 - Write a report discussing your findings.
-- Due Date: Sunday, April 26, 11:59 PM
+- Due Date: Sunday, December 13, 11:59 PM
 
 ### Iterate on the Prototype
 
-In this milestone, you will incorporate findings and feedback from milestone 3 and prototype showcase (April 7) to improve your Figma prototype.
+In this milestone, you will incorporate findings and feedback from milestone 3 and prototype showcase (December 2) to improve your Figma prototype.
 
-For the showcase, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1_Y8BJO0oTvTMq-cJETwcqxna981pI5ijlwsRcGYfLDQ/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the showcase session. Bring it to the showcase. We will use what you filled out to test your prototype and give suggestions, and you can use these suggestions (along with any feedback received from classmates) to further improve your prototype before conducting final user testing.
+For the showcase, make a copy of [Project Feedback Form (template)](https://docs.google.com/document/d/1LOZFofO-gg8LOzYS9Q5ZxOUm0KWFuOi1vnp8W6wp1lg/edit?usp=sharing) and fill it out with the 2 key tasks of your prototype that will be demonstrated during the showcase session. Bring it to the showcase. We will use what you filled out to test your prototype and give suggestions, and you can use these suggestions (along with any feedback received from classmates) to further improve your prototype before conducting final user testing.
 
 - Similar to Milestone 3, we are not going to objectively measure the amount of work based on the number of screens, UI elements, etc. Think about it from the perspective of **"tasks", "critical user journeys"** can help. In this milestone, you should have **2 key tasks**. For example, in Assignment 4, you designed a task of favoriting, accepting and completing quests (i.e., engage with and complete a quest). This task contains a series of subtasks, including browsing quests, viewing quest details, favoriting a quest, accepting a quest, completing a quest, receiving rewards, etc, where the user could perform one or multiple interactions to complete the subtasks.
 
@@ -486,21 +489,36 @@ In the final deliverables, you are required to submit a document documenting the
 
 - A link to your improved Figma prototype.
 - A list of changes you have made to the prototype, along with screenshots showing the changes. In the list of changes, please also indicate the source of the improvement, if applicable, e.g., changes proposed in milestone 3, feedback gathered from the showcase session, feedback from milestone 3 grading (if received) etc.
+- A description of how your team developed the prototype, including the tools you used and whether or how you used AI tools.
+
+#### Prototyping Tools and AI-Assisted Design
+
+In this milestone, you have the flexibility to choose the tools that best support your prototype, including gen AI coding agents (e.g. Figma AI, Claude Code, etc.), to create richer interactions that would be difficult to implement in Figma. However, Figma remains a valid option, and using code or AI is not required.
+
+When using AI tools to generate or improve your prototype, think carefully about how to guide the AI toward designs that address your users' actual needs, e.g. using the design requirements identified in Milestones 1 and 2, your sketches and designs from Milestone 3, and findings from previous user evaluations to inform the AI-generated design.
+
+**Be intentional about what you include in your prototype.** AI tools can make it very easy to generate additional screens, interactions, and features. However, more features do not necessarily lead to a better user experience (as demonstrated in the meme below). Carefully evaluate whether each feature supports your key user tasks and design requirements. Do not add functionality simply because it is easy to generate.
+
+
+<img src="figures/m4/AI-prototype.jpg" height="70%" />
+
+Remember that **less is often more**. A focused prototype that supports two well-designed user journeys is preferable to a more complicated prototype with unnecessary or poorly motivated features.
+
+Our goal is for you to think beyond the limitations of any particular prototyping tool, while making thoughtful design decisions and working within practical constraints. Your prototype will be evaluated based on the quality of its design and how well it supports your users' needs, not on the specific tools or technologies used.
 
 #### Final Evaluation
 
 After improving the prototype, you will perform a final round of evaluation using think-aloud and a usability survey. This time the goal is to investigate to what extent your solutions help the users achieve their goals and address their needs. Here are the specific requirements:
 
 - You need to have at least **4 users** for the test. Ideally, they should not be the same people from the first user evaluation (from Milestone 3).
-  - NOTE: If you have a team of 3 or 4, you need to have at least 4 users. If you have a team of 5, each team member needs to do at least 1 (i.e., at least 5 in total).
 
 - You should test with the tasks you designed in your prototype. Give high-level requirements or instruction without guiding the users how to do it with your system.
 
-- After the user completes the task, they should fill out a usability survey rating their experience with your prototype. You can use one of the standard usability scales covered in Lecture 20. You can administer the survey using Google Form or a paper format. Your report should describe what scale you used, report the score from each user you tested and a mean/average score. Optionally, you can also report per-item rating if you observe a noticeable trend that may help you interpret the results (e.g., one aspect of the usability is particularly good or bad).
+- After the user completes the task, they should fill out a usability survey rating their experience with your prototype. You can use one of the standard usability scales covered in Lecture 22. You can administer the survey using Google Form or a paper format. Your report should describe what scale you used, report the score from each user you tested and a mean/average score. Optionally, you can also report per-item rating if you observe a noticeable trend that may help you interpret the results (e.g., one aspect of the usability is particularly good or bad).
 
 - The rest of the requirements are the same as those of the first user evaluation, including following the think-aloud protocol and synthesizing the results using usability findings templates.
 
-- Each team should submit at least **2 UFTs/user × 4 users = 8 in total**. For teams of 5, at least 10 in total.
+- Each team should submit at least **2 UFTs/user × 4 users = 8 in total**. 
 
 #### Report
 
@@ -523,11 +541,11 @@ You will write a ~700 word report discussing your findings. Here is an outline o
 
 Please put everything in a zipped folder and submit:
 
-1. Link to your Figma prototype
-2. Your prototype iteration document
+1. Link to your interactive prototype (Figma or a deployed webapp on Vercel). You can ask the AI agent to deploy the app to Vercel so anyone with the link can access it. Make sure to protect API keys if there is any.
+2. Your prototype development and iteration document, including AI usage (if any).
 3. The think-aloud tasks (list the tasks you used in the think-aloud sessions)
-4. At least 8-10 UFTs based on the templates (depending on your team size)
-5. At least 4-5 think-aloud transcripts depending on your team size (only need to submit the transcript, no video is needed)
+4. At least 8 UFTs based on the templates
+5. At least 4 think-aloud transcripts (only need to submit the transcript, no video is needed)
 6. Your collected post-task survey data. If users answered this on papers you can take photos of them.
 7. Your report
 
@@ -547,35 +565,43 @@ Your Milestone 4 submission will be graded on:
 
 ### More Details on In-Class Prototype Showcase
 
-An in-class showcase session for the prototype will take place on **April 7** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
+An in-class showcase session for the prototype will take place on **December 2** during the class time (10:30am - 12:00 pm), during which our teaching staff will provide feedback to your prototype.
 
-- Similar to storyboard showcase, we'll have ~12 stations per round, with a total of 3 rounds for ~25 minutes. Teaching staff will assign your team to one of the rounds and station.
+**To prepare for the Final Project Showcase Day, please complete the following BY NOON Nov 18:**
+
+- Sign up for the showcase: [EECS493 F26 Final Project Final Showcase Signup](https://docs.google.com/spreadsheets/d/1L9Zy-qUetYp71pU3SJTA5Z4YHiti9fk_Y62Diysi5JU/edit?usp=sharing). It asks for your team name, your uniqnames (separated by commas).
 
 - Fill out and bring the "Project Feedback Form" mentioned above. Fill out your team's basic information and the first column of the table.
 
-- During the showcase, a teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to provide comments.
+**During the showcase day:**
 
-## Final Poster Presentation with a Video Submission
+- Similar to storyboard showcase, we'll have ~10 stations per round, with a total of 2 rounds for ~35 minutes each. 
+
+- A teaching staff will go to your station and evaluate your prototype based on the key user tasks. The staff will use the feedback form to provide comments.
+
+## Final Presentation Video
 
 (Worth 12% of final project grade, 3% of total grade)
 
-### Poster Presentation (4%)
+### Goals
 
-- Present your design with a summary of the entire design process in a poster
-- Present the poster to your classmates and other audience to celebrate what you have achieved in this semester
-- You may bring your laptop to live-demo your design. But do not expect to have power outlets available
-- Due Date: Tuesday 4/21 Before Class before class
+- Summarize and present the entire design process in a 3-minute video (hard limit)
+- Due Date: Wednesday 12/9 before class
 
 ### Final Project Video (8%)
 
-You are also required to submit a video to Canvas by Sun 4/26 (same deadline with Milestone 4. There will be a separate submission link on Canvas from M4 deliverables), up to 5-minutes, to summarize your design and design process. See example videos from past years at the bottom of this page (though the time limit was different). You can use your poster to record the video, create seperate slides for it, or be creative and think beyond using slides.
+For the final milestone, your team will make a 3-minute (180s) video of your project, summarizing the entire design process. We will devote the classes on 12/9 to this. For each team, we will play your video, then have a brief Q&A.
+
 The video should include content from past milestones:
 
-- Identifed user needs (~30s)
-- Explore solutions in storyboarding and design iterations (~60s)
-- Evaluations and iterations: What are the key issues you identified? And how did you improve the design based on these results? (~60s)
-- A walkthrough or demo of your **final** prototype (~120s)
+- Identifed user needs (~25s)
+- Explore solutions in storyboarding and design iterations (~30s)
+- Evaluations and iterations: What are the key issues you identified? And how did you improve the design based on these results? (~35s)
+- A walkthrough or demo of your **final** prototype (~90s)
 - Ending screen: your team, name/uniqname/photo of each team member
+
+**Note: this is a video, not a presentation. Be creative, tell a story. Think beyond using slides.**
+Please also sign up for the final presentation using the [Final Project Video Sign-up Sheet](https://docs.google.com/spreadsheets/d/19mIGPkto1ggO2GeQu7btcrsy07SV5ZGdABGR0T8xQwk/edit?usp=sharing) by **Tuesday 12/8 NOON**.
 
 For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
 Canvas as a team (ie, one per project team).
@@ -589,13 +615,13 @@ Grading rubric of final presentation:
 
 ## (Optional) Project Team Peer Evaluation
 
-This is optional, you can fill out this [final project team peer evaluation form](https://forms.gle/UkQp2VLW9DMBWW7dA). This form is designed to let us know if certain team members are not contributing their fair share. Note, the idea is that shirkers will get penalized in their final project grade; however, you cannot raise your grade by "dinging" someone else.
+This is optional, you can fill out this [final project team peer evaluation form](https://forms.gle/uyMmFLNVaAwpiws16). This form is designed to let us know if certain team members are not contributing their fair share. Note, the idea is that shirkers will get penalized in their final project grade; however, you cannot raise your grade by "dinging" someone else.
 
 Note: fill this out individually, not in groups.
 
 ## You Did It!
 
-Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks! -->
+Thank you for all the effort you have put into this project! We are excited to see how everything comes together. If you have any questions about the project, please feel free to let us know or post it on Piazza. Thanks!  -->
 
 # Awesome Final Projects from Past Semesters
 
