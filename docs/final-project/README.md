@@ -601,7 +601,7 @@ The video should include content from past milestones:
 - Ending screen: your team, name/uniqname/photo of each team member
 
 **Note: this is a video, not a presentation. Be creative, tell a story. Think beyond using slides.**
-Please also sign up for the final presentation using the [Final Project Video Sign-up Sheet](https://docs.google.com/spreadsheets/d/19mIGPkto1ggO2GeQu7btcrsy07SV5ZGdABGR0T8xQwk/edit?usp=sharing) by **Tuesday 12/8 NOON**.
+Please also sign up for the final presentation using the [Final Project Video Sign-up Sheet](https://docs.google.com/spreadsheets/d/1rjgSBcVfcfJ6mBWI_dMRPSyMSqacjHnQlc4jviAR1i4/edit?gid=0#gid=0) by **Tuesday 12/8 NOON**.
 
 For the Canvas submission, you should upload the video as an MP4 file. You will turn this in on
 Canvas as a team (ie, one per project team).
